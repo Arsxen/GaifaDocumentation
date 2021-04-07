@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.InterruptReceiver
+  commentId: T:Tamato.GaifaGoap.InterruptReceiver
+  id: InterruptReceiver
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.InterruptReceiver.#ctor(Cysharp.Threading.Tasks.ChannelReader{System.Boolean})
+  - Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+  - Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: InterruptReceiver
+  nameWithType: InterruptReceiver
+  fullName: Tamato.GaifaGoap.InterruptReceiver
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: InterruptReceiver
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 88
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nReceiver side of the <xref href=\"Tamato.GaifaGoap.InterruptChannel\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public sealed class InterruptReceiver
+    content.vb: Public NotInheritable Class InterruptReceiver
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Tamato.GaifaGoap.InterruptReceiver.#ctor(Cysharp.Threading.Tasks.ChannelReader{System.Boolean})
+  commentId: M:Tamato.GaifaGoap.InterruptReceiver.#ctor(Cysharp.Threading.Tasks.ChannelReader{System.Boolean})
+  id: '#ctor(Cysharp.Threading.Tasks.ChannelReader{System.Boolean})'
+  parent: Tamato.GaifaGoap.InterruptReceiver
+  langs:
+  - csharp
+  - vb
+  name: InterruptReceiver(ChannelReader<Boolean>)
+  nameWithType: InterruptReceiver.InterruptReceiver(ChannelReader<Boolean>)
+  fullName: Tamato.GaifaGoap.InterruptReceiver.InterruptReceiver(Cysharp.Threading.Tasks.ChannelReader<System.Boolean>)
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 92
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public InterruptReceiver(ChannelReader<bool> reader)
+    parameters:
+    - id: reader
+      type: Cysharp.Threading.Tasks.ChannelReader{System.Boolean}
+    content.vb: Public Sub New(reader As ChannelReader(Of Boolean))
+  overload: Tamato.GaifaGoap.InterruptReceiver.#ctor*
+  nameWithType.vb: InterruptReceiver.InterruptReceiver(ChannelReader(Of Boolean))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.InterruptReceiver.InterruptReceiver(Cysharp.Threading.Tasks.ChannelReader(Of System.Boolean))
+  name.vb: InterruptReceiver(ChannelReader(Of Boolean))
+- uid: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+  commentId: M:Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+  id: ReadInterruptionSignal
+  parent: Tamato.GaifaGoap.InterruptReceiver
+  langs:
+  - csharp
+  - vb
+  name: ReadInterruptionSignal()
+  nameWithType: InterruptReceiver.ReadInterruptionSignal()
+  fullName: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ReadInterruptionSignal
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 101
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nRead an interruption signal from the channel.\n"
+  example: []
+  syntax:
+    content: public bool ReadInterruptionSignal()
+    return:
+      type: System.Boolean
+      description: True if there is interruption in the channel
+    content.vb: Public Function ReadInterruptionSignal As Boolean
+  overload: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal(System.Threading.CancellationToken)
+  commentId: M:Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal(System.Threading.CancellationToken)
+  id: WaitForInterruptionSignal(System.Threading.CancellationToken)
+  parent: Tamato.GaifaGoap.InterruptReceiver
+  langs:
+  - csharp
+  - vb
+  name: WaitForInterruptionSignal(CancellationToken)
+  nameWithType: InterruptReceiver.WaitForInterruptionSignal(CancellationToken)
+  fullName: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal(System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: WaitForInterruptionSignal
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 111
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nWait for an interruption signal.\n"
+  example: []
+  syntax:
+    content: public UniTask WaitForInterruptionSignal(CancellationToken cancellationToken = default(CancellationToken))
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: Cysharp.Threading.Tasks.UniTask
+      description: ''
+    content.vb: Public Function WaitForInterruptionSignal(cancellationToken As CancellationToken = Nothing) As UniTask
+  overload: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Tamato.GaifaGoap.InterruptChannel
+  commentId: T:Tamato.GaifaGoap.InterruptChannel
+  parent: Tamato.GaifaGoap
+  name: InterruptChannel
+  nameWithType: InterruptChannel
+  fullName: Tamato.GaifaGoap.InterruptChannel
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.InterruptReceiver.#ctor*
+  commentId: Overload:Tamato.GaifaGoap.InterruptReceiver.#ctor
+  name: InterruptReceiver
+  nameWithType: InterruptReceiver.InterruptReceiver
+  fullName: Tamato.GaifaGoap.InterruptReceiver.InterruptReceiver
+- uid: Cysharp.Threading.Tasks.ChannelReader{System.Boolean}
+  commentId: T:Cysharp.Threading.Tasks.ChannelReader{System.Boolean}
+  parent: Cysharp.Threading.Tasks
+  definition: Cysharp.Threading.Tasks.ChannelReader`1
+  name: ChannelReader<Boolean>
+  nameWithType: ChannelReader<Boolean>
+  fullName: Cysharp.Threading.Tasks.ChannelReader<System.Boolean>
+  nameWithType.vb: ChannelReader(Of Boolean)
+  fullName.vb: Cysharp.Threading.Tasks.ChannelReader(Of System.Boolean)
+  name.vb: ChannelReader(Of Boolean)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.ChannelReader`1
+    name: ChannelReader
+    nameWithType: ChannelReader
+    fullName: Cysharp.Threading.Tasks.ChannelReader
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.ChannelReader`1
+    name: ChannelReader
+    nameWithType: ChannelReader
+    fullName: Cysharp.Threading.Tasks.ChannelReader
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks.ChannelReader`1
+  commentId: T:Cysharp.Threading.Tasks.ChannelReader`1
+  isExternal: true
+  name: ChannelReader<T>
+  nameWithType: ChannelReader<T>
+  fullName: Cysharp.Threading.Tasks.ChannelReader<T>
+  nameWithType.vb: ChannelReader(Of T)
+  fullName.vb: Cysharp.Threading.Tasks.ChannelReader(Of T)
+  name.vb: ChannelReader(Of T)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.ChannelReader`1
+    name: ChannelReader
+    nameWithType: ChannelReader
+    fullName: Cysharp.Threading.Tasks.ChannelReader
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.ChannelReader`1
+    name: ChannelReader
+    nameWithType: ChannelReader
+    fullName: Cysharp.Threading.Tasks.ChannelReader
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks
+  commentId: N:Cysharp.Threading.Tasks
+  isExternal: true
+  name: Cysharp.Threading.Tasks
+  nameWithType: Cysharp.Threading.Tasks
+  fullName: Cysharp.Threading.Tasks
+- uid: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal*
+  commentId: Overload:Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+  name: ReadInterruptionSignal
+  nameWithType: InterruptReceiver.ReadInterruptionSignal
+  fullName: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal*
+  commentId: Overload:Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal
+  name: WaitForInterruptionSignal
+  nameWithType: InterruptReceiver.WaitForInterruptionSignal
+  fullName: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: Cysharp.Threading.Tasks.UniTask
+  commentId: T:Cysharp.Threading.Tasks.UniTask
+  parent: Cysharp.Threading.Tasks
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: Cysharp.Threading.Tasks.UniTask
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading

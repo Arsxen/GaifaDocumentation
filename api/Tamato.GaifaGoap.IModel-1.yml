@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.IModel`1
+  commentId: T:Tamato.GaifaGoap.IModel`1
+  id: IModel`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.IModel`1.CopyTo(`0)
+  - Tamato.GaifaGoap.IModel`1.Reset
+  langs:
+  - csharp
+  - vb
+  name: IModel<T>
+  nameWithType: IModel<T>
+  fullName: Tamato.GaifaGoap.IModel<T>
+  type: Interface
+  source:
+    remote:
+      path: Runtime/AIAgent/IModel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IModel
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IModel.cs
+    startLine: 12
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nContains world states representation for the planner\n"
+  remarks: "\nFor the performance and the correctness, the derived model class should override Equals and GetHashCode to provide fast (since they will be called frequently) and correct result,\nexcept when <xref href=\"Tamato.GaifaGoap.IGoal%601.IsConsistentHeuristic\" data-throw-if-not-resolved=\"false\"></xref> of the specified goal is false.\n"
+  example: []
+  syntax:
+    content: >-
+      public interface IModel<in T>
+          where T : class
+    typeParameters:
+    - id: T
+      description: Derived Model
+    content.vb: Public Interface IModel(Of In T As Class)
+  nameWithType.vb: IModel(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T)
+  name.vb: IModel(Of T)
+- uid: Tamato.GaifaGoap.IModel`1.CopyTo(`0)
+  commentId: M:Tamato.GaifaGoap.IModel`1.CopyTo(`0)
+  id: CopyTo(`0)
+  parent: Tamato.GaifaGoap.IModel`1
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(T)
+  nameWithType: IModel<T>.CopyTo(T)
+  fullName: Tamato.GaifaGoap.IModel<T>.CopyTo(T)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/IModel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: CopyTo
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IModel.cs
+    startLine: 18
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCopy model&apos;s state to an another model.\n"
+  example: []
+  syntax:
+    content: void CopyTo(T otherModel)
+    parameters:
+    - id: otherModel
+      type: '{T}'
+      description: Destination model
+    content.vb: Sub CopyTo(otherModel As T)
+  overload: Tamato.GaifaGoap.IModel`1.CopyTo*
+  nameWithType.vb: IModel(Of T).CopyTo(T)
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T).CopyTo(T)
+- uid: Tamato.GaifaGoap.IModel`1.Reset
+  commentId: M:Tamato.GaifaGoap.IModel`1.Reset
+  id: Reset
+  parent: Tamato.GaifaGoap.IModel`1
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: IModel<T>.Reset()
+  fullName: Tamato.GaifaGoap.IModel<T>.Reset()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/IModel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Reset
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IModel.cs
+    startLine: 23
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nReset model&apos;s state to default value.\n"
+  example: []
+  syntax:
+    content: void Reset()
+    content.vb: Sub Reset
+  overload: Tamato.GaifaGoap.IModel`1.Reset*
+  nameWithType.vb: IModel(Of T).Reset()
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T).Reset()
+references:
+- uid: Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  commentId: P:Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  name: IsConsistentHeuristic
+  nameWithType: IGoal<T>.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.IGoal<T>.IsConsistentHeuristic
+  nameWithType.vb: IGoal(Of T).IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: Tamato.GaifaGoap.IModel`1.CopyTo*
+  commentId: Overload:Tamato.GaifaGoap.IModel`1.CopyTo
+  name: CopyTo
+  nameWithType: IModel<T>.CopyTo
+  fullName: Tamato.GaifaGoap.IModel<T>.CopyTo
+  nameWithType.vb: IModel(Of T).CopyTo
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T).CopyTo
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Tamato.GaifaGoap.IModel`1.Reset*
+  commentId: Overload:Tamato.GaifaGoap.IModel`1.Reset
+  name: Reset
+  nameWithType: IModel<T>.Reset
+  fullName: Tamato.GaifaGoap.IModel<T>.Reset
+  nameWithType.vb: IModel(Of T).Reset
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T).Reset

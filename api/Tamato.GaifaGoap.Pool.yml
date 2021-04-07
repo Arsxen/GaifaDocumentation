@@ -1,0 +1,630 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.Pool
+  commentId: T:Tamato.GaifaGoap.Pool
+  id: Pool
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.Pool.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0},System.Nullable{System.Int32})
+  - Tamato.GaifaGoap.Pool.Create``1(System.Action{``0},System.Nullable{System.Int32})
+  - Tamato.GaifaGoap.Pool.Create``1(System.Func{``0},System.Action{``0},System.Nullable{System.Int32})
+  langs:
+  - csharp
+  - vb
+  name: Pool
+  nameWithType: Pool
+  fullName: Tamato.GaifaGoap.Pool
+  type: Class
+  source:
+    remote:
+      path: Runtime/ObjectPool/Pool.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Pool
+    path: ../Assets/GaifaGoap/Runtime/ObjectPool/Pool.cs
+    startLine: 10
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nMethods to create object pool\n"
+  example: []
+  syntax:
+    content: public static class Pool
+    content.vb: Public Module Pool
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Tamato.GaifaGoap.Pool.Create``1(System.Func{``0},System.Action{``0},System.Nullable{System.Int32})
+  commentId: M:Tamato.GaifaGoap.Pool.Create``1(System.Func{``0},System.Action{``0},System.Nullable{System.Int32})
+  id: Create``1(System.Func{``0},System.Action{``0},System.Nullable{System.Int32})
+  parent: Tamato.GaifaGoap.Pool
+  langs:
+  - csharp
+  - vb
+  name: Create<T>(Func<T>, Action<T>, Nullable<Int32>)
+  nameWithType: Pool.Create<T>(Func<T>, Action<T>, Nullable<Int32>)
+  fullName: Tamato.GaifaGoap.Pool.Create<T>(System.Func<T>, System.Action<T>, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    remote:
+      path: Runtime/ObjectPool/Pool.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Create
+    path: ../Assets/GaifaGoap/Runtime/ObjectPool/Pool.cs
+    startLine: 20
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCreate an object pool.\n"
+  example: []
+  syntax:
+    content: >-
+      public static ObjectPool<T> Create<T>(Func<T> createFactory, Action<T> onReturn = null, int? maximumRetain = default(int? ))
+          where T : class
+    parameters:
+    - id: createFactory
+      type: System.Func{{T}}
+      description: Func that invoke to create item.
+    - id: onReturn
+      type: System.Action{{T}}
+      description: Action that invoke when item return to the pool.
+    - id: maximumRetain
+      type: System.Nullable{System.Int32}
+      description: The maximum number of objects to retain in the pool.
+    typeParameters:
+    - id: T
+      description: Pooled Object
+    return:
+      type: Microsoft.Extensions.ObjectPool.ObjectPool{{T}}
+      description: ''
+    content.vb: Public Shared Function Create(Of T As Class)(createFactory As Func(Of T), onReturn As Action(Of T) = Nothing, maximumRetain As Integer? = Nothing) As ObjectPool(Of T)
+  overload: Tamato.GaifaGoap.Pool.Create*
+  nameWithType.vb: Pool.Create(Of T)(Func(Of T), Action(Of T), Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Tamato.GaifaGoap.Pool.Create(Of T)(System.Func(Of T), System.Action(Of T), System.Nullable(Of System.Int32))
+  name.vb: Create(Of T)(Func(Of T), Action(Of T), Nullable(Of Int32))
+- uid: Tamato.GaifaGoap.Pool.Create``1(System.Action{``0},System.Nullable{System.Int32})
+  commentId: M:Tamato.GaifaGoap.Pool.Create``1(System.Action{``0},System.Nullable{System.Int32})
+  id: Create``1(System.Action{``0},System.Nullable{System.Int32})
+  parent: Tamato.GaifaGoap.Pool
+  langs:
+  - csharp
+  - vb
+  name: Create<T>(Action<T>, Nullable<Int32>)
+  nameWithType: Pool.Create<T>(Action<T>, Nullable<Int32>)
+  fullName: Tamato.GaifaGoap.Pool.Create<T>(System.Action<T>, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    remote:
+      path: Runtime/ObjectPool/Pool.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Create
+    path: ../Assets/GaifaGoap/Runtime/ObjectPool/Pool.cs
+    startLine: 32
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCreate an object pool.\n"
+  example: []
+  syntax:
+    content: >-
+      public static ObjectPool<T> Create<T>(Action<T> onReturn, int? maximumRetain = default(int? ))
+          where T : class, new()
+    parameters:
+    - id: onReturn
+      type: System.Action{{T}}
+      description: Action that invoke when item return to the pool.
+    - id: maximumRetain
+      type: System.Nullable{System.Int32}
+      description: The maximum number of objects to retain in the pool.
+    typeParameters:
+    - id: T
+      description: Pooled Object
+    return:
+      type: Microsoft.Extensions.ObjectPool.ObjectPool{{T}}
+      description: ''
+    content.vb: Public Shared Function Create(Of T As {Class, New})(onReturn As Action(Of T), maximumRetain As Integer? = Nothing) As ObjectPool(Of T)
+  overload: Tamato.GaifaGoap.Pool.Create*
+  nameWithType.vb: Pool.Create(Of T)(Action(Of T), Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Tamato.GaifaGoap.Pool.Create(Of T)(System.Action(Of T), System.Nullable(Of System.Int32))
+  name.vb: Create(Of T)(Action(Of T), Nullable(Of Int32))
+- uid: Tamato.GaifaGoap.Pool.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0},System.Nullable{System.Int32})
+  commentId: M:Tamato.GaifaGoap.Pool.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0},System.Nullable{System.Int32})
+  id: Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0},System.Nullable{System.Int32})
+  parent: Tamato.GaifaGoap.Pool
+  langs:
+  - csharp
+  - vb
+  name: Create<T>(IPooledObjectPolicy<T>, Nullable<Int32>)
+  nameWithType: Pool.Create<T>(IPooledObjectPolicy<T>, Nullable<Int32>)
+  fullName: Tamato.GaifaGoap.Pool.Create<T>(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy<T>, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    remote:
+      path: Runtime/ObjectPool/Pool.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Create
+    path: ../Assets/GaifaGoap/Runtime/ObjectPool/Pool.cs
+    startLine: 44
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCreate an object pool.\n"
+  example: []
+  syntax:
+    content: >-
+      public static ObjectPool<T> Create<T>(IPooledObjectPolicy<T> policy = null, int? maximumRetain = default(int? ))
+          where T : class, new()
+    parameters:
+    - id: policy
+      type: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{{T}}
+      description: The pooling policy to use.
+    - id: maximumRetain
+      type: System.Nullable{System.Int32}
+      description: The maximum number of objects to retain in the pool.
+    typeParameters:
+    - id: T
+      description: Pooled Object
+    return:
+      type: Microsoft.Extensions.ObjectPool.ObjectPool{{T}}
+      description: ''
+    content.vb: Public Shared Function Create(Of T As {Class, New})(policy As IPooledObjectPolicy(Of T) = Nothing, maximumRetain As Integer? = Nothing) As ObjectPool(Of T)
+  overload: Tamato.GaifaGoap.Pool.Create*
+  nameWithType.vb: Pool.Create(Of T)(IPooledObjectPolicy(Of T), Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Tamato.GaifaGoap.Pool.Create(Of T)(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy(Of T), System.Nullable(Of System.Int32))
+  name.vb: Create(Of T)(IPooledObjectPolicy(Of T), Nullable(Of Int32))
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.Pool.Create*
+  commentId: Overload:Tamato.GaifaGoap.Pool.Create
+  name: Create
+  nameWithType: Pool.Create
+  fullName: Tamato.GaifaGoap.Pool.Create
+- uid: System.Func{{T}}
+  commentId: T:System.Func{`0}
+  parent: System
+  definition: System.Func`1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.ObjectPool.ObjectPool{{T}}
+  commentId: T:Microsoft.Extensions.ObjectPool.ObjectPool{``0}
+  parent: Microsoft.Extensions.ObjectPool
+  definition: Microsoft.Extensions.ObjectPool.ObjectPool`1
+  name: ObjectPool<T>
+  nameWithType: ObjectPool<T>
+  fullName: Microsoft.Extensions.ObjectPool.ObjectPool<T>
+  nameWithType.vb: ObjectPool(Of T)
+  fullName.vb: Microsoft.Extensions.ObjectPool.ObjectPool(Of T)
+  name.vb: ObjectPool(Of T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.ObjectPool`1
+    name: ObjectPool
+    nameWithType: ObjectPool
+    fullName: Microsoft.Extensions.ObjectPool.ObjectPool
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.ObjectPool`1
+    name: ObjectPool
+    nameWithType: ObjectPool
+    fullName: Microsoft.Extensions.ObjectPool.ObjectPool
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.ObjectPool.ObjectPool`1
+  commentId: T:Microsoft.Extensions.ObjectPool.ObjectPool`1
+  isExternal: true
+  name: ObjectPool<T>
+  nameWithType: ObjectPool<T>
+  fullName: Microsoft.Extensions.ObjectPool.ObjectPool<T>
+  nameWithType.vb: ObjectPool(Of T)
+  fullName.vb: Microsoft.Extensions.ObjectPool.ObjectPool(Of T)
+  name.vb: ObjectPool(Of T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.ObjectPool`1
+    name: ObjectPool
+    nameWithType: ObjectPool
+    fullName: Microsoft.Extensions.ObjectPool.ObjectPool
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.ObjectPool`1
+    name: ObjectPool
+    nameWithType: ObjectPool
+    fullName: Microsoft.Extensions.ObjectPool.ObjectPool
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.ObjectPool
+  commentId: N:Microsoft.Extensions.ObjectPool
+  isExternal: true
+  name: Microsoft.Extensions.ObjectPool
+  nameWithType: Microsoft.Extensions.ObjectPool
+  fullName: Microsoft.Extensions.ObjectPool
+- uid: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{{T}}
+  commentId: T:Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0}
+  parent: Microsoft.Extensions.ObjectPool
+  definition: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1
+  name: IPooledObjectPolicy<T>
+  nameWithType: IPooledObjectPolicy<T>
+  fullName: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy<T>
+  nameWithType.vb: IPooledObjectPolicy(Of T)
+  fullName.vb: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy(Of T)
+  name.vb: IPooledObjectPolicy(Of T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1
+    name: IPooledObjectPolicy
+    nameWithType: IPooledObjectPolicy
+    fullName: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1
+    name: IPooledObjectPolicy
+    nameWithType: IPooledObjectPolicy
+    fullName: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1
+  commentId: T:Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1
+  isExternal: true
+  name: IPooledObjectPolicy<T>
+  nameWithType: IPooledObjectPolicy<T>
+  fullName: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy<T>
+  nameWithType.vb: IPooledObjectPolicy(Of T)
+  fullName.vb: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy(Of T)
+  name.vb: IPooledObjectPolicy(Of T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1
+    name: IPooledObjectPolicy
+    nameWithType: IPooledObjectPolicy
+    fullName: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy`1
+    name: IPooledObjectPolicy
+    nameWithType: IPooledObjectPolicy
+    fullName: Microsoft.Extensions.ObjectPool.IPooledObjectPolicy
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,959 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.GameAction`1
+  commentId: T:Tamato.GaifaGoap.GameAction`1
+  id: GameAction`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.GameAction`1.ActionName
+  - Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition
+  - Tamato.GaifaGoap.GameAction`1.Initialize(UnityEngine.GameObject)
+  - Tamato.GaifaGoap.GameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  - Tamato.GaifaGoap.GameAction`1.TakeAction(`0)
+  langs:
+  - csharp
+  - vb
+  name: GameAction<T>
+  nameWithType: GameAction<T>
+  fullName: Tamato.GaifaGoap.GameAction<T>
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/GameAction.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: GameAction
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/GameAction.cs
+    startLine: 10
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nSerializable action\n"
+  example: []
+  syntax:
+    content: 'public abstract class GameAction<T> : ScriptableObject, IGameAction<T>, IGameObjectInitializable where T : class, IModel<T>'
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: >-
+      Public MustInherit Class GameAction(Of T As {Class, IModel(Of T)})
+          Inherits ScriptableObject
+          Implements IGameAction(Of T), IGameObjectInitializable
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  implements:
+  - Tamato.GaifaGoap.IGameAction{{T}}
+  - Tamato.GaifaGoap.IGameObjectInitializable
+  nameWithType.vb: GameAction(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T)
+  name.vb: GameAction(Of T)
+- uid: Tamato.GaifaGoap.GameAction`1.ActionName
+  commentId: P:Tamato.GaifaGoap.GameAction`1.ActionName
+  id: ActionName
+  parent: Tamato.GaifaGoap.GameAction`1
+  langs:
+  - csharp
+  - vb
+  name: ActionName
+  nameWithType: GameAction<T>.ActionName
+  fullName: Tamato.GaifaGoap.GameAction<T>.ActionName
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/GameAction.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ActionName
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/GameAction.cs
+    startLine: 13
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a name of this action.\n"
+  example: []
+  syntax:
+    content: public virtual string ActionName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property ActionName As String
+  overload: Tamato.GaifaGoap.GameAction`1.ActionName*
+  implements:
+  - Tamato.GaifaGoap.IGameAction{{T}}.ActionName
+  nameWithType.vb: GameAction(Of T).ActionName
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).ActionName
+- uid: Tamato.GaifaGoap.GameAction`1.Initialize(UnityEngine.GameObject)
+  commentId: M:Tamato.GaifaGoap.GameAction`1.Initialize(UnityEngine.GameObject)
+  id: Initialize(UnityEngine.GameObject)
+  parent: Tamato.GaifaGoap.GameAction`1
+  langs:
+  - csharp
+  - vb
+  name: Initialize(GameObject)
+  nameWithType: GameAction<T>.Initialize(GameObject)
+  fullName: Tamato.GaifaGoap.GameAction<T>.Initialize(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/GameAction.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Initialize
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/GameAction.cs
+    startLine: 16
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nInitialize this object\n"
+  example: []
+  syntax:
+    content: public virtual void Initialize(GameObject owner)
+    parameters:
+    - id: owner
+      type: UnityEngine.GameObject
+      description: <xref href="UnityEngine.GameObject" data-throw-if-not-resolved="false"></xref> that own this object
+    content.vb: Public Overridable Sub Initialize(owner As GameObject)
+  overload: Tamato.GaifaGoap.GameAction`1.Initialize*
+  implements:
+  - Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  nameWithType.vb: GameAction(Of T).Initialize(GameObject)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).Initialize(UnityEngine.GameObject)
+- uid: Tamato.GaifaGoap.GameAction`1.TakeAction(`0)
+  commentId: M:Tamato.GaifaGoap.GameAction`1.TakeAction(`0)
+  id: TakeAction(`0)
+  parent: Tamato.GaifaGoap.GameAction`1
+  langs:
+  - csharp
+  - vb
+  name: TakeAction(T)
+  nameWithType: GameAction<T>.TakeAction(T)
+  fullName: Tamato.GaifaGoap.GameAction<T>.TakeAction(T)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/GameAction.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: TakeAction
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/GameAction.cs
+    startLine: 19
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCheck if the model&apos;s state can satisfy the precondition, then Transform the model&apos;s state based on the effect of this action.\n"
+  example: []
+  syntax:
+    content: public abstract (bool success, float cost) TakeAction(T model)
+    parameters:
+    - id: model
+      type: '{T}'
+      description: ''
+    return:
+      type: System.ValueTuple{System.Boolean,System.Single}
+      description: >
+        (Success, Cost)
+
+        Success = True if state satisfy the precondition and state is changed, otherwise false.
+
+        Cost = cost of this action, it&apos;s ignored if success is false.
+    content.vb: Public MustOverride Function TakeAction(model As T) As(success As Boolean, cost As Single)
+  overload: Tamato.GaifaGoap.GameAction`1.TakeAction*
+  implements:
+  - Tamato.GaifaGoap.IGameAction{{T}}.TakeAction({T})
+  nameWithType.vb: GameAction(Of T).TakeAction(T)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).TakeAction(T)
+- uid: Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition
+  commentId: M:Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition
+  id: CheckContextPrecondition
+  parent: Tamato.GaifaGoap.GameAction`1
+  langs:
+  - csharp
+  - vb
+  name: CheckContextPrecondition()
+  nameWithType: GameAction<T>.CheckContextPrecondition()
+  fullName: Tamato.GaifaGoap.GameAction<T>.CheckContextPrecondition()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/GameAction.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: CheckContextPrecondition
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/GameAction.cs
+    startLine: 22
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCheck if current world state satisfy real-time precondition.\n"
+  example: []
+  syntax:
+    content: public virtual bool CheckContextPrecondition()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Overridable Function CheckContextPrecondition As Boolean
+  overload: Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition*
+  implements:
+  - Tamato.GaifaGoap.IGameAction{{T}}.CheckContextPrecondition
+  nameWithType.vb: GameAction(Of T).CheckContextPrecondition()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).CheckContextPrecondition()
+- uid: Tamato.GaifaGoap.GameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  commentId: M:Tamato.GaifaGoap.GameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  id: RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  parent: Tamato.GaifaGoap.GameAction`1
+  langs:
+  - csharp
+  - vb
+  name: RunAction(T, InterruptReceiver, CancellationToken)
+  nameWithType: GameAction<T>.RunAction(T, InterruptReceiver, CancellationToken)
+  fullName: Tamato.GaifaGoap.GameAction<T>.RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/GameAction.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: RunAction
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/GameAction.cs
+    startLine: 25
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nExecute this action.\n"
+  example: []
+  syntax:
+    content: public abstract UniTask<bool> RunAction(T model, InterruptReceiver interruptReceiver, CancellationToken onDestroyCancellationToken)
+    parameters:
+    - id: model
+      type: '{T}'
+      description: Model after execute <xref href="Tamato.GaifaGoap.IGameAction%601.TakeAction(%600)" data-throw-if-not-resolved="false"></xref> method.
+    - id: interruptReceiver
+      type: Tamato.GaifaGoap.InterruptReceiver
+      description: Receiver use to receive plan interruption signal from external source.
+    - id: onDestroyCancellationToken
+      type: System.Threading.CancellationToken
+      description: Token use to cancel this action when the agent is destroyed.
+    return:
+      type: Cysharp.Threading.Tasks.UniTask{System.Boolean}
+      description: True if the action execute successfully, otherwise false.
+    content.vb: Public MustOverride Function RunAction(model As T, interruptReceiver As InterruptReceiver, onDestroyCancellationToken As CancellationToken) As UniTask(Of Boolean)
+  overload: Tamato.GaifaGoap.GameAction`1.RunAction*
+  implements:
+  - Tamato.GaifaGoap.IGameAction{{T}}.RunAction({T},Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  nameWithType.vb: GameAction(Of T).RunAction(T, InterruptReceiver, CancellationToken)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: Tamato.GaifaGoap.IGameAction{{T}}
+  commentId: T:Tamato.GaifaGoap.IGameAction{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.IGameAction`1
+  name: IGameAction<T>
+  nameWithType: IGameAction<T>
+  fullName: Tamato.GaifaGoap.IGameAction<T>
+  nameWithType.vb: IGameAction(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T)
+  name.vb: IGameAction(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGameObjectInitializable
+  commentId: T:Tamato.GaifaGoap.IGameObjectInitializable
+  parent: Tamato.GaifaGoap
+  name: IGameObjectInitializable
+  nameWithType: IGameObjectInitializable
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Tamato.GaifaGoap.IGameAction`1
+  commentId: T:Tamato.GaifaGoap.IGameAction`1
+  name: IGameAction<T>
+  nameWithType: IGameAction<T>
+  fullName: Tamato.GaifaGoap.IGameAction<T>
+  nameWithType.vb: IGameAction(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T)
+  name.vb: IGameAction(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.GameAction`1.ActionName*
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.ActionName
+  name: ActionName
+  nameWithType: GameAction<T>.ActionName
+  fullName: Tamato.GaifaGoap.GameAction<T>.ActionName
+  nameWithType.vb: GameAction(Of T).ActionName
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).ActionName
+- uid: Tamato.GaifaGoap.IGameAction{{T}}.ActionName
+  commentId: P:Tamato.GaifaGoap.IGameAction{`0}.ActionName
+  parent: Tamato.GaifaGoap.IGameAction{{T}}
+  definition: Tamato.GaifaGoap.IGameAction`1.ActionName
+  name: ActionName
+  nameWithType: IGameAction<T>.ActionName
+  fullName: Tamato.GaifaGoap.IGameAction<T>.ActionName
+  nameWithType.vb: IGameAction(Of T).ActionName
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).ActionName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Tamato.GaifaGoap.IGameAction`1.ActionName
+  commentId: P:Tamato.GaifaGoap.IGameAction`1.ActionName
+  name: ActionName
+  nameWithType: IGameAction<T>.ActionName
+  fullName: Tamato.GaifaGoap.IGameAction<T>.ActionName
+  nameWithType.vb: IGameAction(Of T).ActionName
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).ActionName
+- uid: Tamato.GaifaGoap.GameAction`1.Initialize*
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.Initialize
+  name: Initialize
+  nameWithType: GameAction<T>.Initialize
+  fullName: Tamato.GaifaGoap.GameAction<T>.Initialize
+  nameWithType.vb: GameAction(Of T).Initialize
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).Initialize
+- uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  commentId: M:Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  parent: Tamato.GaifaGoap.IGameObjectInitializable
+  isExternal: true
+  name: Initialize(GameObject)
+  nameWithType: IGameObjectInitializable.Initialize(GameObject)
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+    name: Initialize
+    nameWithType: IGameObjectInitializable.Initialize
+    fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+    name: Initialize
+    nameWithType: IGameObjectInitializable.Initialize
+    fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Tamato.GaifaGoap.GameAction`1.TakeAction*
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.TakeAction
+  name: TakeAction
+  nameWithType: GameAction<T>.TakeAction
+  fullName: Tamato.GaifaGoap.GameAction<T>.TakeAction
+  nameWithType.vb: GameAction(Of T).TakeAction
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).TakeAction
+- uid: Tamato.GaifaGoap.IGameAction{{T}}.TakeAction({T})
+  commentId: M:Tamato.GaifaGoap.IGameAction{`0}.TakeAction(`0)
+  parent: Tamato.GaifaGoap.IGameAction{{T}}
+  definition: Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+  name: TakeAction(T)
+  nameWithType: IGameAction<T>.TakeAction(T)
+  fullName: Tamato.GaifaGoap.IGameAction<T>.TakeAction(T)
+  nameWithType.vb: IGameAction(Of T).TakeAction(T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).TakeAction(T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+    name: TakeAction
+    nameWithType: IGameAction<T>.TakeAction
+    fullName: Tamato.GaifaGoap.IGameAction<T>.TakeAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+    name: TakeAction
+    nameWithType: IGameAction(Of T).TakeAction
+    fullName: Tamato.GaifaGoap.IGameAction(Of T).TakeAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.ValueTuple{System.Boolean,System.Single}
+  commentId: T:System.ValueTuple{System.Boolean,System.Single}
+  parent: System
+  isExternal: true
+  name: ValueTuple<Boolean, Single>
+  nameWithType: ValueTuple<Boolean, Single>
+  fullName: System.ValueTuple<System.Boolean, System.Single>
+  nameWithType.vb: ValueTuple(Of Boolean, Single)
+  fullName.vb: System.ValueTuple(Of System.Boolean, System.Single)
+  name.vb: ValueTuple(Of Boolean, Single)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+  commentId: M:Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+  name: TakeAction(T)
+  nameWithType: IGameAction<T>.TakeAction(T)
+  fullName: Tamato.GaifaGoap.IGameAction<T>.TakeAction(T)
+  nameWithType.vb: IGameAction(Of T).TakeAction(T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).TakeAction(T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+    name: TakeAction
+    nameWithType: IGameAction<T>.TakeAction
+    fullName: Tamato.GaifaGoap.IGameAction<T>.TakeAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+    name: TakeAction
+    nameWithType: IGameAction(Of T).TakeAction
+    fullName: Tamato.GaifaGoap.IGameAction(Of T).TakeAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition*
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition
+  name: CheckContextPrecondition
+  nameWithType: GameAction<T>.CheckContextPrecondition
+  fullName: Tamato.GaifaGoap.GameAction<T>.CheckContextPrecondition
+  nameWithType.vb: GameAction(Of T).CheckContextPrecondition
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).CheckContextPrecondition
+- uid: Tamato.GaifaGoap.IGameAction{{T}}.CheckContextPrecondition
+  commentId: M:Tamato.GaifaGoap.IGameAction{`0}.CheckContextPrecondition
+  parent: Tamato.GaifaGoap.IGameAction{{T}}
+  definition: Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+  name: CheckContextPrecondition()
+  nameWithType: IGameAction<T>.CheckContextPrecondition()
+  fullName: Tamato.GaifaGoap.IGameAction<T>.CheckContextPrecondition()
+  nameWithType.vb: IGameAction(Of T).CheckContextPrecondition()
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).CheckContextPrecondition()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+    name: CheckContextPrecondition
+    nameWithType: IGameAction<T>.CheckContextPrecondition
+    fullName: Tamato.GaifaGoap.IGameAction<T>.CheckContextPrecondition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+    name: CheckContextPrecondition
+    nameWithType: IGameAction(Of T).CheckContextPrecondition
+    fullName: Tamato.GaifaGoap.IGameAction(Of T).CheckContextPrecondition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+  commentId: M:Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+  name: CheckContextPrecondition()
+  nameWithType: IGameAction<T>.CheckContextPrecondition()
+  fullName: Tamato.GaifaGoap.IGameAction<T>.CheckContextPrecondition()
+  nameWithType.vb: IGameAction(Of T).CheckContextPrecondition()
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).CheckContextPrecondition()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+    name: CheckContextPrecondition
+    nameWithType: IGameAction<T>.CheckContextPrecondition
+    fullName: Tamato.GaifaGoap.IGameAction<T>.CheckContextPrecondition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+    name: CheckContextPrecondition
+    nameWithType: IGameAction(Of T).CheckContextPrecondition
+    fullName: Tamato.GaifaGoap.IGameAction(Of T).CheckContextPrecondition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.GameAction`1.RunAction*
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.RunAction
+  name: RunAction
+  nameWithType: GameAction<T>.RunAction
+  fullName: Tamato.GaifaGoap.GameAction<T>.RunAction
+  nameWithType.vb: GameAction(Of T).RunAction
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).RunAction
+- uid: Tamato.GaifaGoap.IGameAction{{T}}.RunAction({T},Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  commentId: M:Tamato.GaifaGoap.IGameAction{`0}.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  parent: Tamato.GaifaGoap.IGameAction{{T}}
+  definition: Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  name: RunAction(T, InterruptReceiver, CancellationToken)
+  nameWithType: IGameAction<T>.RunAction(T, InterruptReceiver, CancellationToken)
+  fullName: Tamato.GaifaGoap.IGameAction<T>.RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  nameWithType.vb: IGameAction(Of T).RunAction(T, InterruptReceiver, CancellationToken)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+    name: RunAction
+    nameWithType: IGameAction<T>.RunAction
+    fullName: Tamato.GaifaGoap.IGameAction<T>.RunAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Tamato.GaifaGoap.InterruptReceiver
+    name: InterruptReceiver
+    nameWithType: InterruptReceiver
+    fullName: Tamato.GaifaGoap.InterruptReceiver
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+    name: RunAction
+    nameWithType: IGameAction(Of T).RunAction
+    fullName: Tamato.GaifaGoap.IGameAction(Of T).RunAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Tamato.GaifaGoap.InterruptReceiver
+    name: InterruptReceiver
+    nameWithType: InterruptReceiver
+    fullName: Tamato.GaifaGoap.InterruptReceiver
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.InterruptReceiver
+  commentId: T:Tamato.GaifaGoap.InterruptReceiver
+  parent: Tamato.GaifaGoap
+  name: InterruptReceiver
+  nameWithType: InterruptReceiver
+  fullName: Tamato.GaifaGoap.InterruptReceiver
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: Cysharp.Threading.Tasks.UniTask{System.Boolean}
+  commentId: T:Cysharp.Threading.Tasks.UniTask{System.Boolean}
+  parent: Cysharp.Threading.Tasks
+  definition: Cysharp.Threading.Tasks.UniTask`1
+  name: UniTask<Boolean>
+  nameWithType: UniTask<Boolean>
+  fullName: Cysharp.Threading.Tasks.UniTask<System.Boolean>
+  nameWithType.vb: UniTask(Of Boolean)
+  fullName.vb: Cysharp.Threading.Tasks.UniTask(Of System.Boolean)
+  name.vb: UniTask(Of Boolean)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  commentId: M:Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  isExternal: true
+  name: RunAction(T, InterruptReceiver, CancellationToken)
+  nameWithType: IGameAction<T>.RunAction(T, InterruptReceiver, CancellationToken)
+  fullName: Tamato.GaifaGoap.IGameAction<T>.RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  nameWithType.vb: IGameAction(Of T).RunAction(T, InterruptReceiver, CancellationToken)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+    name: RunAction
+    nameWithType: IGameAction<T>.RunAction
+    fullName: Tamato.GaifaGoap.IGameAction<T>.RunAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Tamato.GaifaGoap.InterruptReceiver
+    name: InterruptReceiver
+    nameWithType: InterruptReceiver
+    fullName: Tamato.GaifaGoap.InterruptReceiver
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+    name: RunAction
+    nameWithType: IGameAction(Of T).RunAction
+    fullName: Tamato.GaifaGoap.IGameAction(Of T).RunAction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Tamato.GaifaGoap.InterruptReceiver
+    name: InterruptReceiver
+    nameWithType: InterruptReceiver
+    fullName: Tamato.GaifaGoap.InterruptReceiver
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: Cysharp.Threading.Tasks.UniTask`1
+  commentId: T:Cysharp.Threading.Tasks.UniTask`1
+  isExternal: true
+  name: UniTask<T>
+  nameWithType: UniTask<T>
+  fullName: Cysharp.Threading.Tasks.UniTask<T>
+  nameWithType.vb: UniTask(Of T)
+  fullName.vb: Cysharp.Threading.Tasks.UniTask(Of T)
+  name.vb: UniTask(Of T)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks
+  commentId: N:Cysharp.Threading.Tasks
+  isExternal: true
+  name: Cysharp.Threading.Tasks
+  nameWithType: Cysharp.Threading.Tasks
+  fullName: Cysharp.Threading.Tasks

@@ -1,0 +1,10 @@
+apiRules:
+- include:
+    uidRegex: ^Tamato\.GaifaGoap
+    type: Namespace
+- exclude:
+    uidRegex: ^Tamato\.GaifaGoap\.PlanTracker
+    type: Class
+- exclude:
+    uidRegex: .*
+    type: Namespace

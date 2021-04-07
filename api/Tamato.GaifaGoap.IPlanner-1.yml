@@ -1,0 +1,599 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.IPlanner`1
+  commentId: T:Tamato.GaifaGoap.IPlanner`1
+  id: IPlanner`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.IPlanner`1.Cancel
+  - Tamato.GaifaGoap.IPlanner`1.DefaultSettings
+  - Tamato.GaifaGoap.IPlanner`1.IsPlanning
+  - Tamato.GaifaGoap.IPlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  langs:
+  - csharp
+  - vb
+  name: IPlanner<T>
+  nameWithType: IPlanner<T>
+  fullName: Tamato.GaifaGoap.IPlanner<T>
+  type: Interface
+  source:
+    remote:
+      path: Runtime/Planner/IPlanner.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IPlanner
+    path: ../Assets/GaifaGoap/Runtime/Planner/IPlanner.cs
+    startLine: 12
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCreate a plan for the agent from the set of actions, goal and model&apos;s state\n"
+  example: []
+  syntax:
+    content: >-
+      public interface IPlanner<T>
+          where T : class, IModel<T>
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: Public Interface IPlanner(Of T As {Class, IModel(Of T)})
+  nameWithType.vb: IPlanner(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T)
+  name.vb: IPlanner(Of T)
+- uid: Tamato.GaifaGoap.IPlanner`1.DefaultSettings
+  commentId: P:Tamato.GaifaGoap.IPlanner`1.DefaultSettings
+  id: DefaultSettings
+  parent: Tamato.GaifaGoap.IPlanner`1
+  langs:
+  - csharp
+  - vb
+  name: DefaultSettings
+  nameWithType: IPlanner<T>.DefaultSettings
+  fullName: Tamato.GaifaGoap.IPlanner<T>.DefaultSettings
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/IPlanner.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: DefaultSettings
+    path: ../Assets/GaifaGoap/Runtime/Planner/IPlanner.cs
+    startLine: 17
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a planner&apos;s default setting\n"
+  example: []
+  syntax:
+    content: PlannerSettings DefaultSettings { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.PlannerSettings
+    content.vb: ReadOnly Property DefaultSettings As PlannerSettings
+  overload: Tamato.GaifaGoap.IPlanner`1.DefaultSettings*
+  nameWithType.vb: IPlanner(Of T).DefaultSettings
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).DefaultSettings
+- uid: Tamato.GaifaGoap.IPlanner`1.IsPlanning
+  commentId: P:Tamato.GaifaGoap.IPlanner`1.IsPlanning
+  id: IsPlanning
+  parent: Tamato.GaifaGoap.IPlanner`1
+  langs:
+  - csharp
+  - vb
+  name: IsPlanning
+  nameWithType: IPlanner<T>.IsPlanning
+  fullName: Tamato.GaifaGoap.IPlanner<T>.IsPlanning
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/IPlanner.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsPlanning
+    path: ../Assets/GaifaGoap/Runtime/Planner/IPlanner.cs
+    startLine: 22
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicate whether the planner is busy or not.\n"
+  example: []
+  syntax:
+    content: bool IsPlanning { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsPlanning As Boolean
+  overload: Tamato.GaifaGoap.IPlanner`1.IsPlanning*
+  nameWithType.vb: IPlanner(Of T).IsPlanning
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.IPlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  commentId: M:Tamato.GaifaGoap.IPlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  id: Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  parent: Tamato.GaifaGoap.IPlanner`1
+  langs:
+  - csharp
+  - vb
+  name: Plan(T, List<IGameAction<T>>, IGoal<T>, PlannerSettings)
+  nameWithType: IPlanner<T>.Plan(T, List<IGameAction<T>>, IGoal<T>, PlannerSettings)
+  fullName: Tamato.GaifaGoap.IPlanner<T>.Plan(T, System.Collections.Generic.List<Tamato.GaifaGoap.IGameAction<T>>, Tamato.GaifaGoap.IGoal<T>, Tamato.GaifaGoap.PlannerSettings)
+  type: Method
+  source:
+    remote:
+      path: Runtime/Planner/IPlanner.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Plan
+    path: ../Assets/GaifaGoap/Runtime/Planner/IPlanner.cs
+    startLine: 36
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCreate a plan.\n"
+  example: []
+  syntax:
+    content: UniTask<(Node<T> goalNode, PlannerStats stats)> Plan(T initialModel, List<IGameAction<T>> possibleActions, IGoal<T> goal, PlannerSettings settings = null)
+    parameters:
+    - id: initialModel
+      type: '{T}'
+      description: Model of the current world state.
+    - id: possibleActions
+      type: System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{{T}}}
+      description: List of possible actions for the agent.
+    - id: goal
+      type: Tamato.GaifaGoap.IGoal{{T}}
+      description: Goal of the agent.
+    - id: settings
+      type: Tamato.GaifaGoap.PlannerSettings
+      description: If provided, the planner&apos;s default settings will be overriden with this settings for this call only.
+    return:
+      type: Cysharp.Threading.Tasks.UniTask{System.ValueTuple{Tamato.GaifaGoap.Node{{T}},Tamato.GaifaGoap.PlannerStats}}
+      description: "\n(goalNode, stats)\ngoalNode = node that satisfy the goal.\nstats = statistic information of a planner.\n"
+    content.vb: Function Plan(initialModel As T, possibleActions As List(Of IGameAction(Of T)), goal As IGoal(Of T), settings As PlannerSettings = Nothing) As UniTask(Of(goalNode As Node(Of T), stats As PlannerStats))
+  overload: Tamato.GaifaGoap.IPlanner`1.Plan*
+  nameWithType.vb: IPlanner(Of T).Plan(T, List(Of IGameAction(Of T)), IGoal(Of T), PlannerSettings)
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).Plan(T, System.Collections.Generic.List(Of Tamato.GaifaGoap.IGameAction(Of T)), Tamato.GaifaGoap.IGoal(Of T), Tamato.GaifaGoap.PlannerSettings)
+  name.vb: Plan(T, List(Of IGameAction(Of T)), IGoal(Of T), PlannerSettings)
+- uid: Tamato.GaifaGoap.IPlanner`1.Cancel
+  commentId: M:Tamato.GaifaGoap.IPlanner`1.Cancel
+  id: Cancel
+  parent: Tamato.GaifaGoap.IPlanner`1
+  langs:
+  - csharp
+  - vb
+  name: Cancel()
+  nameWithType: IPlanner<T>.Cancel()
+  fullName: Tamato.GaifaGoap.IPlanner<T>.Cancel()
+  type: Method
+  source:
+    remote:
+      path: Runtime/Planner/IPlanner.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Cancel
+    path: ../Assets/GaifaGoap/Runtime/Planner/IPlanner.cs
+    startLine: 47
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCancel the planner and wait for it.\n"
+  example: []
+  syntax:
+    content: UniTask Cancel()
+    return:
+      type: Cysharp.Threading.Tasks.UniTask
+      description: ''
+    content.vb: Function Cancel As UniTask
+  overload: Tamato.GaifaGoap.IPlanner`1.Cancel*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Planner is idle.
+  nameWithType.vb: IPlanner(Of T).Cancel()
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).Cancel()
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: Tamato.GaifaGoap.IPlanner`1.DefaultSettings*
+  commentId: Overload:Tamato.GaifaGoap.IPlanner`1.DefaultSettings
+  name: DefaultSettings
+  nameWithType: IPlanner<T>.DefaultSettings
+  fullName: Tamato.GaifaGoap.IPlanner<T>.DefaultSettings
+  nameWithType.vb: IPlanner(Of T).DefaultSettings
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).DefaultSettings
+- uid: Tamato.GaifaGoap.PlannerSettings
+  commentId: T:Tamato.GaifaGoap.PlannerSettings
+  parent: Tamato.GaifaGoap
+  name: PlannerSettings
+  nameWithType: PlannerSettings
+  fullName: Tamato.GaifaGoap.PlannerSettings
+- uid: Tamato.GaifaGoap.IPlanner`1.IsPlanning*
+  commentId: Overload:Tamato.GaifaGoap.IPlanner`1.IsPlanning
+  name: IsPlanning
+  nameWithType: IPlanner<T>.IsPlanning
+  fullName: Tamato.GaifaGoap.IPlanner<T>.IsPlanning
+  nameWithType.vb: IPlanner(Of T).IsPlanning
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).IsPlanning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.IPlanner`1.Plan*
+  commentId: Overload:Tamato.GaifaGoap.IPlanner`1.Plan
+  name: Plan
+  nameWithType: IPlanner<T>.Plan
+  fullName: Tamato.GaifaGoap.IPlanner<T>.Plan
+  nameWithType.vb: IPlanner(Of T).Plan
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).Plan
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{{T}}}
+  commentId: T:System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IGameAction<T>>
+  nameWithType: List<IGameAction<T>>
+  fullName: System.Collections.Generic.List<Tamato.GaifaGoap.IGameAction<T>>
+  nameWithType.vb: List(Of IGameAction(Of T))
+  fullName.vb: System.Collections.Generic.List(Of Tamato.GaifaGoap.IGameAction(Of T))
+  name.vb: List(Of IGameAction(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGoal{{T}}
+  commentId: T:Tamato.GaifaGoap.IGoal{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.IGoal`1
+  name: IGoal<T>
+  nameWithType: IGoal<T>
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  nameWithType.vb: IGoal(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  name.vb: IGoal(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks.UniTask{System.ValueTuple{Tamato.GaifaGoap.Node{{T}},Tamato.GaifaGoap.PlannerStats}}
+  commentId: T:Cysharp.Threading.Tasks.UniTask{System.ValueTuple{Tamato.GaifaGoap.Node{`0},Tamato.GaifaGoap.PlannerStats}}
+  parent: Cysharp.Threading.Tasks
+  definition: Cysharp.Threading.Tasks.UniTask`1
+  name: UniTask<ValueTuple<Node<T>, PlannerStats>>
+  nameWithType: UniTask<ValueTuple<Node<T>, PlannerStats>>
+  fullName: Cysharp.Threading.Tasks.UniTask<System.ValueTuple<Tamato.GaifaGoap.Node<T>, Tamato.GaifaGoap.PlannerStats>>
+  nameWithType.vb: UniTask(Of ValueTuple(Of Node(Of T), PlannerStats))
+  fullName.vb: Cysharp.Threading.Tasks.UniTask(Of System.ValueTuple(Of Tamato.GaifaGoap.Node(Of T), Tamato.GaifaGoap.PlannerStats))
+  name.vb: UniTask(Of ValueTuple(Of Node(Of T), PlannerStats))
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Tamato.GaifaGoap.PlannerStats
+    name: PlannerStats
+    nameWithType: PlannerStats
+    fullName: Tamato.GaifaGoap.PlannerStats
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Tamato.GaifaGoap.PlannerStats
+    name: PlannerStats
+    nameWithType: PlannerStats
+    fullName: Tamato.GaifaGoap.PlannerStats
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Tamato.GaifaGoap.IGoal`1
+  commentId: T:Tamato.GaifaGoap.IGoal`1
+  name: IGoal<T>
+  nameWithType: IGoal<T>
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  nameWithType.vb: IGoal(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  name.vb: IGoal(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks.UniTask`1
+  commentId: T:Cysharp.Threading.Tasks.UniTask`1
+  isExternal: true
+  name: UniTask<T>
+  nameWithType: UniTask<T>
+  fullName: Cysharp.Threading.Tasks.UniTask<T>
+  nameWithType.vb: UniTask(Of T)
+  fullName.vb: Cysharp.Threading.Tasks.UniTask(Of T)
+  name.vb: UniTask(Of T)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks
+  commentId: N:Cysharp.Threading.Tasks
+  isExternal: true
+  name: Cysharp.Threading.Tasks
+  nameWithType: Cysharp.Threading.Tasks
+  fullName: Cysharp.Threading.Tasks
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+- uid: Tamato.GaifaGoap.IPlanner`1.Cancel*
+  commentId: Overload:Tamato.GaifaGoap.IPlanner`1.Cancel
+  name: Cancel
+  nameWithType: IPlanner<T>.Cancel
+  fullName: Tamato.GaifaGoap.IPlanner<T>.Cancel
+  nameWithType.vb: IPlanner(Of T).Cancel
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).Cancel
+- uid: Cysharp.Threading.Tasks.UniTask
+  commentId: T:Cysharp.Threading.Tasks.UniTask
+  parent: Cysharp.Threading.Tasks
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: Cysharp.Threading.Tasks.UniTask

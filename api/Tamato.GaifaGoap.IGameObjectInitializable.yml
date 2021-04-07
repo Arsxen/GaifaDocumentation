@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.IGameObjectInitializable
+  commentId: T:Tamato.GaifaGoap.IGameObjectInitializable
+  id: IGameObjectInitializable
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  langs:
+  - csharp
+  - vb
+  name: IGameObjectInitializable
+  nameWithType: IGameObjectInitializable
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable
+  type: Interface
+  source:
+    remote:
+      path: Runtime/IGameObjectInitializable.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IGameObjectInitializable
+    path: ../Assets/GaifaGoap/Runtime/IGameObjectInitializable.cs
+    startLine: 4
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public interface IGameObjectInitializable
+    content.vb: Public Interface IGameObjectInitializable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  commentId: M:Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  id: Initialize(UnityEngine.GameObject)
+  parent: Tamato.GaifaGoap.IGameObjectInitializable
+  langs:
+  - csharp
+  - vb
+  name: Initialize(GameObject)
+  nameWithType: IGameObjectInitializable.Initialize(GameObject)
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Runtime/IGameObjectInitializable.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Initialize
+    path: ../Assets/GaifaGoap/Runtime/IGameObjectInitializable.cs
+    startLine: 10
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nInitialize this object\n"
+  example: []
+  syntax:
+    content: void Initialize(GameObject owner)
+    parameters:
+    - id: owner
+      type: UnityEngine.GameObject
+      description: <xref href="UnityEngine.GameObject" data-throw-if-not-resolved="false"></xref> that own this object
+    content.vb: Sub Initialize(owner As GameObject)
+  overload: Tamato.GaifaGoap.IGameObjectInitializable.Initialize*
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize*
+  commentId: Overload:Tamato.GaifaGoap.IGameObjectInitializable.Initialize
+  name: Initialize
+  nameWithType: IGameObjectInitializable.Initialize
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

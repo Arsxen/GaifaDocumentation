@@ -1,0 +1,616 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  commentId: T:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  id: DelegatePooledObjectPolicy`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor(System.Func{`0},System.Action{`0})
+  - Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  - Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return(`0)
+  langs:
+  - csharp
+  - vb
+  name: DelegatePooledObjectPolicy<T>
+  nameWithType: DelegatePooledObjectPolicy<T>
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>
+  type: Class
+  source:
+    remote:
+      path: Runtime/ObjectPool/DelegatePooledObjectPolicy.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: DelegatePooledObjectPolicy
+    path: ../Assets/GaifaGoap/Runtime/ObjectPool/DelegatePooledObjectPolicy.cs
+    startLine: 11
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nPooled Object Policy that accept delegate for <xref href=\"Tamato.GaifaGoap.DelegatePooledObjectPolicy%601.Create\" data-throw-if-not-resolved=\"false\"></xref> method and <xref href=\"Tamato.GaifaGoap.DelegatePooledObjectPolicy%601.Return(%600)\" data-throw-if-not-resolved=\"false\"></xref> method\n"
+  example: []
+  syntax:
+    content: 'public class DelegatePooledObjectPolicy<T> : PooledObjectPolicy<T>, IPooledObjectPolicy<T> where T : class'
+    typeParameters:
+    - id: T
+      description: Pooled Object
+    content.vb: >-
+      Public Class DelegatePooledObjectPolicy(Of T As Class)
+          Inherits PooledObjectPolicy(Of T)
+          Implements IPooledObjectPolicy(Of T)
+  inheritance:
+  - System.Object
+  - Microsoft.Extensions.ObjectPool.PooledObjectPolicy{{T}}
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T)
+  name.vb: DelegatePooledObjectPolicy(Of T)
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor(System.Func{`0},System.Action{`0})
+  commentId: M:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor(System.Func{`0},System.Action{`0})
+  id: '#ctor(System.Func{`0},System.Action{`0})'
+  parent: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  langs:
+  - csharp
+  - vb
+  name: DelegatePooledObjectPolicy(Func<T>, Action<T>)
+  nameWithType: DelegatePooledObjectPolicy<T>.DelegatePooledObjectPolicy(Func<T>, Action<T>)
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.DelegatePooledObjectPolicy(System.Func<T>, System.Action<T>)
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/ObjectPool/DelegatePooledObjectPolicy.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/ObjectPool/DelegatePooledObjectPolicy.cs
+    startLine: 16
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public DelegatePooledObjectPolicy(Func<T> createFactory, Action<T> onReturn = null)
+    parameters:
+    - id: createFactory
+      type: System.Func{{T}}
+    - id: onReturn
+      type: System.Action{{T}}
+    content.vb: Public Sub New(createFactory As Func(Of T), onReturn As Action(Of T) = Nothing)
+  overload: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor*
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).DelegatePooledObjectPolicy(Func(Of T), Action(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).DelegatePooledObjectPolicy(System.Func(Of T), System.Action(Of T))
+  name.vb: DelegatePooledObjectPolicy(Func(Of T), Action(Of T))
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  commentId: M:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  id: Create
+  parent: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  langs:
+  - csharp
+  - vb
+  name: Create()
+  nameWithType: DelegatePooledObjectPolicy<T>.Create()
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.Create()
+  type: Method
+  source:
+    remote:
+      path: Runtime/ObjectPool/DelegatePooledObjectPolicy.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Create
+    path: ../Assets/GaifaGoap/Runtime/ObjectPool/DelegatePooledObjectPolicy.cs
+    startLine: 23
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  example: []
+  syntax:
+    content: public override T Create()
+    return:
+      type: '{T}'
+    content.vb: Public Overrides Function Create As T
+  overridden: Microsoft.Extensions.ObjectPool.PooledObjectPolicy{{T}}.Create
+  overload: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create*
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).Create()
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).Create()
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return(`0)
+  commentId: M:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return(`0)
+  id: Return(`0)
+  parent: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  langs:
+  - csharp
+  - vb
+  name: Return(T)
+  nameWithType: DelegatePooledObjectPolicy<T>.Return(T)
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.Return(T)
+  type: Method
+  source:
+    remote:
+      path: Runtime/ObjectPool/DelegatePooledObjectPolicy.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Return
+    path: ../Assets/GaifaGoap/Runtime/ObjectPool/DelegatePooledObjectPolicy.cs
+    startLine: 29
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  example: []
+  syntax:
+    content: public override bool Return(T obj)
+    parameters:
+    - id: obj
+      type: '{T}'
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Return(obj As T) As Boolean
+  overridden: Microsoft.Extensions.ObjectPool.PooledObjectPolicy{{T}}.Return({T})
+  overload: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return*
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).Return(T)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).Return(T)
+references:
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  commentId: M:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  isExternal: true
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return(`0)
+  commentId: M:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return(`0)
+  isExternal: true
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy{{T}}
+  commentId: T:Microsoft.Extensions.ObjectPool.PooledObjectPolicy{`0}
+  parent: Microsoft.Extensions.ObjectPool
+  definition: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1
+  name: PooledObjectPolicy<T>
+  nameWithType: PooledObjectPolicy<T>
+  fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>
+  nameWithType.vb: PooledObjectPolicy(Of T)
+  fullName.vb: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T)
+  name.vb: PooledObjectPolicy(Of T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1
+    name: PooledObjectPolicy
+    nameWithType: PooledObjectPolicy
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1
+    name: PooledObjectPolicy
+    nameWithType: PooledObjectPolicy
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1
+  commentId: T:Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1
+  isExternal: true
+  name: PooledObjectPolicy<T>
+  nameWithType: PooledObjectPolicy<T>
+  fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>
+  nameWithType.vb: PooledObjectPolicy(Of T)
+  fullName.vb: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T)
+  name.vb: PooledObjectPolicy(Of T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1
+    name: PooledObjectPolicy
+    nameWithType: PooledObjectPolicy
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1
+    name: PooledObjectPolicy
+    nameWithType: PooledObjectPolicy
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.ObjectPool
+  commentId: N:Microsoft.Extensions.ObjectPool
+  isExternal: true
+  name: Microsoft.Extensions.ObjectPool
+  nameWithType: Microsoft.Extensions.ObjectPool
+  fullName: Microsoft.Extensions.ObjectPool
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor*
+  commentId: Overload:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor
+  name: DelegatePooledObjectPolicy
+  nameWithType: DelegatePooledObjectPolicy<T>.DelegatePooledObjectPolicy
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.DelegatePooledObjectPolicy
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).DelegatePooledObjectPolicy
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).DelegatePooledObjectPolicy
+- uid: System.Func{{T}}
+  commentId: T:System.Func{`0}
+  parent: System
+  definition: System.Func`1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy{{T}}.Create
+  commentId: M:Microsoft.Extensions.ObjectPool.PooledObjectPolicy{`0}.Create
+  parent: Microsoft.Extensions.ObjectPool.PooledObjectPolicy{{T}}
+  definition: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Create
+  name: Create()
+  nameWithType: PooledObjectPolicy<T>.Create()
+  fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>.Create()
+  nameWithType.vb: PooledObjectPolicy(Of T).Create()
+  fullName.vb: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T).Create()
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Create
+    name: Create
+    nameWithType: PooledObjectPolicy<T>.Create
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>.Create
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Create
+    name: Create
+    nameWithType: PooledObjectPolicy(Of T).Create
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T).Create
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create*
+  commentId: Overload:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  name: Create
+  nameWithType: DelegatePooledObjectPolicy<T>.Create
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.Create
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).Create
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).Create
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Create
+  commentId: M:Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Create
+  isExternal: true
+  name: Create()
+  nameWithType: PooledObjectPolicy<T>.Create()
+  fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>.Create()
+  nameWithType.vb: PooledObjectPolicy(Of T).Create()
+  fullName.vb: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T).Create()
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Create
+    name: Create
+    nameWithType: PooledObjectPolicy<T>.Create
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>.Create
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Create
+    name: Create
+    nameWithType: PooledObjectPolicy(Of T).Create
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T).Create
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy{{T}}.Return({T})
+  commentId: M:Microsoft.Extensions.ObjectPool.PooledObjectPolicy{`0}.Return(`0)
+  parent: Microsoft.Extensions.ObjectPool.PooledObjectPolicy{{T}}
+  definition: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Return(`0)
+  name: Return(T)
+  nameWithType: PooledObjectPolicy<T>.Return(T)
+  fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>.Return(T)
+  nameWithType.vb: PooledObjectPolicy(Of T).Return(T)
+  fullName.vb: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T).Return(T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Return(`0)
+    name: Return
+    nameWithType: PooledObjectPolicy<T>.Return
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>.Return
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Return(`0)
+    name: Return
+    nameWithType: PooledObjectPolicy(Of T).Return
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T).Return
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return*
+  commentId: Overload:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return
+  name: Return
+  nameWithType: DelegatePooledObjectPolicy<T>.Return
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.Return
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).Return
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).Return
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Return(`0)
+  commentId: M:Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Return(`0)
+  isExternal: true
+  name: Return(T)
+  nameWithType: PooledObjectPolicy<T>.Return(T)
+  fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>.Return(T)
+  nameWithType.vb: PooledObjectPolicy(Of T).Return(T)
+  fullName.vb: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T).Return(T)
+  spec.csharp:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Return(`0)
+    name: Return
+    nameWithType: PooledObjectPolicy<T>.Return
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy<T>.Return
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.ObjectPool.PooledObjectPolicy`1.Return(`0)
+    name: Return
+    nameWithType: PooledObjectPolicy(Of T).Return
+    fullName: Microsoft.Extensions.ObjectPool.PooledObjectPolicy(Of T).Return
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

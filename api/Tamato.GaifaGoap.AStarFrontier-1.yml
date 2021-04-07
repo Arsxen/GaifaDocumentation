@@ -1,0 +1,706 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.AStarFrontier`1
+  commentId: T:Tamato.GaifaGoap.AStarFrontier`1
+  id: AStarFrontier`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.AStarFrontier`1.#ctor
+  - Tamato.GaifaGoap.AStarFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  - Tamato.GaifaGoap.AStarFrontier`1.Clear
+  - Tamato.GaifaGoap.AStarFrontier`1.IsEmpty
+  - Tamato.GaifaGoap.AStarFrontier`1.Next
+  langs:
+  - csharp
+  - vb
+  name: AStarFrontier<T>
+  nameWithType: AStarFrontier<T>
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>
+  type: Class
+  source:
+    remote:
+      path: Runtime/Planner/AStarFrontier.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: AStarFrontier
+    path: ../Assets/GaifaGoap/Runtime/Planner/AStarFrontier.cs
+    startLine: 10
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nData Structure for storing nodes using priority queue with\n<xref href=\"Tamato.GaifaGoap.Node%601.PathCost\" data-throw-if-not-resolved=\"false\"></xref> + <xref href=\"Tamato.GaifaGoap.Node%601.Heuristic\" data-throw-if-not-resolved=\"false\"></xref> as a priority value.\nMostly use in planning.\n"
+  example: []
+  syntax:
+    content: 'public class AStarFrontier<T> : IFrontier<T> where T : class, IModel<T>'
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: >-
+      Public Class AStarFrontier(Of T As {Class, IModel(Of T)})
+          Implements IFrontier(Of T)
+  inheritance:
+  - System.Object
+  implements:
+  - Tamato.GaifaGoap.IFrontier{{T}}
+  nameWithType.vb: AStarFrontier(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T)
+  name.vb: AStarFrontier(Of T)
+- uid: Tamato.GaifaGoap.AStarFrontier`1.#ctor
+  commentId: M:Tamato.GaifaGoap.AStarFrontier`1.#ctor
+  id: '#ctor'
+  parent: Tamato.GaifaGoap.AStarFrontier`1
+  langs:
+  - csharp
+  - vb
+  name: AStarFrontier()
+  nameWithType: AStarFrontier<T>.AStarFrontier()
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.AStarFrontier()
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/Planner/AStarFrontier.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/Planner/AStarFrontier.cs
+    startLine: 14
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public AStarFrontier()
+    content.vb: Public Sub New
+  overload: Tamato.GaifaGoap.AStarFrontier`1.#ctor*
+  nameWithType.vb: AStarFrontier(Of T).AStarFrontier()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).AStarFrontier()
+- uid: Tamato.GaifaGoap.AStarFrontier`1.IsEmpty
+  commentId: P:Tamato.GaifaGoap.AStarFrontier`1.IsEmpty
+  id: IsEmpty
+  parent: Tamato.GaifaGoap.AStarFrontier`1
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty
+  nameWithType: AStarFrontier<T>.IsEmpty
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.IsEmpty
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/AStarFrontier.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsEmpty
+    path: ../Assets/GaifaGoap/Runtime/Planner/AStarFrontier.cs
+    startLine: 20
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicate that Frontier is empty or not.\n"
+  example: []
+  syntax:
+    content: public bool IsEmpty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmpty As Boolean
+  overload: Tamato.GaifaGoap.AStarFrontier`1.IsEmpty*
+  implements:
+  - Tamato.GaifaGoap.IFrontier{{T}}.IsEmpty
+  nameWithType.vb: AStarFrontier(Of T).IsEmpty
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).IsEmpty
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  commentId: M:Tamato.GaifaGoap.AStarFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  id: Add(Tamato.GaifaGoap.Node{`0})
+  parent: Tamato.GaifaGoap.AStarFrontier`1
+  langs:
+  - csharp
+  - vb
+  name: Add(Node<T>)
+  nameWithType: AStarFrontier<T>.Add(Node<T>)
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Add(Tamato.GaifaGoap.Node<T>)
+  type: Method
+  source:
+    remote:
+      path: Runtime/Planner/AStarFrontier.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Add
+    path: ../Assets/GaifaGoap/Runtime/Planner/AStarFrontier.cs
+    startLine: 23
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nAdd a node to the frontier.\n"
+  example: []
+  syntax:
+    content: public void Add(Node<T> node)
+    parameters:
+    - id: node
+      type: Tamato.GaifaGoap.Node{{T}}
+    content.vb: Public Sub Add(node As Node(Of T))
+  overload: Tamato.GaifaGoap.AStarFrontier`1.Add*
+  implements:
+  - Tamato.GaifaGoap.IFrontier{{T}}.Add(Tamato.GaifaGoap.Node{{T}})
+  nameWithType.vb: AStarFrontier(Of T).Add(Node(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Add(Tamato.GaifaGoap.Node(Of T))
+  name.vb: Add(Node(Of T))
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Next
+  commentId: M:Tamato.GaifaGoap.AStarFrontier`1.Next
+  id: Next
+  parent: Tamato.GaifaGoap.AStarFrontier`1
+  langs:
+  - csharp
+  - vb
+  name: Next()
+  nameWithType: AStarFrontier<T>.Next()
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Next()
+  type: Method
+  source:
+    remote:
+      path: Runtime/Planner/AStarFrontier.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Next
+    path: ../Assets/GaifaGoap/Runtime/Planner/AStarFrontier.cs
+    startLine: 30
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a next node in the frontier.\n"
+  example: []
+  syntax:
+    content: public Node<T> Next()
+    return:
+      type: Tamato.GaifaGoap.Node{{T}}
+      description: ''
+    content.vb: Public Function Next As Node(Of T)
+  overload: Tamato.GaifaGoap.AStarFrontier`1.Next*
+  implements:
+  - Tamato.GaifaGoap.IFrontier{{T}}.Next
+  nameWithType.vb: AStarFrontier(Of T).Next()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Next()
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Clear
+  commentId: M:Tamato.GaifaGoap.AStarFrontier`1.Clear
+  id: Clear
+  parent: Tamato.GaifaGoap.AStarFrontier`1
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: AStarFrontier<T>.Clear()
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Clear()
+  type: Method
+  source:
+    remote:
+      path: Runtime/Planner/AStarFrontier.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Clear
+    path: ../Assets/GaifaGoap/Runtime/Planner/AStarFrontier.cs
+    startLine: 36
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nClear the frontier to empty.\n"
+  example: []
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: Tamato.GaifaGoap.AStarFrontier`1.Clear*
+  implements:
+  - Tamato.GaifaGoap.IFrontier{{T}}.Clear
+  nameWithType.vb: AStarFrontier(Of T).Clear()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Clear()
+references:
+- uid: Tamato.GaifaGoap.Node`1.PathCost
+  commentId: P:Tamato.GaifaGoap.Node`1.PathCost
+  isExternal: true
+- uid: Tamato.GaifaGoap.Node`1.Heuristic
+  commentId: P:Tamato.GaifaGoap.Node`1.Heuristic
+  isExternal: true
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Tamato.GaifaGoap.IFrontier{{T}}
+  commentId: T:Tamato.GaifaGoap.IFrontier{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.IFrontier`1
+  name: IFrontier<T>
+  nameWithType: IFrontier<T>
+  fullName: Tamato.GaifaGoap.IFrontier<T>
+  nameWithType.vb: IFrontier(Of T)
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T)
+  name.vb: IFrontier(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1
+    name: IFrontier
+    nameWithType: IFrontier
+    fullName: Tamato.GaifaGoap.IFrontier
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1
+    name: IFrontier
+    nameWithType: IFrontier
+    fullName: Tamato.GaifaGoap.IFrontier
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.IFrontier`1
+  commentId: T:Tamato.GaifaGoap.IFrontier`1
+  name: IFrontier<T>
+  nameWithType: IFrontier<T>
+  fullName: Tamato.GaifaGoap.IFrontier<T>
+  nameWithType.vb: IFrontier(Of T)
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T)
+  name.vb: IFrontier(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1
+    name: IFrontier
+    nameWithType: IFrontier
+    fullName: Tamato.GaifaGoap.IFrontier
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1
+    name: IFrontier
+    nameWithType: IFrontier
+    fullName: Tamato.GaifaGoap.IFrontier
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AStarFrontier`1.#ctor*
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.#ctor
+  name: AStarFrontier
+  nameWithType: AStarFrontier<T>.AStarFrontier
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.AStarFrontier
+  nameWithType.vb: AStarFrontier(Of T).AStarFrontier
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).AStarFrontier
+- uid: Tamato.GaifaGoap.AStarFrontier`1.IsEmpty*
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.IsEmpty
+  name: IsEmpty
+  nameWithType: AStarFrontier<T>.IsEmpty
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.IsEmpty
+  nameWithType.vb: AStarFrontier(Of T).IsEmpty
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).IsEmpty
+- uid: Tamato.GaifaGoap.IFrontier{{T}}.IsEmpty
+  commentId: P:Tamato.GaifaGoap.IFrontier{`0}.IsEmpty
+  parent: Tamato.GaifaGoap.IFrontier{{T}}
+  definition: Tamato.GaifaGoap.IFrontier`1.IsEmpty
+  name: IsEmpty
+  nameWithType: IFrontier<T>.IsEmpty
+  fullName: Tamato.GaifaGoap.IFrontier<T>.IsEmpty
+  nameWithType.vb: IFrontier(Of T).IsEmpty
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).IsEmpty
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Tamato.GaifaGoap.IFrontier`1.IsEmpty
+  commentId: P:Tamato.GaifaGoap.IFrontier`1.IsEmpty
+  name: IsEmpty
+  nameWithType: IFrontier<T>.IsEmpty
+  fullName: Tamato.GaifaGoap.IFrontier<T>.IsEmpty
+  nameWithType.vb: IFrontier(Of T).IsEmpty
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).IsEmpty
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Add*
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.Add
+  name: Add
+  nameWithType: AStarFrontier<T>.Add
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Add
+  nameWithType.vb: AStarFrontier(Of T).Add
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Add
+- uid: Tamato.GaifaGoap.IFrontier{{T}}.Add(Tamato.GaifaGoap.Node{{T}})
+  commentId: M:Tamato.GaifaGoap.IFrontier{`0}.Add(Tamato.GaifaGoap.Node{`0})
+  parent: Tamato.GaifaGoap.IFrontier{{T}}
+  definition: Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  name: Add(Node<T>)
+  nameWithType: IFrontier<T>.Add(Node<T>)
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Add(Tamato.GaifaGoap.Node<T>)
+  nameWithType.vb: IFrontier(Of T).Add(Node(Of T))
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Add(Tamato.GaifaGoap.Node(Of T))
+  name.vb: Add(Node(Of T))
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+    name: Add
+    nameWithType: IFrontier<T>.Add
+    fullName: Tamato.GaifaGoap.IFrontier<T>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+    name: Add
+    nameWithType: IFrontier(Of T).Add
+    fullName: Tamato.GaifaGoap.IFrontier(Of T).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Node{{T}}
+  commentId: T:Tamato.GaifaGoap.Node{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.Node`1
+  name: Node<T>
+  nameWithType: Node<T>
+  fullName: Tamato.GaifaGoap.Node<T>
+  nameWithType.vb: Node(Of T)
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  name.vb: Node(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  commentId: M:Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  name: Add(Node<T>)
+  nameWithType: IFrontier<T>.Add(Node<T>)
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Add(Tamato.GaifaGoap.Node<T>)
+  nameWithType.vb: IFrontier(Of T).Add(Node(Of T))
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Add(Tamato.GaifaGoap.Node(Of T))
+  name.vb: Add(Node(Of T))
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+    name: Add
+    nameWithType: IFrontier<T>.Add
+    fullName: Tamato.GaifaGoap.IFrontier<T>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+    name: Add
+    nameWithType: IFrontier(Of T).Add
+    fullName: Tamato.GaifaGoap.IFrontier(Of T).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Node`1
+  commentId: T:Tamato.GaifaGoap.Node`1
+  name: Node<T>
+  nameWithType: Node<T>
+  fullName: Tamato.GaifaGoap.Node<T>
+  nameWithType.vb: Node(Of T)
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  name.vb: Node(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Next*
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.Next
+  name: Next
+  nameWithType: AStarFrontier<T>.Next
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Next
+  nameWithType.vb: AStarFrontier(Of T).Next
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Next
+- uid: Tamato.GaifaGoap.IFrontier{{T}}.Next
+  commentId: M:Tamato.GaifaGoap.IFrontier{`0}.Next
+  parent: Tamato.GaifaGoap.IFrontier{{T}}
+  definition: Tamato.GaifaGoap.IFrontier`1.Next
+  name: Next()
+  nameWithType: IFrontier<T>.Next()
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Next()
+  nameWithType.vb: IFrontier(Of T).Next()
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Next()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Next
+    name: Next
+    nameWithType: IFrontier<T>.Next
+    fullName: Tamato.GaifaGoap.IFrontier<T>.Next
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Next
+    name: Next
+    nameWithType: IFrontier(Of T).Next
+    fullName: Tamato.GaifaGoap.IFrontier(Of T).Next
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IFrontier`1.Next
+  commentId: M:Tamato.GaifaGoap.IFrontier`1.Next
+  name: Next()
+  nameWithType: IFrontier<T>.Next()
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Next()
+  nameWithType.vb: IFrontier(Of T).Next()
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Next()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Next
+    name: Next
+    nameWithType: IFrontier<T>.Next
+    fullName: Tamato.GaifaGoap.IFrontier<T>.Next
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Next
+    name: Next
+    nameWithType: IFrontier(Of T).Next
+    fullName: Tamato.GaifaGoap.IFrontier(Of T).Next
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Clear*
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.Clear
+  name: Clear
+  nameWithType: AStarFrontier<T>.Clear
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Clear
+  nameWithType.vb: AStarFrontier(Of T).Clear
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Clear
+- uid: Tamato.GaifaGoap.IFrontier{{T}}.Clear
+  commentId: M:Tamato.GaifaGoap.IFrontier{`0}.Clear
+  parent: Tamato.GaifaGoap.IFrontier{{T}}
+  definition: Tamato.GaifaGoap.IFrontier`1.Clear
+  name: Clear()
+  nameWithType: IFrontier<T>.Clear()
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Clear()
+  nameWithType.vb: IFrontier(Of T).Clear()
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Clear()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Clear
+    name: Clear
+    nameWithType: IFrontier<T>.Clear
+    fullName: Tamato.GaifaGoap.IFrontier<T>.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Clear
+    name: Clear
+    nameWithType: IFrontier(Of T).Clear
+    fullName: Tamato.GaifaGoap.IFrontier(Of T).Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IFrontier`1.Clear
+  commentId: M:Tamato.GaifaGoap.IFrontier`1.Clear
+  name: Clear()
+  nameWithType: IFrontier<T>.Clear()
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Clear()
+  nameWithType.vb: IFrontier(Of T).Clear()
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Clear()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Clear
+    name: Clear
+    nameWithType: IFrontier<T>.Clear
+    fullName: Tamato.GaifaGoap.IFrontier<T>.Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1.Clear
+    name: Clear
+    nameWithType: IFrontier(Of T).Clear
+    fullName: Tamato.GaifaGoap.IFrontier(Of T).Clear
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

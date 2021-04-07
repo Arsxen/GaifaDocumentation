@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.Node`1
+  commentId: T:Tamato.GaifaGoap.Node`1
+  id: Node`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.Node`1.Action
+  - Tamato.GaifaGoap.Node`1.Cost
+  - Tamato.GaifaGoap.Node`1.Heuristic
+  - Tamato.GaifaGoap.Node`1.Initialize(`0,Tamato.GaifaGoap.IGameAction{`0},Tamato.GaifaGoap.Node{`0},System.Single,System.Single)
+  - Tamato.GaifaGoap.Node`1.Parent
+  - Tamato.GaifaGoap.Node`1.PathCost
+  - Tamato.GaifaGoap.Node`1.Reset
+  - Tamato.GaifaGoap.Node`1.State
+  langs:
+  - csharp
+  - vb
+  name: Node<T>
+  nameWithType: Node<T>
+  fullName: Tamato.GaifaGoap.Node<T>
+  type: Class
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Node
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 8
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nNode data used in planning.\n"
+  example: []
+  syntax:
+    content: >-
+      public class Node<T>
+          where T : class, IModel<T>
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: Public Class Node(Of T As {Class, IModel(Of T)})
+  inheritance:
+  - System.Object
+  nameWithType.vb: Node(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  name.vb: Node(Of T)
+- uid: Tamato.GaifaGoap.Node`1.State
+  commentId: P:Tamato.GaifaGoap.Node`1.State
+  id: State
+  parent: Tamato.GaifaGoap.Node`1
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: Node<T>.State
+  fullName: Tamato.GaifaGoap.Node<T>.State
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: State
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 10
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public T State { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property State As T
+  overload: Tamato.GaifaGoap.Node`1.State*
+  nameWithType.vb: Node(Of T).State
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).State
+- uid: Tamato.GaifaGoap.Node`1.Action
+  commentId: P:Tamato.GaifaGoap.Node`1.Action
+  id: Action
+  parent: Tamato.GaifaGoap.Node`1
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: Node<T>.Action
+  fullName: Tamato.GaifaGoap.Node<T>.Action
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Action
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 11
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public IGameAction<T> Action { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.IGameAction{{T}}
+    content.vb: Public ReadOnly Property Action As IGameAction(Of T)
+  overload: Tamato.GaifaGoap.Node`1.Action*
+  nameWithType.vb: Node(Of T).Action
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Action
+- uid: Tamato.GaifaGoap.Node`1.Parent
+  commentId: P:Tamato.GaifaGoap.Node`1.Parent
+  id: Parent
+  parent: Tamato.GaifaGoap.Node`1
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: Node<T>.Parent
+  fullName: Tamato.GaifaGoap.Node<T>.Parent
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Parent
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 12
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public Node<T> Parent { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.Node{{T}}
+    content.vb: Public ReadOnly Property Parent As Node(Of T)
+  overload: Tamato.GaifaGoap.Node`1.Parent*
+  nameWithType.vb: Node(Of T).Parent
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Parent
+- uid: Tamato.GaifaGoap.Node`1.Cost
+  commentId: P:Tamato.GaifaGoap.Node`1.Cost
+  id: Cost
+  parent: Tamato.GaifaGoap.Node`1
+  langs:
+  - csharp
+  - vb
+  name: Cost
+  nameWithType: Node<T>.Cost
+  fullName: Tamato.GaifaGoap.Node<T>.Cost
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Cost
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 13
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public float Cost { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Cost As Single
+  overload: Tamato.GaifaGoap.Node`1.Cost*
+  nameWithType.vb: Node(Of T).Cost
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Cost
+- uid: Tamato.GaifaGoap.Node`1.PathCost
+  commentId: P:Tamato.GaifaGoap.Node`1.PathCost
+  id: PathCost
+  parent: Tamato.GaifaGoap.Node`1
+  langs:
+  - csharp
+  - vb
+  name: PathCost
+  nameWithType: Node<T>.PathCost
+  fullName: Tamato.GaifaGoap.Node<T>.PathCost
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PathCost
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 14
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public float PathCost { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property PathCost As Single
+  overload: Tamato.GaifaGoap.Node`1.PathCost*
+  nameWithType.vb: Node(Of T).PathCost
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).PathCost
+- uid: Tamato.GaifaGoap.Node`1.Heuristic
+  commentId: P:Tamato.GaifaGoap.Node`1.Heuristic
+  id: Heuristic
+  parent: Tamato.GaifaGoap.Node`1
+  langs:
+  - csharp
+  - vb
+  name: Heuristic
+  nameWithType: Node<T>.Heuristic
+  fullName: Tamato.GaifaGoap.Node<T>.Heuristic
+  type: Property
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Heuristic
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 15
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public float Heuristic { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Heuristic As Single
+  overload: Tamato.GaifaGoap.Node`1.Heuristic*
+  nameWithType.vb: Node(Of T).Heuristic
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Heuristic
+- uid: Tamato.GaifaGoap.Node`1.Initialize(`0,Tamato.GaifaGoap.IGameAction{`0},Tamato.GaifaGoap.Node{`0},System.Single,System.Single)
+  commentId: M:Tamato.GaifaGoap.Node`1.Initialize(`0,Tamato.GaifaGoap.IGameAction{`0},Tamato.GaifaGoap.Node{`0},System.Single,System.Single)
+  id: Initialize(`0,Tamato.GaifaGoap.IGameAction{`0},Tamato.GaifaGoap.Node{`0},System.Single,System.Single)
+  parent: Tamato.GaifaGoap.Node`1
+  langs:
+  - csharp
+  - vb
+  name: Initialize(T, IGameAction<T>, Node<T>, Single, Single)
+  nameWithType: Node<T>.Initialize(T, IGameAction<T>, Node<T>, Single, Single)
+  fullName: Tamato.GaifaGoap.Node<T>.Initialize(T, Tamato.GaifaGoap.IGameAction<T>, Tamato.GaifaGoap.Node<T>, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Initialize
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 25
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nInitialize a node with parameter values.\n"
+  example: []
+  syntax:
+    content: public void Initialize(T state, IGameAction<T> action, Node<T> parent, float cost, float heuristic)
+    parameters:
+    - id: state
+      type: '{T}'
+      description: ''
+    - id: action
+      type: Tamato.GaifaGoap.IGameAction{{T}}
+      description: ''
+    - id: parent
+      type: Tamato.GaifaGoap.Node{{T}}
+      description: ''
+    - id: cost
+      type: System.Single
+      description: ''
+    - id: heuristic
+      type: System.Single
+      description: ''
+    content.vb: Public Sub Initialize(state As T, action As IGameAction(Of T), parent As Node(Of T), cost As Single, heuristic As Single)
+  overload: Tamato.GaifaGoap.Node`1.Initialize*
+  nameWithType.vb: Node(Of T).Initialize(T, IGameAction(Of T), Node(Of T), Single, Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Initialize(T, Tamato.GaifaGoap.IGameAction(Of T), Tamato.GaifaGoap.Node(Of T), System.Single, System.Single)
+  name.vb: Initialize(T, IGameAction(Of T), Node(Of T), Single, Single)
+- uid: Tamato.GaifaGoap.Node`1.Reset
+  commentId: M:Tamato.GaifaGoap.Node`1.Reset
+  id: Reset
+  parent: Tamato.GaifaGoap.Node`1
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: Node<T>.Reset()
+  fullName: Tamato.GaifaGoap.Node<T>.Reset()
+  type: Method
+  source:
+    remote:
+      path: Runtime/Planner/Node.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Reset
+    path: ../Assets/GaifaGoap/Runtime/Planner/Node.cs
+    startLine: 38
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nReset a node to default values.\n"
+  example: []
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: Tamato.GaifaGoap.Node`1.Reset*
+  nameWithType.vb: Node(Of T).Reset()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Reset()
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.Node`1.State*
+  commentId: Overload:Tamato.GaifaGoap.Node`1.State
+  name: State
+  nameWithType: Node<T>.State
+  fullName: Tamato.GaifaGoap.Node<T>.State
+  nameWithType.vb: Node(Of T).State
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).State
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Tamato.GaifaGoap.Node`1.Action*
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Action
+  name: Action
+  nameWithType: Node<T>.Action
+  fullName: Tamato.GaifaGoap.Node<T>.Action
+  nameWithType.vb: Node(Of T).Action
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Action
+- uid: Tamato.GaifaGoap.IGameAction{{T}}
+  commentId: T:Tamato.GaifaGoap.IGameAction{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.IGameAction`1
+  name: IGameAction<T>
+  nameWithType: IGameAction<T>
+  fullName: Tamato.GaifaGoap.IGameAction<T>
+  nameWithType.vb: IGameAction(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T)
+  name.vb: IGameAction(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGameAction`1
+  commentId: T:Tamato.GaifaGoap.IGameAction`1
+  name: IGameAction<T>
+  nameWithType: IGameAction<T>
+  fullName: Tamato.GaifaGoap.IGameAction<T>
+  nameWithType.vb: IGameAction(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T)
+  name.vb: IGameAction(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Node`1.Parent*
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Parent
+  name: Parent
+  nameWithType: Node<T>.Parent
+  fullName: Tamato.GaifaGoap.Node<T>.Parent
+  nameWithType.vb: Node(Of T).Parent
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Parent
+- uid: Tamato.GaifaGoap.Node{{T}}
+  commentId: T:Tamato.GaifaGoap.Node{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.Node`1
+  name: Node<T>
+  nameWithType: Node<T>
+  fullName: Tamato.GaifaGoap.Node<T>
+  nameWithType.vb: Node(Of T)
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  name.vb: Node(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Node`1
+  commentId: T:Tamato.GaifaGoap.Node`1
+  name: Node<T>
+  nameWithType: Node<T>
+  fullName: Tamato.GaifaGoap.Node<T>
+  nameWithType.vb: Node(Of T)
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  name.vb: Node(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Node`1.Cost*
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Cost
+  name: Cost
+  nameWithType: Node<T>.Cost
+  fullName: Tamato.GaifaGoap.Node<T>.Cost
+  nameWithType.vb: Node(Of T).Cost
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Cost
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Tamato.GaifaGoap.Node`1.PathCost*
+  commentId: Overload:Tamato.GaifaGoap.Node`1.PathCost
+  name: PathCost
+  nameWithType: Node<T>.PathCost
+  fullName: Tamato.GaifaGoap.Node<T>.PathCost
+  nameWithType.vb: Node(Of T).PathCost
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).PathCost
+- uid: Tamato.GaifaGoap.Node`1.Heuristic*
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Heuristic
+  name: Heuristic
+  nameWithType: Node<T>.Heuristic
+  fullName: Tamato.GaifaGoap.Node<T>.Heuristic
+  nameWithType.vb: Node(Of T).Heuristic
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Heuristic
+- uid: Tamato.GaifaGoap.Node`1.Initialize*
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Initialize
+  name: Initialize
+  nameWithType: Node<T>.Initialize
+  fullName: Tamato.GaifaGoap.Node<T>.Initialize
+  nameWithType.vb: Node(Of T).Initialize
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Initialize
+- uid: Tamato.GaifaGoap.Node`1.Reset*
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Reset
+  name: Reset
+  nameWithType: Node<T>.Reset
+  fullName: Tamato.GaifaGoap.Node<T>.Reset
+  nameWithType.vb: Node(Of T).Reset
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Reset

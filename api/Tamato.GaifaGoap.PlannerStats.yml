@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.PlannerStats
+  commentId: T:Tamato.GaifaGoap.PlannerStats
+  id: PlannerStats
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.PlannerStats.#ctor(Tamato.GaifaGoap.PlannerStatus,System.Int32,System.Int32)
+  - Tamato.GaifaGoap.PlannerStats.IterationNumber
+  - Tamato.GaifaGoap.PlannerStats.NodeExpansionNumber
+  - Tamato.GaifaGoap.PlannerStats.Status
+  - Tamato.GaifaGoap.PlannerStats.ToString
+  langs:
+  - csharp
+  - vb
+  name: PlannerStats
+  nameWithType: PlannerStats
+  fullName: Tamato.GaifaGoap.PlannerStats
+  type: Struct
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStats.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlannerStats
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStats.cs
+    startLine: 5
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nStatistic information of planning process.\n"
+  example: []
+  syntax:
+    content: public struct PlannerStats
+    content.vb: Public Structure PlannerStats
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Tamato.GaifaGoap.PlannerStats.Status
+  commentId: F:Tamato.GaifaGoap.PlannerStats.Status
+  id: Status
+  parent: Tamato.GaifaGoap.PlannerStats
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: PlannerStats.Status
+  fullName: Tamato.GaifaGoap.PlannerStats.Status
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStats.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Status
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStats.cs
+    startLine: 10
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nPlanner status when the planner exited.\n"
+  example: []
+  syntax:
+    content: public readonly PlannerStatus Status
+    return:
+      type: Tamato.GaifaGoap.PlannerStatus
+    content.vb: Public ReadOnly Status As PlannerStatus
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Tamato.GaifaGoap.PlannerStats.IterationNumber
+  commentId: F:Tamato.GaifaGoap.PlannerStats.IterationNumber
+  id: IterationNumber
+  parent: Tamato.GaifaGoap.PlannerStats
+  langs:
+  - csharp
+  - vb
+  name: IterationNumber
+  nameWithType: PlannerStats.IterationNumber
+  fullName: Tamato.GaifaGoap.PlannerStats.IterationNumber
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStats.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IterationNumber
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStats.cs
+    startLine: 15
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nIteration that the planner consume in this call.\n"
+  example: []
+  syntax:
+    content: public readonly int IterationNumber
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly IterationNumber As Integer
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Tamato.GaifaGoap.PlannerStats.NodeExpansionNumber
+  commentId: F:Tamato.GaifaGoap.PlannerStats.NodeExpansionNumber
+  id: NodeExpansionNumber
+  parent: Tamato.GaifaGoap.PlannerStats
+  langs:
+  - csharp
+  - vb
+  name: NodeExpansionNumber
+  nameWithType: PlannerStats.NodeExpansionNumber
+  fullName: Tamato.GaifaGoap.PlannerStats.NodeExpansionNumber
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStats.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: NodeExpansionNumber
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStats.cs
+    startLine: 20
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nNumber of expansion that planner cause in this call.\n"
+  example: []
+  syntax:
+    content: public readonly int NodeExpansionNumber
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly NodeExpansionNumber As Integer
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Tamato.GaifaGoap.PlannerStats.#ctor(Tamato.GaifaGoap.PlannerStatus,System.Int32,System.Int32)
+  commentId: M:Tamato.GaifaGoap.PlannerStats.#ctor(Tamato.GaifaGoap.PlannerStatus,System.Int32,System.Int32)
+  id: '#ctor(Tamato.GaifaGoap.PlannerStatus,System.Int32,System.Int32)'
+  parent: Tamato.GaifaGoap.PlannerStats
+  langs:
+  - csharp
+  - vb
+  name: PlannerStats(PlannerStatus, Int32, Int32)
+  nameWithType: PlannerStats.PlannerStats(PlannerStatus, Int32, Int32)
+  fullName: Tamato.GaifaGoap.PlannerStats.PlannerStats(Tamato.GaifaGoap.PlannerStatus, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStats.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStats.cs
+    startLine: 22
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public PlannerStats(PlannerStatus status, int iterationNumber, int nodeExpansionNumber)
+    parameters:
+    - id: status
+      type: Tamato.GaifaGoap.PlannerStatus
+    - id: iterationNumber
+      type: System.Int32
+    - id: nodeExpansionNumber
+      type: System.Int32
+    content.vb: Public Sub New(status As PlannerStatus, iterationNumber As Integer, nodeExpansionNumber As Integer)
+  overload: Tamato.GaifaGoap.PlannerStats.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.PlannerStats.ToString
+  commentId: M:Tamato.GaifaGoap.PlannerStats.ToString
+  id: ToString
+  parent: Tamato.GaifaGoap.PlannerStats
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: PlannerStats.ToString()
+  fullName: Tamato.GaifaGoap.PlannerStats.ToString()
+  type: Method
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStats.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ToString
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStats.cs
+    startLine: 29
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.ValueType.ToString
+  overload: Tamato.GaifaGoap.PlannerStats.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: Tamato.GaifaGoap.PlannerStatus
+  commentId: T:Tamato.GaifaGoap.PlannerStatus
+  parent: Tamato.GaifaGoap
+  name: PlannerStatus
+  nameWithType: PlannerStatus
+  fullName: Tamato.GaifaGoap.PlannerStatus
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.PlannerStats.#ctor*
+  commentId: Overload:Tamato.GaifaGoap.PlannerStats.#ctor
+  name: PlannerStats
+  nameWithType: PlannerStats.PlannerStats
+  fullName: Tamato.GaifaGoap.PlannerStats.PlannerStats
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlannerStats.ToString*
+  commentId: Overload:Tamato.GaifaGoap.PlannerStats.ToString
+  name: ToString
+  nameWithType: PlannerStats.ToString
+  fullName: Tamato.GaifaGoap.PlannerStats.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType

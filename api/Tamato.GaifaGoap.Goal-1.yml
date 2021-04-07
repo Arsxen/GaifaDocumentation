@@ -1,0 +1,827 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.Goal`1
+  commentId: T:Tamato.GaifaGoap.Goal`1
+  id: Goal`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.Goal`1.ActivateGoal
+  - Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance
+  - Tamato.GaifaGoap.Goal`1.ComputeHeuristic(`0)
+  - Tamato.GaifaGoap.Goal`1.Initialize(UnityEngine.GameObject)
+  - Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic
+  - Tamato.GaifaGoap.Goal`1.Match(`0)
+  langs:
+  - csharp
+  - vb
+  name: Goal<T>
+  nameWithType: Goal<T>
+  fullName: Tamato.GaifaGoap.Goal<T>
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/Goal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Goal
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/Goal.cs
+    startLine: 8
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nSerializable goal\n"
+  example: []
+  syntax:
+    content: 'public abstract class Goal<T> : ScriptableObject, IGoal<T>, IGameObjectInitializable where T : class, IModel<T>'
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: >-
+      Public MustInherit Class Goal(Of T As {Class, IModel(Of T)})
+          Inherits ScriptableObject
+          Implements IGoal(Of T), IGameObjectInitializable
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  implements:
+  - Tamato.GaifaGoap.IGoal{{T}}
+  - Tamato.GaifaGoap.IGameObjectInitializable
+  nameWithType.vb: Goal(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T)
+  name.vb: Goal(Of T)
+- uid: Tamato.GaifaGoap.Goal`1.Initialize(UnityEngine.GameObject)
+  commentId: M:Tamato.GaifaGoap.Goal`1.Initialize(UnityEngine.GameObject)
+  id: Initialize(UnityEngine.GameObject)
+  parent: Tamato.GaifaGoap.Goal`1
+  langs:
+  - csharp
+  - vb
+  name: Initialize(GameObject)
+  nameWithType: Goal<T>.Initialize(GameObject)
+  fullName: Tamato.GaifaGoap.Goal<T>.Initialize(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/Goal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Initialize
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/Goal.cs
+    startLine: 11
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nInitialize this object\n"
+  example: []
+  syntax:
+    content: public virtual void Initialize(GameObject owner)
+    parameters:
+    - id: owner
+      type: UnityEngine.GameObject
+      description: <xref href="UnityEngine.GameObject" data-throw-if-not-resolved="false"></xref> that own this object
+    content.vb: Public Overridable Sub Initialize(owner As GameObject)
+  overload: Tamato.GaifaGoap.Goal`1.Initialize*
+  implements:
+  - Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  nameWithType.vb: Goal(Of T).Initialize(GameObject)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).Initialize(UnityEngine.GameObject)
+- uid: Tamato.GaifaGoap.Goal`1.Match(`0)
+  commentId: M:Tamato.GaifaGoap.Goal`1.Match(`0)
+  id: Match(`0)
+  parent: Tamato.GaifaGoap.Goal`1
+  langs:
+  - csharp
+  - vb
+  name: Match(T)
+  nameWithType: Goal<T>.Match(T)
+  fullName: Tamato.GaifaGoap.Goal<T>.Match(T)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/Goal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Match
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/Goal.cs
+    startLine: 14
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nDetermine whether a model&apos;s state satisfy the goal requirement.\n"
+  example: []
+  syntax:
+    content: public abstract bool Match(T model)
+    parameters:
+    - id: model
+      type: '{T}'
+      description: ''
+    return:
+      type: System.Boolean
+      description: True if a model satisfy the goal, otherwise false.
+    content.vb: Public MustOverride Function Match(model As T) As Boolean
+  overload: Tamato.GaifaGoap.Goal`1.Match*
+  implements:
+  - Tamato.GaifaGoap.IGoal{{T}}.Match({T})
+  nameWithType.vb: Goal(Of T).Match(T)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).Match(T)
+- uid: Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance
+  commentId: M:Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance
+  id: ComputeGoalRelevance
+  parent: Tamato.GaifaGoap.Goal`1
+  langs:
+  - csharp
+  - vb
+  name: ComputeGoalRelevance()
+  nameWithType: Goal<T>.ComputeGoalRelevance()
+  fullName: Tamato.GaifaGoap.Goal<T>.ComputeGoalRelevance()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/Goal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ComputeGoalRelevance
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/Goal.cs
+    startLine: 17
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCompute the relevance of the goal based on current world state.\nNegative or Zero relevance mean this goal should not be selected by the planner.\n"
+  example: []
+  syntax:
+    content: public abstract float ComputeGoalRelevance()
+    return:
+      type: System.Single
+      description: Relevance value
+    content.vb: Public MustOverride Function ComputeGoalRelevance As Single
+  overload: Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance*
+  implements:
+  - Tamato.GaifaGoap.IGoal{{T}}.ComputeGoalRelevance
+  nameWithType.vb: Goal(Of T).ComputeGoalRelevance()
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ComputeGoalRelevance()
+- uid: Tamato.GaifaGoap.Goal`1.ComputeHeuristic(`0)
+  commentId: M:Tamato.GaifaGoap.Goal`1.ComputeHeuristic(`0)
+  id: ComputeHeuristic(`0)
+  parent: Tamato.GaifaGoap.Goal`1
+  langs:
+  - csharp
+  - vb
+  name: ComputeHeuristic(T)
+  nameWithType: Goal<T>.ComputeHeuristic(T)
+  fullName: Tamato.GaifaGoap.Goal<T>.ComputeHeuristic(T)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/Goal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ComputeHeuristic
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/Goal.cs
+    startLine: 20
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCompute a heuristic value from a model&apos;s state.\n"
+  remarks: See <a href="https://en.wikipedia.org/wiki/Heuristic">Heuristic</a> for more information.
+  example: []
+  syntax:
+    content: public virtual float ComputeHeuristic(T model)
+    parameters:
+    - id: model
+      type: '{T}'
+      description: ''
+    return:
+      type: System.Single
+      description: heuristic
+    content.vb: Public Overridable Function ComputeHeuristic(model As T) As Single
+  overload: Tamato.GaifaGoap.Goal`1.ComputeHeuristic*
+  implements:
+  - Tamato.GaifaGoap.IGoal{{T}}.ComputeHeuristic({T})
+  nameWithType.vb: Goal(Of T).ComputeHeuristic(T)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ComputeHeuristic(T)
+- uid: Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic
+  commentId: P:Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic
+  id: IsConsistentHeuristic
+  parent: Tamato.GaifaGoap.Goal`1
+  langs:
+  - csharp
+  - vb
+  name: IsConsistentHeuristic
+  nameWithType: Goal<T>.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.Goal<T>.IsConsistentHeuristic
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/Goal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsConsistentHeuristic
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/Goal.cs
+    startLine: 23
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicating whether a heuristic function is consistent.\n"
+  remarks: "\nIf this value is true, the associated model&apos;s <xref href=\"System.Object.GetHashCode\" data-throw-if-not-resolved=\"false\"></xref> method must be overriden.\nSee <a href=\"https://en.wikipedia.org/wiki/Consistent_heuristic\">Consistent Heuristic</a> for more information.\n"
+  example: []
+  syntax:
+    content: public virtual bool IsConsistentHeuristic { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable ReadOnly Property IsConsistentHeuristic As Boolean
+  overload: Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic*
+  implements:
+  - Tamato.GaifaGoap.IGoal{{T}}.IsConsistentHeuristic
+  nameWithType.vb: Goal(Of T).IsConsistentHeuristic
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.Goal`1.ActivateGoal
+  commentId: M:Tamato.GaifaGoap.Goal`1.ActivateGoal
+  id: ActivateGoal
+  parent: Tamato.GaifaGoap.Goal`1
+  langs:
+  - csharp
+  - vb
+  name: ActivateGoal()
+  nameWithType: Goal<T>.ActivateGoal()
+  fullName: Tamato.GaifaGoap.Goal<T>.ActivateGoal()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/Goal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ActivateGoal
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/Goal.cs
+    startLine: 26
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nActivate is called after planning finish but before plan execution start.\n"
+  example: []
+  syntax:
+    content: public virtual void ActivateGoal()
+    content.vb: Public Overridable Sub ActivateGoal
+  overload: Tamato.GaifaGoap.Goal`1.ActivateGoal*
+  implements:
+  - Tamato.GaifaGoap.IGoal{{T}}.ActivateGoal
+  nameWithType.vb: Goal(Of T).ActivateGoal()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ActivateGoal()
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: Tamato.GaifaGoap.IGoal{{T}}
+  commentId: T:Tamato.GaifaGoap.IGoal{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.IGoal`1
+  name: IGoal<T>
+  nameWithType: IGoal<T>
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  nameWithType.vb: IGoal(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  name.vb: IGoal(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGameObjectInitializable
+  commentId: T:Tamato.GaifaGoap.IGameObjectInitializable
+  parent: Tamato.GaifaGoap
+  name: IGameObjectInitializable
+  nameWithType: IGameObjectInitializable
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Tamato.GaifaGoap.IGoal`1
+  commentId: T:Tamato.GaifaGoap.IGoal`1
+  name: IGoal<T>
+  nameWithType: IGoal<T>
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  nameWithType.vb: IGoal(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  name.vb: IGoal(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Goal`1.Initialize*
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.Initialize
+  name: Initialize
+  nameWithType: Goal<T>.Initialize
+  fullName: Tamato.GaifaGoap.Goal<T>.Initialize
+  nameWithType.vb: Goal(Of T).Initialize
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).Initialize
+- uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  commentId: M:Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  parent: Tamato.GaifaGoap.IGameObjectInitializable
+  isExternal: true
+  name: Initialize(GameObject)
+  nameWithType: IGameObjectInitializable.Initialize(GameObject)
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+    name: Initialize
+    nameWithType: IGameObjectInitializable.Initialize
+    fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+    name: Initialize
+    nameWithType: IGameObjectInitializable.Initialize
+    fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: UnityEngine.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: UnityEngine.GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: Tamato.GaifaGoap.Goal`1.Match*
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.Match
+  name: Match
+  nameWithType: Goal<T>.Match
+  fullName: Tamato.GaifaGoap.Goal<T>.Match
+  nameWithType.vb: Goal(Of T).Match
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).Match
+- uid: Tamato.GaifaGoap.IGoal{{T}}.Match({T})
+  commentId: M:Tamato.GaifaGoap.IGoal{`0}.Match(`0)
+  parent: Tamato.GaifaGoap.IGoal{{T}}
+  definition: Tamato.GaifaGoap.IGoal`1.Match(`0)
+  name: Match(T)
+  nameWithType: IGoal<T>.Match(T)
+  fullName: Tamato.GaifaGoap.IGoal<T>.Match(T)
+  nameWithType.vb: IGoal(Of T).Match(T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).Match(T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1.Match(`0)
+    name: Match
+    nameWithType: IGoal<T>.Match
+    fullName: Tamato.GaifaGoap.IGoal<T>.Match
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1.Match(`0)
+    name: Match
+    nameWithType: IGoal(Of T).Match
+    fullName: Tamato.GaifaGoap.IGoal(Of T).Match
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Tamato.GaifaGoap.IGoal`1.Match(`0)
+  commentId: M:Tamato.GaifaGoap.IGoal`1.Match(`0)
+  name: Match(T)
+  nameWithType: IGoal<T>.Match(T)
+  fullName: Tamato.GaifaGoap.IGoal<T>.Match(T)
+  nameWithType.vb: IGoal(Of T).Match(T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).Match(T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1.Match(`0)
+    name: Match
+    nameWithType: IGoal<T>.Match
+    fullName: Tamato.GaifaGoap.IGoal<T>.Match
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1.Match(`0)
+    name: Match
+    nameWithType: IGoal(Of T).Match
+    fullName: Tamato.GaifaGoap.IGoal(Of T).Match
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance*
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance
+  name: ComputeGoalRelevance
+  nameWithType: Goal<T>.ComputeGoalRelevance
+  fullName: Tamato.GaifaGoap.Goal<T>.ComputeGoalRelevance
+  nameWithType.vb: Goal(Of T).ComputeGoalRelevance
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ComputeGoalRelevance
+- uid: Tamato.GaifaGoap.IGoal{{T}}.ComputeGoalRelevance
+  commentId: M:Tamato.GaifaGoap.IGoal{`0}.ComputeGoalRelevance
+  parent: Tamato.GaifaGoap.IGoal{{T}}
+  definition: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  name: ComputeGoalRelevance()
+  nameWithType: IGoal<T>.ComputeGoalRelevance()
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeGoalRelevance()
+  nameWithType.vb: IGoal(Of T).ComputeGoalRelevance()
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeGoalRelevance()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+    name: ComputeGoalRelevance
+    nameWithType: IGoal<T>.ComputeGoalRelevance
+    fullName: Tamato.GaifaGoap.IGoal<T>.ComputeGoalRelevance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+    name: ComputeGoalRelevance
+    nameWithType: IGoal(Of T).ComputeGoalRelevance
+    fullName: Tamato.GaifaGoap.IGoal(Of T).ComputeGoalRelevance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  name: ComputeGoalRelevance()
+  nameWithType: IGoal<T>.ComputeGoalRelevance()
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeGoalRelevance()
+  nameWithType.vb: IGoal(Of T).ComputeGoalRelevance()
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeGoalRelevance()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+    name: ComputeGoalRelevance
+    nameWithType: IGoal<T>.ComputeGoalRelevance
+    fullName: Tamato.GaifaGoap.IGoal<T>.ComputeGoalRelevance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+    name: ComputeGoalRelevance
+    nameWithType: IGoal(Of T).ComputeGoalRelevance
+    fullName: Tamato.GaifaGoap.IGoal(Of T).ComputeGoalRelevance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Goal`1.ComputeHeuristic*
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.ComputeHeuristic
+  name: ComputeHeuristic
+  nameWithType: Goal<T>.ComputeHeuristic
+  fullName: Tamato.GaifaGoap.Goal<T>.ComputeHeuristic
+  nameWithType.vb: Goal(Of T).ComputeHeuristic
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ComputeHeuristic
+- uid: Tamato.GaifaGoap.IGoal{{T}}.ComputeHeuristic({T})
+  commentId: M:Tamato.GaifaGoap.IGoal{`0}.ComputeHeuristic(`0)
+  parent: Tamato.GaifaGoap.IGoal{{T}}
+  definition: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+  name: ComputeHeuristic(T)
+  nameWithType: IGoal<T>.ComputeHeuristic(T)
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeHeuristic(T)
+  nameWithType.vb: IGoal(Of T).ComputeHeuristic(T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeHeuristic(T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+    name: ComputeHeuristic
+    nameWithType: IGoal<T>.ComputeHeuristic
+    fullName: Tamato.GaifaGoap.IGoal<T>.ComputeHeuristic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+    name: ComputeHeuristic
+    nameWithType: IGoal(Of T).ComputeHeuristic
+    fullName: Tamato.GaifaGoap.IGoal(Of T).ComputeHeuristic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+  name: ComputeHeuristic(T)
+  nameWithType: IGoal<T>.ComputeHeuristic(T)
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeHeuristic(T)
+  nameWithType.vb: IGoal(Of T).ComputeHeuristic(T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeHeuristic(T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+    name: ComputeHeuristic
+    nameWithType: IGoal<T>.ComputeHeuristic
+    fullName: Tamato.GaifaGoap.IGoal<T>.ComputeHeuristic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+    name: ComputeHeuristic
+    nameWithType: IGoal(Of T).ComputeHeuristic
+    fullName: Tamato.GaifaGoap.IGoal(Of T).ComputeHeuristic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic*
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic
+  name: IsConsistentHeuristic
+  nameWithType: Goal<T>.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.Goal<T>.IsConsistentHeuristic
+  nameWithType.vb: Goal(Of T).IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.IGoal{{T}}.IsConsistentHeuristic
+  commentId: P:Tamato.GaifaGoap.IGoal{`0}.IsConsistentHeuristic
+  parent: Tamato.GaifaGoap.IGoal{{T}}
+  definition: Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  name: IsConsistentHeuristic
+  nameWithType: IGoal<T>.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.IGoal<T>.IsConsistentHeuristic
+  nameWithType.vb: IGoal(Of T).IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  commentId: P:Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  name: IsConsistentHeuristic
+  nameWithType: IGoal<T>.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.IGoal<T>.IsConsistentHeuristic
+  nameWithType.vb: IGoal(Of T).IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.Goal`1.ActivateGoal*
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.ActivateGoal
+  name: ActivateGoal
+  nameWithType: Goal<T>.ActivateGoal
+  fullName: Tamato.GaifaGoap.Goal<T>.ActivateGoal
+  nameWithType.vb: Goal(Of T).ActivateGoal
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ActivateGoal
+- uid: Tamato.GaifaGoap.IGoal{{T}}.ActivateGoal
+  commentId: M:Tamato.GaifaGoap.IGoal{`0}.ActivateGoal
+  parent: Tamato.GaifaGoap.IGoal{{T}}
+  definition: Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  name: ActivateGoal()
+  nameWithType: IGoal<T>.ActivateGoal()
+  fullName: Tamato.GaifaGoap.IGoal<T>.ActivateGoal()
+  nameWithType.vb: IGoal(Of T).ActivateGoal()
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ActivateGoal()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal
+    name: ActivateGoal
+    nameWithType: IGoal<T>.ActivateGoal
+    fullName: Tamato.GaifaGoap.IGoal<T>.ActivateGoal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal
+    name: ActivateGoal
+    nameWithType: IGoal(Of T).ActivateGoal
+    fullName: Tamato.GaifaGoap.IGoal(Of T).ActivateGoal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  name: ActivateGoal()
+  nameWithType: IGoal<T>.ActivateGoal()
+  fullName: Tamato.GaifaGoap.IGoal<T>.ActivateGoal()
+  nameWithType.vb: IGoal(Of T).ActivateGoal()
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ActivateGoal()
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal
+    name: ActivateGoal
+    nameWithType: IGoal<T>.ActivateGoal
+    fullName: Tamato.GaifaGoap.IGoal<T>.ActivateGoal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal
+    name: ActivateGoal
+    nameWithType: IGoal(Of T).ActivateGoal
+    fullName: Tamato.GaifaGoap.IGoal(Of T).ActivateGoal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

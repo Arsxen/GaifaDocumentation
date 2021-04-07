@@ -1,0 +1,2424 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  href: api/Tamato.GaifaGoap.html
+  commentId: N:Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+- uid: Tamato.GaifaGoap.AgentDefinition
+  name: AgentDefinition
+  href: api/Tamato.GaifaGoap.AgentDefinition.html
+  commentId: T:Tamato.GaifaGoap.AgentDefinition
+  fullName: Tamato.GaifaGoap.AgentDefinition
+  nameWithType: AgentDefinition
+- uid: Tamato.GaifaGoap.AgentDefinition`1
+  name: AgentDefinition<T>
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html
+  commentId: T:Tamato.GaifaGoap.AgentDefinition`1
+  name.vb: AgentDefinition(Of T)
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T)
+  nameWithType: AgentDefinition<T>
+  nameWithType.vb: AgentDefinition(Of T)
+- uid: Tamato.GaifaGoap.AgentDefinition`1.CopyAction(UnityEngine.GameObject)
+  name: CopyAction(GameObject)
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_CopyAction_UnityEngine_GameObject_
+  commentId: M:Tamato.GaifaGoap.AgentDefinition`1.CopyAction(UnityEngine.GameObject)
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.CopyAction(UnityEngine.GameObject)
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).CopyAction(UnityEngine.GameObject)
+  nameWithType: AgentDefinition<T>.CopyAction(GameObject)
+  nameWithType.vb: AgentDefinition(Of T).CopyAction(GameObject)
+- uid: Tamato.GaifaGoap.AgentDefinition`1.CopyAction*
+  name: CopyAction
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_CopyAction_
+  commentId: Overload:Tamato.GaifaGoap.AgentDefinition`1.CopyAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.CopyAction
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).CopyAction
+  nameWithType: AgentDefinition<T>.CopyAction
+  nameWithType.vb: AgentDefinition(Of T).CopyAction
+- uid: Tamato.GaifaGoap.AgentDefinition`1.CopyGoals(UnityEngine.GameObject)
+  name: CopyGoals(GameObject)
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_CopyGoals_UnityEngine_GameObject_
+  commentId: M:Tamato.GaifaGoap.AgentDefinition`1.CopyGoals(UnityEngine.GameObject)
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.CopyGoals(UnityEngine.GameObject)
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).CopyGoals(UnityEngine.GameObject)
+  nameWithType: AgentDefinition<T>.CopyGoals(GameObject)
+  nameWithType.vb: AgentDefinition(Of T).CopyGoals(GameObject)
+- uid: Tamato.GaifaGoap.AgentDefinition`1.CopyGoals*
+  name: CopyGoals
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_CopyGoals_
+  commentId: Overload:Tamato.GaifaGoap.AgentDefinition`1.CopyGoals
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.CopyGoals
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).CopyGoals
+  nameWithType: AgentDefinition<T>.CopyGoals
+  nameWithType.vb: AgentDefinition(Of T).CopyGoals
+- uid: Tamato.GaifaGoap.AgentDefinition`1.CopyParameterizedAction(UnityEngine.GameObject)
+  name: CopyParameterizedAction(GameObject)
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_CopyParameterizedAction_UnityEngine_GameObject_
+  commentId: M:Tamato.GaifaGoap.AgentDefinition`1.CopyParameterizedAction(UnityEngine.GameObject)
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.CopyParameterizedAction(UnityEngine.GameObject)
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).CopyParameterizedAction(UnityEngine.GameObject)
+  nameWithType: AgentDefinition<T>.CopyParameterizedAction(GameObject)
+  nameWithType.vb: AgentDefinition(Of T).CopyParameterizedAction(GameObject)
+- uid: Tamato.GaifaGoap.AgentDefinition`1.CopyParameterizedAction*
+  name: CopyParameterizedAction
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_CopyParameterizedAction_
+  commentId: Overload:Tamato.GaifaGoap.AgentDefinition`1.CopyParameterizedAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.CopyParameterizedAction
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).CopyParameterizedAction
+  nameWithType: AgentDefinition<T>.CopyParameterizedAction
+  nameWithType.vb: AgentDefinition(Of T).CopyParameterizedAction
+- uid: Tamato.GaifaGoap.AgentDefinition`1.gameActions
+  name: gameActions
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_gameActions
+  commentId: F:Tamato.GaifaGoap.AgentDefinition`1.gameActions
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.gameActions
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).gameActions
+  nameWithType: AgentDefinition<T>.gameActions
+  nameWithType.vb: AgentDefinition(Of T).gameActions
+- uid: Tamato.GaifaGoap.AgentDefinition`1.goals
+  name: goals
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_goals
+  commentId: F:Tamato.GaifaGoap.AgentDefinition`1.goals
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.goals
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).goals
+  nameWithType: AgentDefinition<T>.goals
+  nameWithType.vb: AgentDefinition(Of T).goals
+- uid: Tamato.GaifaGoap.AgentDefinition`1.parameterizedActions
+  name: parameterizedActions
+  href: api/Tamato.GaifaGoap.AgentDefinition-1.html#Tamato_GaifaGoap_AgentDefinition_1_parameterizedActions
+  commentId: F:Tamato.GaifaGoap.AgentDefinition`1.parameterizedActions
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>.parameterizedActions
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T).parameterizedActions
+  nameWithType: AgentDefinition<T>.parameterizedActions
+  nameWithType.vb: AgentDefinition(Of T).parameterizedActions
+- uid: Tamato.GaifaGoap.AIAgent`1
+  name: AIAgent<T>
+  href: api/Tamato.GaifaGoap.AIAgent-1.html
+  commentId: T:Tamato.GaifaGoap.AIAgent`1
+  name.vb: AIAgent(Of T)
+  fullName: Tamato.GaifaGoap.AIAgent<T>
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T)
+  nameWithType: AIAgent<T>
+  nameWithType.vb: AIAgent(Of T)
+- uid: Tamato.GaifaGoap.AIAgent`1.GetCurrentModel
+  name: GetCurrentModel()
+  href: api/Tamato.GaifaGoap.AIAgent-1.html#Tamato_GaifaGoap_AIAgent_1_GetCurrentModel
+  commentId: M:Tamato.GaifaGoap.AIAgent`1.GetCurrentModel
+  fullName: Tamato.GaifaGoap.AIAgent<T>.GetCurrentModel()
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T).GetCurrentModel()
+  nameWithType: AIAgent<T>.GetCurrentModel()
+  nameWithType.vb: AIAgent(Of T).GetCurrentModel()
+- uid: Tamato.GaifaGoap.AIAgent`1.GetCurrentModel*
+  name: GetCurrentModel
+  href: api/Tamato.GaifaGoap.AIAgent-1.html#Tamato_GaifaGoap_AIAgent_1_GetCurrentModel_
+  commentId: Overload:Tamato.GaifaGoap.AIAgent`1.GetCurrentModel
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AIAgent<T>.GetCurrentModel
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T).GetCurrentModel
+  nameWithType: AIAgent<T>.GetCurrentModel
+  nameWithType.vb: AIAgent(Of T).GetCurrentModel
+- uid: Tamato.GaifaGoap.AIAgent`1.ModelFactory
+  name: ModelFactory
+  href: api/Tamato.GaifaGoap.AIAgent-1.html#Tamato_GaifaGoap_AIAgent_1_ModelFactory
+  commentId: P:Tamato.GaifaGoap.AIAgent`1.ModelFactory
+  fullName: Tamato.GaifaGoap.AIAgent<T>.ModelFactory
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T).ModelFactory
+  nameWithType: AIAgent<T>.ModelFactory
+  nameWithType.vb: AIAgent(Of T).ModelFactory
+- uid: Tamato.GaifaGoap.AIAgent`1.ModelFactory*
+  name: ModelFactory
+  href: api/Tamato.GaifaGoap.AIAgent-1.html#Tamato_GaifaGoap_AIAgent_1_ModelFactory_
+  commentId: Overload:Tamato.GaifaGoap.AIAgent`1.ModelFactory
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AIAgent<T>.ModelFactory
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T).ModelFactory
+  nameWithType: AIAgent<T>.ModelFactory
+  nameWithType.vb: AIAgent(Of T).ModelFactory
+- uid: Tamato.GaifaGoap.AStarFrontier`1
+  name: AStarFrontier<T>
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html
+  commentId: T:Tamato.GaifaGoap.AStarFrontier`1
+  name.vb: AStarFrontier(Of T)
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T)
+  nameWithType: AStarFrontier<T>
+  nameWithType.vb: AStarFrontier(Of T)
+- uid: Tamato.GaifaGoap.AStarFrontier`1.#ctor
+  name: AStarFrontier()
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1__ctor
+  commentId: M:Tamato.GaifaGoap.AStarFrontier`1.#ctor
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.AStarFrontier()
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).AStarFrontier()
+  nameWithType: AStarFrontier<T>.AStarFrontier()
+  nameWithType.vb: AStarFrontier(Of T).AStarFrontier()
+- uid: Tamato.GaifaGoap.AStarFrontier`1.#ctor*
+  name: AStarFrontier
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1__ctor_
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.AStarFrontier
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).AStarFrontier
+  nameWithType: AStarFrontier<T>.AStarFrontier
+  nameWithType.vb: AStarFrontier(Of T).AStarFrontier
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  name: Add(Node<T>)
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1_Add_Tamato_GaifaGoap_Node__0__
+  commentId: M:Tamato.GaifaGoap.AStarFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  name.vb: Add(Node(Of T))
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Add(Tamato.GaifaGoap.Node<T>)
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Add(Tamato.GaifaGoap.Node(Of T))
+  nameWithType: AStarFrontier<T>.Add(Node<T>)
+  nameWithType.vb: AStarFrontier(Of T).Add(Node(Of T))
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Add*
+  name: Add
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1_Add_
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.Add
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Add
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Add
+  nameWithType: AStarFrontier<T>.Add
+  nameWithType.vb: AStarFrontier(Of T).Add
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Clear
+  name: Clear()
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1_Clear
+  commentId: M:Tamato.GaifaGoap.AStarFrontier`1.Clear
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Clear()
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Clear()
+  nameWithType: AStarFrontier<T>.Clear()
+  nameWithType.vb: AStarFrontier(Of T).Clear()
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Clear*
+  name: Clear
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1_Clear_
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.Clear
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Clear
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Clear
+  nameWithType: AStarFrontier<T>.Clear
+  nameWithType.vb: AStarFrontier(Of T).Clear
+- uid: Tamato.GaifaGoap.AStarFrontier`1.IsEmpty
+  name: IsEmpty
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1_IsEmpty
+  commentId: P:Tamato.GaifaGoap.AStarFrontier`1.IsEmpty
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.IsEmpty
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).IsEmpty
+  nameWithType: AStarFrontier<T>.IsEmpty
+  nameWithType.vb: AStarFrontier(Of T).IsEmpty
+- uid: Tamato.GaifaGoap.AStarFrontier`1.IsEmpty*
+  name: IsEmpty
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1_IsEmpty_
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.IsEmpty
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.IsEmpty
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).IsEmpty
+  nameWithType: AStarFrontier<T>.IsEmpty
+  nameWithType.vb: AStarFrontier(Of T).IsEmpty
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Next
+  name: Next()
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1_Next
+  commentId: M:Tamato.GaifaGoap.AStarFrontier`1.Next
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Next()
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Next()
+  nameWithType: AStarFrontier<T>.Next()
+  nameWithType.vb: AStarFrontier(Of T).Next()
+- uid: Tamato.GaifaGoap.AStarFrontier`1.Next*
+  name: Next
+  href: api/Tamato.GaifaGoap.AStarFrontier-1.html#Tamato_GaifaGoap_AStarFrontier_1_Next_
+  commentId: Overload:Tamato.GaifaGoap.AStarFrontier`1.Next
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>.Next
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T).Next
+  nameWithType: AStarFrontier<T>.Next
+  nameWithType.vb: AStarFrontier(Of T).Next
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  name: DelegatePooledObjectPolicy<T>
+  href: api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.html
+  commentId: T:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  name.vb: DelegatePooledObjectPolicy(Of T)
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T)
+  nameWithType: DelegatePooledObjectPolicy<T>
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T)
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor(System.Func{`0},System.Action{`0})
+  name: DelegatePooledObjectPolicy(Func<T>, Action<T>)
+  href: api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.html#Tamato_GaifaGoap_DelegatePooledObjectPolicy_1__ctor_System_Func__0__System_Action__0__
+  commentId: M:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor(System.Func{`0},System.Action{`0})
+  name.vb: DelegatePooledObjectPolicy(Func(Of T), Action(Of T))
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.DelegatePooledObjectPolicy(System.Func<T>, System.Action<T>)
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).DelegatePooledObjectPolicy(System.Func(Of T), System.Action(Of T))
+  nameWithType: DelegatePooledObjectPolicy<T>.DelegatePooledObjectPolicy(Func<T>, Action<T>)
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).DelegatePooledObjectPolicy(Func(Of T), Action(Of T))
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor*
+  name: DelegatePooledObjectPolicy
+  href: api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.html#Tamato_GaifaGoap_DelegatePooledObjectPolicy_1__ctor_
+  commentId: Overload:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.DelegatePooledObjectPolicy
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).DelegatePooledObjectPolicy
+  nameWithType: DelegatePooledObjectPolicy<T>.DelegatePooledObjectPolicy
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).DelegatePooledObjectPolicy
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  name: Create()
+  href: api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.html#Tamato_GaifaGoap_DelegatePooledObjectPolicy_1_Create
+  commentId: M:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.Create()
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).Create()
+  nameWithType: DelegatePooledObjectPolicy<T>.Create()
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).Create()
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create*
+  name: Create
+  href: api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.html#Tamato_GaifaGoap_DelegatePooledObjectPolicy_1_Create_
+  commentId: Overload:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Create
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.Create
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).Create
+  nameWithType: DelegatePooledObjectPolicy<T>.Create
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).Create
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return(`0)
+  name: Return(T)
+  href: api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.html#Tamato_GaifaGoap_DelegatePooledObjectPolicy_1_Return__0_
+  commentId: M:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return(`0)
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.Return(T)
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).Return(T)
+  nameWithType: DelegatePooledObjectPolicy<T>.Return(T)
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).Return(T)
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return*
+  name: Return
+  href: api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.html#Tamato_GaifaGoap_DelegatePooledObjectPolicy_1_Return_
+  commentId: Overload:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1.Return
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>.Return
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T).Return
+  nameWithType: DelegatePooledObjectPolicy<T>.Return
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T).Return
+- uid: Tamato.GaifaGoap.GameAction`1
+  name: GameAction<T>
+  href: api/Tamato.GaifaGoap.GameAction-1.html
+  commentId: T:Tamato.GaifaGoap.GameAction`1
+  name.vb: GameAction(Of T)
+  fullName: Tamato.GaifaGoap.GameAction<T>
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T)
+  nameWithType: GameAction<T>
+  nameWithType.vb: GameAction(Of T)
+- uid: Tamato.GaifaGoap.GameAction`1.ActionName
+  name: ActionName
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_ActionName
+  commentId: P:Tamato.GaifaGoap.GameAction`1.ActionName
+  fullName: Tamato.GaifaGoap.GameAction<T>.ActionName
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).ActionName
+  nameWithType: GameAction<T>.ActionName
+  nameWithType.vb: GameAction(Of T).ActionName
+- uid: Tamato.GaifaGoap.GameAction`1.ActionName*
+  name: ActionName
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_ActionName_
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.ActionName
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.GameAction<T>.ActionName
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).ActionName
+  nameWithType: GameAction<T>.ActionName
+  nameWithType.vb: GameAction(Of T).ActionName
+- uid: Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition
+  name: CheckContextPrecondition()
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_CheckContextPrecondition
+  commentId: M:Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition
+  fullName: Tamato.GaifaGoap.GameAction<T>.CheckContextPrecondition()
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).CheckContextPrecondition()
+  nameWithType: GameAction<T>.CheckContextPrecondition()
+  nameWithType.vb: GameAction(Of T).CheckContextPrecondition()
+- uid: Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition*
+  name: CheckContextPrecondition
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_CheckContextPrecondition_
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.CheckContextPrecondition
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.GameAction<T>.CheckContextPrecondition
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).CheckContextPrecondition
+  nameWithType: GameAction<T>.CheckContextPrecondition
+  nameWithType.vb: GameAction(Of T).CheckContextPrecondition
+- uid: Tamato.GaifaGoap.GameAction`1.Initialize(UnityEngine.GameObject)
+  name: Initialize(GameObject)
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_Initialize_UnityEngine_GameObject_
+  commentId: M:Tamato.GaifaGoap.GameAction`1.Initialize(UnityEngine.GameObject)
+  fullName: Tamato.GaifaGoap.GameAction<T>.Initialize(UnityEngine.GameObject)
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).Initialize(UnityEngine.GameObject)
+  nameWithType: GameAction<T>.Initialize(GameObject)
+  nameWithType.vb: GameAction(Of T).Initialize(GameObject)
+- uid: Tamato.GaifaGoap.GameAction`1.Initialize*
+  name: Initialize
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_Initialize_
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.Initialize
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.GameAction<T>.Initialize
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).Initialize
+  nameWithType: GameAction<T>.Initialize
+  nameWithType.vb: GameAction(Of T).Initialize
+- uid: Tamato.GaifaGoap.GameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  name: RunAction(T, InterruptReceiver, CancellationToken)
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_RunAction__0_Tamato_GaifaGoap_InterruptReceiver_System_Threading_CancellationToken_
+  commentId: M:Tamato.GaifaGoap.GameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  fullName: Tamato.GaifaGoap.GameAction<T>.RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  nameWithType: GameAction<T>.RunAction(T, InterruptReceiver, CancellationToken)
+  nameWithType.vb: GameAction(Of T).RunAction(T, InterruptReceiver, CancellationToken)
+- uid: Tamato.GaifaGoap.GameAction`1.RunAction*
+  name: RunAction
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_RunAction_
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.RunAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.GameAction<T>.RunAction
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).RunAction
+  nameWithType: GameAction<T>.RunAction
+  nameWithType.vb: GameAction(Of T).RunAction
+- uid: Tamato.GaifaGoap.GameAction`1.TakeAction(`0)
+  name: TakeAction(T)
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_TakeAction__0_
+  commentId: M:Tamato.GaifaGoap.GameAction`1.TakeAction(`0)
+  fullName: Tamato.GaifaGoap.GameAction<T>.TakeAction(T)
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).TakeAction(T)
+  nameWithType: GameAction<T>.TakeAction(T)
+  nameWithType.vb: GameAction(Of T).TakeAction(T)
+- uid: Tamato.GaifaGoap.GameAction`1.TakeAction*
+  name: TakeAction
+  href: api/Tamato.GaifaGoap.GameAction-1.html#Tamato_GaifaGoap_GameAction_1_TakeAction_
+  commentId: Overload:Tamato.GaifaGoap.GameAction`1.TakeAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.GameAction<T>.TakeAction
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T).TakeAction
+  nameWithType: GameAction<T>.TakeAction
+  nameWithType.vb: GameAction(Of T).TakeAction
+- uid: Tamato.GaifaGoap.Goal`1
+  name: Goal<T>
+  href: api/Tamato.GaifaGoap.Goal-1.html
+  commentId: T:Tamato.GaifaGoap.Goal`1
+  name.vb: Goal(Of T)
+  fullName: Tamato.GaifaGoap.Goal<T>
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T)
+  nameWithType: Goal<T>
+  nameWithType.vb: Goal(Of T)
+- uid: Tamato.GaifaGoap.Goal`1.ActivateGoal
+  name: ActivateGoal()
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_ActivateGoal
+  commentId: M:Tamato.GaifaGoap.Goal`1.ActivateGoal
+  fullName: Tamato.GaifaGoap.Goal<T>.ActivateGoal()
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ActivateGoal()
+  nameWithType: Goal<T>.ActivateGoal()
+  nameWithType.vb: Goal(Of T).ActivateGoal()
+- uid: Tamato.GaifaGoap.Goal`1.ActivateGoal*
+  name: ActivateGoal
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_ActivateGoal_
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.ActivateGoal
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Goal<T>.ActivateGoal
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ActivateGoal
+  nameWithType: Goal<T>.ActivateGoal
+  nameWithType.vb: Goal(Of T).ActivateGoal
+- uid: Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance
+  name: ComputeGoalRelevance()
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_ComputeGoalRelevance
+  commentId: M:Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance
+  fullName: Tamato.GaifaGoap.Goal<T>.ComputeGoalRelevance()
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ComputeGoalRelevance()
+  nameWithType: Goal<T>.ComputeGoalRelevance()
+  nameWithType.vb: Goal(Of T).ComputeGoalRelevance()
+- uid: Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance*
+  name: ComputeGoalRelevance
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_ComputeGoalRelevance_
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.ComputeGoalRelevance
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Goal<T>.ComputeGoalRelevance
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ComputeGoalRelevance
+  nameWithType: Goal<T>.ComputeGoalRelevance
+  nameWithType.vb: Goal(Of T).ComputeGoalRelevance
+- uid: Tamato.GaifaGoap.Goal`1.ComputeHeuristic(`0)
+  name: ComputeHeuristic(T)
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_ComputeHeuristic__0_
+  commentId: M:Tamato.GaifaGoap.Goal`1.ComputeHeuristic(`0)
+  fullName: Tamato.GaifaGoap.Goal<T>.ComputeHeuristic(T)
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ComputeHeuristic(T)
+  nameWithType: Goal<T>.ComputeHeuristic(T)
+  nameWithType.vb: Goal(Of T).ComputeHeuristic(T)
+- uid: Tamato.GaifaGoap.Goal`1.ComputeHeuristic*
+  name: ComputeHeuristic
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_ComputeHeuristic_
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.ComputeHeuristic
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Goal<T>.ComputeHeuristic
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).ComputeHeuristic
+  nameWithType: Goal<T>.ComputeHeuristic
+  nameWithType.vb: Goal(Of T).ComputeHeuristic
+- uid: Tamato.GaifaGoap.Goal`1.Initialize(UnityEngine.GameObject)
+  name: Initialize(GameObject)
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_Initialize_UnityEngine_GameObject_
+  commentId: M:Tamato.GaifaGoap.Goal`1.Initialize(UnityEngine.GameObject)
+  fullName: Tamato.GaifaGoap.Goal<T>.Initialize(UnityEngine.GameObject)
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).Initialize(UnityEngine.GameObject)
+  nameWithType: Goal<T>.Initialize(GameObject)
+  nameWithType.vb: Goal(Of T).Initialize(GameObject)
+- uid: Tamato.GaifaGoap.Goal`1.Initialize*
+  name: Initialize
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_Initialize_
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.Initialize
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Goal<T>.Initialize
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).Initialize
+  nameWithType: Goal<T>.Initialize
+  nameWithType.vb: Goal(Of T).Initialize
+- uid: Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic
+  name: IsConsistentHeuristic
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_IsConsistentHeuristic
+  commentId: P:Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.Goal<T>.IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).IsConsistentHeuristic
+  nameWithType: Goal<T>.IsConsistentHeuristic
+  nameWithType.vb: Goal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic*
+  name: IsConsistentHeuristic
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_IsConsistentHeuristic_
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.IsConsistentHeuristic
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Goal<T>.IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).IsConsistentHeuristic
+  nameWithType: Goal<T>.IsConsistentHeuristic
+  nameWithType.vb: Goal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.Goal`1.Match(`0)
+  name: Match(T)
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_Match__0_
+  commentId: M:Tamato.GaifaGoap.Goal`1.Match(`0)
+  fullName: Tamato.GaifaGoap.Goal<T>.Match(T)
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).Match(T)
+  nameWithType: Goal<T>.Match(T)
+  nameWithType.vb: Goal(Of T).Match(T)
+- uid: Tamato.GaifaGoap.Goal`1.Match*
+  name: Match
+  href: api/Tamato.GaifaGoap.Goal-1.html#Tamato_GaifaGoap_Goal_1_Match_
+  commentId: Overload:Tamato.GaifaGoap.Goal`1.Match
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Goal<T>.Match
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T).Match
+  nameWithType: Goal<T>.Match
+  nameWithType.vb: Goal(Of T).Match
+- uid: Tamato.GaifaGoap.IFrontier`1
+  name: IFrontier<T>
+  href: api/Tamato.GaifaGoap.IFrontier-1.html
+  commentId: T:Tamato.GaifaGoap.IFrontier`1
+  name.vb: IFrontier(Of T)
+  fullName: Tamato.GaifaGoap.IFrontier<T>
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T)
+  nameWithType: IFrontier<T>
+  nameWithType.vb: IFrontier(Of T)
+- uid: Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  name: Add(Node<T>)
+  href: api/Tamato.GaifaGoap.IFrontier-1.html#Tamato_GaifaGoap_IFrontier_1_Add_Tamato_GaifaGoap_Node__0__
+  commentId: M:Tamato.GaifaGoap.IFrontier`1.Add(Tamato.GaifaGoap.Node{`0})
+  name.vb: Add(Node(Of T))
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Add(Tamato.GaifaGoap.Node<T>)
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Add(Tamato.GaifaGoap.Node(Of T))
+  nameWithType: IFrontier<T>.Add(Node<T>)
+  nameWithType.vb: IFrontier(Of T).Add(Node(Of T))
+- uid: Tamato.GaifaGoap.IFrontier`1.Add*
+  name: Add
+  href: api/Tamato.GaifaGoap.IFrontier-1.html#Tamato_GaifaGoap_IFrontier_1_Add_
+  commentId: Overload:Tamato.GaifaGoap.IFrontier`1.Add
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Add
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Add
+  nameWithType: IFrontier<T>.Add
+  nameWithType.vb: IFrontier(Of T).Add
+- uid: Tamato.GaifaGoap.IFrontier`1.Clear
+  name: Clear()
+  href: api/Tamato.GaifaGoap.IFrontier-1.html#Tamato_GaifaGoap_IFrontier_1_Clear
+  commentId: M:Tamato.GaifaGoap.IFrontier`1.Clear
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Clear()
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Clear()
+  nameWithType: IFrontier<T>.Clear()
+  nameWithType.vb: IFrontier(Of T).Clear()
+- uid: Tamato.GaifaGoap.IFrontier`1.Clear*
+  name: Clear
+  href: api/Tamato.GaifaGoap.IFrontier-1.html#Tamato_GaifaGoap_IFrontier_1_Clear_
+  commentId: Overload:Tamato.GaifaGoap.IFrontier`1.Clear
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Clear
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Clear
+  nameWithType: IFrontier<T>.Clear
+  nameWithType.vb: IFrontier(Of T).Clear
+- uid: Tamato.GaifaGoap.IFrontier`1.IsEmpty
+  name: IsEmpty
+  href: api/Tamato.GaifaGoap.IFrontier-1.html#Tamato_GaifaGoap_IFrontier_1_IsEmpty
+  commentId: P:Tamato.GaifaGoap.IFrontier`1.IsEmpty
+  fullName: Tamato.GaifaGoap.IFrontier<T>.IsEmpty
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).IsEmpty
+  nameWithType: IFrontier<T>.IsEmpty
+  nameWithType.vb: IFrontier(Of T).IsEmpty
+- uid: Tamato.GaifaGoap.IFrontier`1.IsEmpty*
+  name: IsEmpty
+  href: api/Tamato.GaifaGoap.IFrontier-1.html#Tamato_GaifaGoap_IFrontier_1_IsEmpty_
+  commentId: Overload:Tamato.GaifaGoap.IFrontier`1.IsEmpty
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IFrontier<T>.IsEmpty
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).IsEmpty
+  nameWithType: IFrontier<T>.IsEmpty
+  nameWithType.vb: IFrontier(Of T).IsEmpty
+- uid: Tamato.GaifaGoap.IFrontier`1.Next
+  name: Next()
+  href: api/Tamato.GaifaGoap.IFrontier-1.html#Tamato_GaifaGoap_IFrontier_1_Next
+  commentId: M:Tamato.GaifaGoap.IFrontier`1.Next
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Next()
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Next()
+  nameWithType: IFrontier<T>.Next()
+  nameWithType.vb: IFrontier(Of T).Next()
+- uid: Tamato.GaifaGoap.IFrontier`1.Next*
+  name: Next
+  href: api/Tamato.GaifaGoap.IFrontier-1.html#Tamato_GaifaGoap_IFrontier_1_Next_
+  commentId: Overload:Tamato.GaifaGoap.IFrontier`1.Next
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IFrontier<T>.Next
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T).Next
+  nameWithType: IFrontier<T>.Next
+  nameWithType.vb: IFrontier(Of T).Next
+- uid: Tamato.GaifaGoap.IGameAction`1
+  name: IGameAction<T>
+  href: api/Tamato.GaifaGoap.IGameAction-1.html
+  commentId: T:Tamato.GaifaGoap.IGameAction`1
+  name.vb: IGameAction(Of T)
+  fullName: Tamato.GaifaGoap.IGameAction<T>
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T)
+  nameWithType: IGameAction<T>
+  nameWithType.vb: IGameAction(Of T)
+- uid: Tamato.GaifaGoap.IGameAction`1.ActionName
+  name: ActionName
+  href: api/Tamato.GaifaGoap.IGameAction-1.html#Tamato_GaifaGoap_IGameAction_1_ActionName
+  commentId: P:Tamato.GaifaGoap.IGameAction`1.ActionName
+  fullName: Tamato.GaifaGoap.IGameAction<T>.ActionName
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).ActionName
+  nameWithType: IGameAction<T>.ActionName
+  nameWithType.vb: IGameAction(Of T).ActionName
+- uid: Tamato.GaifaGoap.IGameAction`1.ActionName*
+  name: ActionName
+  href: api/Tamato.GaifaGoap.IGameAction-1.html#Tamato_GaifaGoap_IGameAction_1_ActionName_
+  commentId: Overload:Tamato.GaifaGoap.IGameAction`1.ActionName
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGameAction<T>.ActionName
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).ActionName
+  nameWithType: IGameAction<T>.ActionName
+  nameWithType.vb: IGameAction(Of T).ActionName
+- uid: Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+  name: CheckContextPrecondition()
+  href: api/Tamato.GaifaGoap.IGameAction-1.html#Tamato_GaifaGoap_IGameAction_1_CheckContextPrecondition
+  commentId: M:Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+  fullName: Tamato.GaifaGoap.IGameAction<T>.CheckContextPrecondition()
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).CheckContextPrecondition()
+  nameWithType: IGameAction<T>.CheckContextPrecondition()
+  nameWithType.vb: IGameAction(Of T).CheckContextPrecondition()
+- uid: Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition*
+  name: CheckContextPrecondition
+  href: api/Tamato.GaifaGoap.IGameAction-1.html#Tamato_GaifaGoap_IGameAction_1_CheckContextPrecondition_
+  commentId: Overload:Tamato.GaifaGoap.IGameAction`1.CheckContextPrecondition
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGameAction<T>.CheckContextPrecondition
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).CheckContextPrecondition
+  nameWithType: IGameAction<T>.CheckContextPrecondition
+  nameWithType.vb: IGameAction(Of T).CheckContextPrecondition
+- uid: Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  name: RunAction(T, InterruptReceiver, CancellationToken)
+  href: api/Tamato.GaifaGoap.IGameAction-1.html#Tamato_GaifaGoap_IGameAction_1_RunAction__0_Tamato_GaifaGoap_InterruptReceiver_System_Threading_CancellationToken_
+  commentId: M:Tamato.GaifaGoap.IGameAction`1.RunAction(`0,Tamato.GaifaGoap.InterruptReceiver,System.Threading.CancellationToken)
+  fullName: Tamato.GaifaGoap.IGameAction<T>.RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).RunAction(T, Tamato.GaifaGoap.InterruptReceiver, System.Threading.CancellationToken)
+  nameWithType: IGameAction<T>.RunAction(T, InterruptReceiver, CancellationToken)
+  nameWithType.vb: IGameAction(Of T).RunAction(T, InterruptReceiver, CancellationToken)
+- uid: Tamato.GaifaGoap.IGameAction`1.RunAction*
+  name: RunAction
+  href: api/Tamato.GaifaGoap.IGameAction-1.html#Tamato_GaifaGoap_IGameAction_1_RunAction_
+  commentId: Overload:Tamato.GaifaGoap.IGameAction`1.RunAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGameAction<T>.RunAction
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).RunAction
+  nameWithType: IGameAction<T>.RunAction
+  nameWithType.vb: IGameAction(Of T).RunAction
+- uid: Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+  name: TakeAction(T)
+  href: api/Tamato.GaifaGoap.IGameAction-1.html#Tamato_GaifaGoap_IGameAction_1_TakeAction__0_
+  commentId: M:Tamato.GaifaGoap.IGameAction`1.TakeAction(`0)
+  fullName: Tamato.GaifaGoap.IGameAction<T>.TakeAction(T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).TakeAction(T)
+  nameWithType: IGameAction<T>.TakeAction(T)
+  nameWithType.vb: IGameAction(Of T).TakeAction(T)
+- uid: Tamato.GaifaGoap.IGameAction`1.TakeAction*
+  name: TakeAction
+  href: api/Tamato.GaifaGoap.IGameAction-1.html#Tamato_GaifaGoap_IGameAction_1_TakeAction_
+  commentId: Overload:Tamato.GaifaGoap.IGameAction`1.TakeAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGameAction<T>.TakeAction
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T).TakeAction
+  nameWithType: IGameAction<T>.TakeAction
+  nameWithType.vb: IGameAction(Of T).TakeAction
+- uid: Tamato.GaifaGoap.IGameObjectInitializable
+  name: IGameObjectInitializable
+  href: api/Tamato.GaifaGoap.IGameObjectInitializable.html
+  commentId: T:Tamato.GaifaGoap.IGameObjectInitializable
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable
+  nameWithType: IGameObjectInitializable
+- uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  name: Initialize(GameObject)
+  href: api/Tamato.GaifaGoap.IGameObjectInitializable.html#Tamato_GaifaGoap_IGameObjectInitializable_Initialize_UnityEngine_GameObject_
+  commentId: M:Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize(UnityEngine.GameObject)
+  nameWithType: IGameObjectInitializable.Initialize(GameObject)
+- uid: Tamato.GaifaGoap.IGameObjectInitializable.Initialize*
+  name: Initialize
+  href: api/Tamato.GaifaGoap.IGameObjectInitializable.html#Tamato_GaifaGoap_IGameObjectInitializable_Initialize_
+  commentId: Overload:Tamato.GaifaGoap.IGameObjectInitializable.Initialize
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable.Initialize
+  nameWithType: IGameObjectInitializable.Initialize
+- uid: Tamato.GaifaGoap.IGoal`1
+  name: IGoal<T>
+  href: api/Tamato.GaifaGoap.IGoal-1.html
+  commentId: T:Tamato.GaifaGoap.IGoal`1
+  name.vb: IGoal(Of T)
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  nameWithType: IGoal<T>
+  nameWithType.vb: IGoal(Of T)
+- uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  name: ActivateGoal()
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_ActivateGoal
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  fullName: Tamato.GaifaGoap.IGoal<T>.ActivateGoal()
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ActivateGoal()
+  nameWithType: IGoal<T>.ActivateGoal()
+  nameWithType.vb: IGoal(Of T).ActivateGoal()
+- uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal*
+  name: ActivateGoal
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_ActivateGoal_
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGoal<T>.ActivateGoal
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ActivateGoal
+  nameWithType: IGoal<T>.ActivateGoal
+  nameWithType.vb: IGoal(Of T).ActivateGoal
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  name: ComputeGoalRelevance()
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_ComputeGoalRelevance
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeGoalRelevance()
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeGoalRelevance()
+  nameWithType: IGoal<T>.ComputeGoalRelevance()
+  nameWithType.vb: IGoal(Of T).ComputeGoalRelevance()
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance*
+  name: ComputeGoalRelevance
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_ComputeGoalRelevance_
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeGoalRelevance
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeGoalRelevance
+  nameWithType: IGoal<T>.ComputeGoalRelevance
+  nameWithType.vb: IGoal(Of T).ComputeGoalRelevance
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+  name: ComputeHeuristic(T)
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_ComputeHeuristic__0_
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeHeuristic(T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeHeuristic(T)
+  nameWithType: IGoal<T>.ComputeHeuristic(T)
+  nameWithType.vb: IGoal(Of T).ComputeHeuristic(T)
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic*
+  name: ComputeHeuristic
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_ComputeHeuristic_
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.ComputeHeuristic
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeHeuristic
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeHeuristic
+  nameWithType: IGoal<T>.ComputeHeuristic
+  nameWithType.vb: IGoal(Of T).ComputeHeuristic
+- uid: Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  name: IsConsistentHeuristic
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_IsConsistentHeuristic
+  commentId: P:Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.IGoal<T>.IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).IsConsistentHeuristic
+  nameWithType: IGoal<T>.IsConsistentHeuristic
+  nameWithType.vb: IGoal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic*
+  name: IsConsistentHeuristic
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_IsConsistentHeuristic_
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGoal<T>.IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).IsConsistentHeuristic
+  nameWithType: IGoal<T>.IsConsistentHeuristic
+  nameWithType.vb: IGoal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.IGoal`1.Match(`0)
+  name: Match(T)
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_Match__0_
+  commentId: M:Tamato.GaifaGoap.IGoal`1.Match(`0)
+  fullName: Tamato.GaifaGoap.IGoal<T>.Match(T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).Match(T)
+  nameWithType: IGoal<T>.Match(T)
+  nameWithType.vb: IGoal(Of T).Match(T)
+- uid: Tamato.GaifaGoap.IGoal`1.Match*
+  name: Match
+  href: api/Tamato.GaifaGoap.IGoal-1.html#Tamato_GaifaGoap_IGoal_1_Match_
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.Match
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IGoal<T>.Match
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).Match
+  nameWithType: IGoal<T>.Match
+  nameWithType.vb: IGoal(Of T).Match
+- uid: Tamato.GaifaGoap.IModel`1
+  name: IModel<T>
+  href: api/Tamato.GaifaGoap.IModel-1.html
+  commentId: T:Tamato.GaifaGoap.IModel`1
+  name.vb: IModel(Of T)
+  fullName: Tamato.GaifaGoap.IModel<T>
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T)
+  nameWithType: IModel<T>
+  nameWithType.vb: IModel(Of T)
+- uid: Tamato.GaifaGoap.IModel`1.CopyTo(`0)
+  name: CopyTo(T)
+  href: api/Tamato.GaifaGoap.IModel-1.html#Tamato_GaifaGoap_IModel_1_CopyTo__0_
+  commentId: M:Tamato.GaifaGoap.IModel`1.CopyTo(`0)
+  fullName: Tamato.GaifaGoap.IModel<T>.CopyTo(T)
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T).CopyTo(T)
+  nameWithType: IModel<T>.CopyTo(T)
+  nameWithType.vb: IModel(Of T).CopyTo(T)
+- uid: Tamato.GaifaGoap.IModel`1.CopyTo*
+  name: CopyTo
+  href: api/Tamato.GaifaGoap.IModel-1.html#Tamato_GaifaGoap_IModel_1_CopyTo_
+  commentId: Overload:Tamato.GaifaGoap.IModel`1.CopyTo
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IModel<T>.CopyTo
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T).CopyTo
+  nameWithType: IModel<T>.CopyTo
+  nameWithType.vb: IModel(Of T).CopyTo
+- uid: Tamato.GaifaGoap.IModel`1.Reset
+  name: Reset()
+  href: api/Tamato.GaifaGoap.IModel-1.html#Tamato_GaifaGoap_IModel_1_Reset
+  commentId: M:Tamato.GaifaGoap.IModel`1.Reset
+  fullName: Tamato.GaifaGoap.IModel<T>.Reset()
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T).Reset()
+  nameWithType: IModel<T>.Reset()
+  nameWithType.vb: IModel(Of T).Reset()
+- uid: Tamato.GaifaGoap.IModel`1.Reset*
+  name: Reset
+  href: api/Tamato.GaifaGoap.IModel-1.html#Tamato_GaifaGoap_IModel_1_Reset_
+  commentId: Overload:Tamato.GaifaGoap.IModel`1.Reset
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IModel<T>.Reset
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T).Reset
+  nameWithType: IModel<T>.Reset
+  nameWithType.vb: IModel(Of T).Reset
+- uid: Tamato.GaifaGoap.InterruptChannel
+  name: InterruptChannel
+  href: api/Tamato.GaifaGoap.InterruptChannel.html
+  commentId: T:Tamato.GaifaGoap.InterruptChannel
+  fullName: Tamato.GaifaGoap.InterruptChannel
+  nameWithType: InterruptChannel
+- uid: Tamato.GaifaGoap.InterruptChannel.#ctor
+  name: InterruptChannel()
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel__ctor
+  commentId: M:Tamato.GaifaGoap.InterruptChannel.#ctor
+  fullName: Tamato.GaifaGoap.InterruptChannel.InterruptChannel()
+  nameWithType: InterruptChannel.InterruptChannel()
+- uid: Tamato.GaifaGoap.InterruptChannel.#ctor*
+  name: InterruptChannel
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel__ctor_
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptChannel.InterruptChannel
+  nameWithType: InterruptChannel.InterruptChannel
+- uid: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+  name: ClearChannelQueue()
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_ClearChannelQueue
+  commentId: M:Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+  fullName: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue()
+  nameWithType: InterruptChannel.ClearChannelQueue()
+- uid: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue*
+  name: ClearChannelQueue
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_ClearChannelQueue_
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+  nameWithType: InterruptChannel.ClearChannelQueue
+- uid: Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptReceiver
+  name: Implicit(InterruptChannel to InterruptReceiver)
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_op_Implicit_Tamato_GaifaGoap_InterruptChannel__Tamato_GaifaGoap_InterruptReceiver
+  commentId: M:Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptReceiver
+  name.vb: Widening(InterruptChannel to InterruptReceiver)
+  fullName: Tamato.GaifaGoap.InterruptChannel.Implicit(Tamato.GaifaGoap.InterruptChannel to Tamato.GaifaGoap.InterruptReceiver)
+  fullName.vb: Tamato.GaifaGoap.InterruptChannel.Widening(Tamato.GaifaGoap.InterruptChannel to Tamato.GaifaGoap.InterruptReceiver)
+  nameWithType: InterruptChannel.Implicit(InterruptChannel to InterruptReceiver)
+  nameWithType.vb: InterruptChannel.Widening(InterruptChannel to InterruptReceiver)
+- uid: Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptSender
+  name: Implicit(InterruptChannel to InterruptSender)
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_op_Implicit_Tamato_GaifaGoap_InterruptChannel__Tamato_GaifaGoap_InterruptSender
+  commentId: M:Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptSender
+  name.vb: Widening(InterruptChannel to InterruptSender)
+  fullName: Tamato.GaifaGoap.InterruptChannel.Implicit(Tamato.GaifaGoap.InterruptChannel to Tamato.GaifaGoap.InterruptSender)
+  fullName.vb: Tamato.GaifaGoap.InterruptChannel.Widening(Tamato.GaifaGoap.InterruptChannel to Tamato.GaifaGoap.InterruptSender)
+  nameWithType: InterruptChannel.Implicit(InterruptChannel to InterruptSender)
+  nameWithType.vb: InterruptChannel.Widening(InterruptChannel to InterruptSender)
+- uid: Tamato.GaifaGoap.InterruptChannel.op_Implicit*
+  name: Implicit
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_op_Implicit_
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Tamato.GaifaGoap.InterruptChannel.Implicit
+  fullName.vb: Tamato.GaifaGoap.InterruptChannel.Widening
+  nameWithType: InterruptChannel.Implicit
+  nameWithType.vb: InterruptChannel.Widening
+- uid: Tamato.GaifaGoap.InterruptChannel.Receiver
+  name: Receiver
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_Receiver
+  commentId: P:Tamato.GaifaGoap.InterruptChannel.Receiver
+  fullName: Tamato.GaifaGoap.InterruptChannel.Receiver
+  nameWithType: InterruptChannel.Receiver
+- uid: Tamato.GaifaGoap.InterruptChannel.Receiver*
+  name: Receiver
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_Receiver_
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.Receiver
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptChannel.Receiver
+  nameWithType: InterruptChannel.Receiver
+- uid: Tamato.GaifaGoap.InterruptChannel.Sender
+  name: Sender
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_Sender
+  commentId: P:Tamato.GaifaGoap.InterruptChannel.Sender
+  fullName: Tamato.GaifaGoap.InterruptChannel.Sender
+  nameWithType: InterruptChannel.Sender
+- uid: Tamato.GaifaGoap.InterruptChannel.Sender*
+  name: Sender
+  href: api/Tamato.GaifaGoap.InterruptChannel.html#Tamato_GaifaGoap_InterruptChannel_Sender_
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.Sender
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptChannel.Sender
+  nameWithType: InterruptChannel.Sender
+- uid: Tamato.GaifaGoap.InterruptReceiver
+  name: InterruptReceiver
+  href: api/Tamato.GaifaGoap.InterruptReceiver.html
+  commentId: T:Tamato.GaifaGoap.InterruptReceiver
+  fullName: Tamato.GaifaGoap.InterruptReceiver
+  nameWithType: InterruptReceiver
+- uid: Tamato.GaifaGoap.InterruptReceiver.#ctor(Cysharp.Threading.Tasks.ChannelReader{System.Boolean})
+  name: InterruptReceiver(ChannelReader<Boolean>)
+  href: api/Tamato.GaifaGoap.InterruptReceiver.html#Tamato_GaifaGoap_InterruptReceiver__ctor_Cysharp_Threading_Tasks_ChannelReader_System_Boolean__
+  commentId: M:Tamato.GaifaGoap.InterruptReceiver.#ctor(Cysharp.Threading.Tasks.ChannelReader{System.Boolean})
+  name.vb: InterruptReceiver(ChannelReader(Of Boolean))
+  fullName: Tamato.GaifaGoap.InterruptReceiver.InterruptReceiver(Cysharp.Threading.Tasks.ChannelReader<System.Boolean>)
+  fullName.vb: Tamato.GaifaGoap.InterruptReceiver.InterruptReceiver(Cysharp.Threading.Tasks.ChannelReader(Of System.Boolean))
+  nameWithType: InterruptReceiver.InterruptReceiver(ChannelReader<Boolean>)
+  nameWithType.vb: InterruptReceiver.InterruptReceiver(ChannelReader(Of Boolean))
+- uid: Tamato.GaifaGoap.InterruptReceiver.#ctor*
+  name: InterruptReceiver
+  href: api/Tamato.GaifaGoap.InterruptReceiver.html#Tamato_GaifaGoap_InterruptReceiver__ctor_
+  commentId: Overload:Tamato.GaifaGoap.InterruptReceiver.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptReceiver.InterruptReceiver
+  nameWithType: InterruptReceiver.InterruptReceiver
+- uid: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+  name: ReadInterruptionSignal()
+  href: api/Tamato.GaifaGoap.InterruptReceiver.html#Tamato_GaifaGoap_InterruptReceiver_ReadInterruptionSignal
+  commentId: M:Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+  fullName: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal()
+  nameWithType: InterruptReceiver.ReadInterruptionSignal()
+- uid: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal*
+  name: ReadInterruptionSignal
+  href: api/Tamato.GaifaGoap.InterruptReceiver.html#Tamato_GaifaGoap_InterruptReceiver_ReadInterruptionSignal_
+  commentId: Overload:Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptReceiver.ReadInterruptionSignal
+  nameWithType: InterruptReceiver.ReadInterruptionSignal
+- uid: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal(System.Threading.CancellationToken)
+  name: WaitForInterruptionSignal(CancellationToken)
+  href: api/Tamato.GaifaGoap.InterruptReceiver.html#Tamato_GaifaGoap_InterruptReceiver_WaitForInterruptionSignal_System_Threading_CancellationToken_
+  commentId: M:Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal(System.Threading.CancellationToken)
+  fullName: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal(System.Threading.CancellationToken)
+  nameWithType: InterruptReceiver.WaitForInterruptionSignal(CancellationToken)
+- uid: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal*
+  name: WaitForInterruptionSignal
+  href: api/Tamato.GaifaGoap.InterruptReceiver.html#Tamato_GaifaGoap_InterruptReceiver_WaitForInterruptionSignal_
+  commentId: Overload:Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptReceiver.WaitForInterruptionSignal
+  nameWithType: InterruptReceiver.WaitForInterruptionSignal
+- uid: Tamato.GaifaGoap.InterruptSender
+  name: InterruptSender
+  href: api/Tamato.GaifaGoap.InterruptSender.html
+  commentId: T:Tamato.GaifaGoap.InterruptSender
+  fullName: Tamato.GaifaGoap.InterruptSender
+  nameWithType: InterruptSender
+- uid: Tamato.GaifaGoap.InterruptSender.#ctor(Cysharp.Threading.Tasks.ChannelWriter{System.Boolean})
+  name: InterruptSender(ChannelWriter<Boolean>)
+  href: api/Tamato.GaifaGoap.InterruptSender.html#Tamato_GaifaGoap_InterruptSender__ctor_Cysharp_Threading_Tasks_ChannelWriter_System_Boolean__
+  commentId: M:Tamato.GaifaGoap.InterruptSender.#ctor(Cysharp.Threading.Tasks.ChannelWriter{System.Boolean})
+  name.vb: InterruptSender(ChannelWriter(Of Boolean))
+  fullName: Tamato.GaifaGoap.InterruptSender.InterruptSender(Cysharp.Threading.Tasks.ChannelWriter<System.Boolean>)
+  fullName.vb: Tamato.GaifaGoap.InterruptSender.InterruptSender(Cysharp.Threading.Tasks.ChannelWriter(Of System.Boolean))
+  nameWithType: InterruptSender.InterruptSender(ChannelWriter<Boolean>)
+  nameWithType.vb: InterruptSender.InterruptSender(ChannelWriter(Of Boolean))
+- uid: Tamato.GaifaGoap.InterruptSender.#ctor*
+  name: InterruptSender
+  href: api/Tamato.GaifaGoap.InterruptSender.html#Tamato_GaifaGoap_InterruptSender__ctor_
+  commentId: Overload:Tamato.GaifaGoap.InterruptSender.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptSender.InterruptSender
+  nameWithType: InterruptSender.InterruptSender
+- uid: Tamato.GaifaGoap.InterruptSender.Complete(System.Exception)
+  name: Complete(Exception)
+  href: api/Tamato.GaifaGoap.InterruptSender.html#Tamato_GaifaGoap_InterruptSender_Complete_System_Exception_
+  commentId: M:Tamato.GaifaGoap.InterruptSender.Complete(System.Exception)
+  fullName: Tamato.GaifaGoap.InterruptSender.Complete(System.Exception)
+  nameWithType: InterruptSender.Complete(Exception)
+- uid: Tamato.GaifaGoap.InterruptSender.Complete*
+  name: Complete
+  href: api/Tamato.GaifaGoap.InterruptSender.html#Tamato_GaifaGoap_InterruptSender_Complete_
+  commentId: Overload:Tamato.GaifaGoap.InterruptSender.Complete
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptSender.Complete
+  nameWithType: InterruptSender.Complete
+- uid: Tamato.GaifaGoap.InterruptSender.TryComplete(System.Exception)
+  name: TryComplete(Exception)
+  href: api/Tamato.GaifaGoap.InterruptSender.html#Tamato_GaifaGoap_InterruptSender_TryComplete_System_Exception_
+  commentId: M:Tamato.GaifaGoap.InterruptSender.TryComplete(System.Exception)
+  fullName: Tamato.GaifaGoap.InterruptSender.TryComplete(System.Exception)
+  nameWithType: InterruptSender.TryComplete(Exception)
+- uid: Tamato.GaifaGoap.InterruptSender.TryComplete*
+  name: TryComplete
+  href: api/Tamato.GaifaGoap.InterruptSender.html#Tamato_GaifaGoap_InterruptSender_TryComplete_
+  commentId: Overload:Tamato.GaifaGoap.InterruptSender.TryComplete
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptSender.TryComplete
+  nameWithType: InterruptSender.TryComplete
+- uid: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+  name: TrySendInterruptionSignal()
+  href: api/Tamato.GaifaGoap.InterruptSender.html#Tamato_GaifaGoap_InterruptSender_TrySendInterruptionSignal
+  commentId: M:Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+  fullName: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal()
+  nameWithType: InterruptSender.TrySendInterruptionSignal()
+- uid: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal*
+  name: TrySendInterruptionSignal
+  href: api/Tamato.GaifaGoap.InterruptSender.html#Tamato_GaifaGoap_InterruptSender_TrySendInterruptionSignal_
+  commentId: Overload:Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+  nameWithType: InterruptSender.TrySendInterruptionSignal
+- uid: Tamato.GaifaGoap.IPlanner`1
+  name: IPlanner<T>
+  href: api/Tamato.GaifaGoap.IPlanner-1.html
+  commentId: T:Tamato.GaifaGoap.IPlanner`1
+  name.vb: IPlanner(Of T)
+  fullName: Tamato.GaifaGoap.IPlanner<T>
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T)
+  nameWithType: IPlanner<T>
+  nameWithType.vb: IPlanner(Of T)
+- uid: Tamato.GaifaGoap.IPlanner`1.Cancel
+  name: Cancel()
+  href: api/Tamato.GaifaGoap.IPlanner-1.html#Tamato_GaifaGoap_IPlanner_1_Cancel
+  commentId: M:Tamato.GaifaGoap.IPlanner`1.Cancel
+  fullName: Tamato.GaifaGoap.IPlanner<T>.Cancel()
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).Cancel()
+  nameWithType: IPlanner<T>.Cancel()
+  nameWithType.vb: IPlanner(Of T).Cancel()
+- uid: Tamato.GaifaGoap.IPlanner`1.Cancel*
+  name: Cancel
+  href: api/Tamato.GaifaGoap.IPlanner-1.html#Tamato_GaifaGoap_IPlanner_1_Cancel_
+  commentId: Overload:Tamato.GaifaGoap.IPlanner`1.Cancel
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IPlanner<T>.Cancel
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).Cancel
+  nameWithType: IPlanner<T>.Cancel
+  nameWithType.vb: IPlanner(Of T).Cancel
+- uid: Tamato.GaifaGoap.IPlanner`1.DefaultSettings
+  name: DefaultSettings
+  href: api/Tamato.GaifaGoap.IPlanner-1.html#Tamato_GaifaGoap_IPlanner_1_DefaultSettings
+  commentId: P:Tamato.GaifaGoap.IPlanner`1.DefaultSettings
+  fullName: Tamato.GaifaGoap.IPlanner<T>.DefaultSettings
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).DefaultSettings
+  nameWithType: IPlanner<T>.DefaultSettings
+  nameWithType.vb: IPlanner(Of T).DefaultSettings
+- uid: Tamato.GaifaGoap.IPlanner`1.DefaultSettings*
+  name: DefaultSettings
+  href: api/Tamato.GaifaGoap.IPlanner-1.html#Tamato_GaifaGoap_IPlanner_1_DefaultSettings_
+  commentId: Overload:Tamato.GaifaGoap.IPlanner`1.DefaultSettings
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IPlanner<T>.DefaultSettings
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).DefaultSettings
+  nameWithType: IPlanner<T>.DefaultSettings
+  nameWithType.vb: IPlanner(Of T).DefaultSettings
+- uid: Tamato.GaifaGoap.IPlanner`1.IsPlanning
+  name: IsPlanning
+  href: api/Tamato.GaifaGoap.IPlanner-1.html#Tamato_GaifaGoap_IPlanner_1_IsPlanning
+  commentId: P:Tamato.GaifaGoap.IPlanner`1.IsPlanning
+  fullName: Tamato.GaifaGoap.IPlanner<T>.IsPlanning
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).IsPlanning
+  nameWithType: IPlanner<T>.IsPlanning
+  nameWithType.vb: IPlanner(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.IPlanner`1.IsPlanning*
+  name: IsPlanning
+  href: api/Tamato.GaifaGoap.IPlanner-1.html#Tamato_GaifaGoap_IPlanner_1_IsPlanning_
+  commentId: Overload:Tamato.GaifaGoap.IPlanner`1.IsPlanning
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IPlanner<T>.IsPlanning
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).IsPlanning
+  nameWithType: IPlanner<T>.IsPlanning
+  nameWithType.vb: IPlanner(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.IPlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  name: Plan(T, List<IGameAction<T>>, IGoal<T>, PlannerSettings)
+  href: api/Tamato.GaifaGoap.IPlanner-1.html#Tamato_GaifaGoap_IPlanner_1_Plan__0_System_Collections_Generic_List_Tamato_GaifaGoap_IGameAction__0___Tamato_GaifaGoap_IGoal__0__Tamato_GaifaGoap_PlannerSettings_
+  commentId: M:Tamato.GaifaGoap.IPlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  name.vb: Plan(T, List(Of IGameAction(Of T)), IGoal(Of T), PlannerSettings)
+  fullName: Tamato.GaifaGoap.IPlanner<T>.Plan(T, System.Collections.Generic.List<Tamato.GaifaGoap.IGameAction<T>>, Tamato.GaifaGoap.IGoal<T>, Tamato.GaifaGoap.PlannerSettings)
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).Plan(T, System.Collections.Generic.List(Of Tamato.GaifaGoap.IGameAction(Of T)), Tamato.GaifaGoap.IGoal(Of T), Tamato.GaifaGoap.PlannerSettings)
+  nameWithType: IPlanner<T>.Plan(T, List<IGameAction<T>>, IGoal<T>, PlannerSettings)
+  nameWithType.vb: IPlanner(Of T).Plan(T, List(Of IGameAction(Of T)), IGoal(Of T), PlannerSettings)
+- uid: Tamato.GaifaGoap.IPlanner`1.Plan*
+  name: Plan
+  href: api/Tamato.GaifaGoap.IPlanner-1.html#Tamato_GaifaGoap_IPlanner_1_Plan_
+  commentId: Overload:Tamato.GaifaGoap.IPlanner`1.Plan
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.IPlanner<T>.Plan
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T).Plan
+  nameWithType: IPlanner<T>.Plan
+  nameWithType.vb: IPlanner(Of T).Plan
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1
+  name: MultiFramePlanner<T>
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html
+  commentId: T:Tamato.GaifaGoap.MultiFramePlanner`1
+  name.vb: MultiFramePlanner(Of T)
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T)
+  nameWithType: MultiFramePlanner<T>
+  nameWithType.vb: MultiFramePlanner(Of T)
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.#ctor(Tamato.GaifaGoap.PlannerSettings,System.Func{`0})
+  name: MultiFramePlanner(PlannerSettings, Func<T>)
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1__ctor_Tamato_GaifaGoap_PlannerSettings_System_Func__0__
+  commentId: M:Tamato.GaifaGoap.MultiFramePlanner`1.#ctor(Tamato.GaifaGoap.PlannerSettings,System.Func{`0})
+  name.vb: MultiFramePlanner(PlannerSettings, Func(Of T))
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.MultiFramePlanner(Tamato.GaifaGoap.PlannerSettings, System.Func<T>)
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).MultiFramePlanner(Tamato.GaifaGoap.PlannerSettings, System.Func(Of T))
+  nameWithType: MultiFramePlanner<T>.MultiFramePlanner(PlannerSettings, Func<T>)
+  nameWithType.vb: MultiFramePlanner(Of T).MultiFramePlanner(PlannerSettings, Func(Of T))
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.#ctor*
+  name: MultiFramePlanner
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1__ctor_
+  commentId: Overload:Tamato.GaifaGoap.MultiFramePlanner`1.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.MultiFramePlanner
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).MultiFramePlanner
+  nameWithType: MultiFramePlanner<T>.MultiFramePlanner
+  nameWithType.vb: MultiFramePlanner(Of T).MultiFramePlanner
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.Cancel
+  name: Cancel()
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1_Cancel
+  commentId: M:Tamato.GaifaGoap.MultiFramePlanner`1.Cancel
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.Cancel()
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).Cancel()
+  nameWithType: MultiFramePlanner<T>.Cancel()
+  nameWithType.vb: MultiFramePlanner(Of T).Cancel()
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.Cancel*
+  name: Cancel
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1_Cancel_
+  commentId: Overload:Tamato.GaifaGoap.MultiFramePlanner`1.Cancel
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.Cancel
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).Cancel
+  nameWithType: MultiFramePlanner<T>.Cancel
+  nameWithType.vb: MultiFramePlanner(Of T).Cancel
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.DefaultSettings
+  name: DefaultSettings
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1_DefaultSettings
+  commentId: P:Tamato.GaifaGoap.MultiFramePlanner`1.DefaultSettings
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.DefaultSettings
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).DefaultSettings
+  nameWithType: MultiFramePlanner<T>.DefaultSettings
+  nameWithType.vb: MultiFramePlanner(Of T).DefaultSettings
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.DefaultSettings*
+  name: DefaultSettings
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1_DefaultSettings_
+  commentId: Overload:Tamato.GaifaGoap.MultiFramePlanner`1.DefaultSettings
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.DefaultSettings
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).DefaultSettings
+  nameWithType: MultiFramePlanner<T>.DefaultSettings
+  nameWithType.vb: MultiFramePlanner(Of T).DefaultSettings
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.IsPlanning
+  name: IsPlanning
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1_IsPlanning
+  commentId: P:Tamato.GaifaGoap.MultiFramePlanner`1.IsPlanning
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.IsPlanning
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).IsPlanning
+  nameWithType: MultiFramePlanner<T>.IsPlanning
+  nameWithType.vb: MultiFramePlanner(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.IsPlanning*
+  name: IsPlanning
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1_IsPlanning_
+  commentId: Overload:Tamato.GaifaGoap.MultiFramePlanner`1.IsPlanning
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.IsPlanning
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).IsPlanning
+  nameWithType: MultiFramePlanner<T>.IsPlanning
+  nameWithType.vb: MultiFramePlanner(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  name: Plan(T, List<IGameAction<T>>, IGoal<T>, PlannerSettings)
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1_Plan__0_System_Collections_Generic_List_Tamato_GaifaGoap_IGameAction__0___Tamato_GaifaGoap_IGoal__0__Tamato_GaifaGoap_PlannerSettings_
+  commentId: M:Tamato.GaifaGoap.MultiFramePlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  name.vb: Plan(T, List(Of IGameAction(Of T)), IGoal(Of T), PlannerSettings)
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.Plan(T, System.Collections.Generic.List<Tamato.GaifaGoap.IGameAction<T>>, Tamato.GaifaGoap.IGoal<T>, Tamato.GaifaGoap.PlannerSettings)
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).Plan(T, System.Collections.Generic.List(Of Tamato.GaifaGoap.IGameAction(Of T)), Tamato.GaifaGoap.IGoal(Of T), Tamato.GaifaGoap.PlannerSettings)
+  nameWithType: MultiFramePlanner<T>.Plan(T, List<IGameAction<T>>, IGoal<T>, PlannerSettings)
+  nameWithType.vb: MultiFramePlanner(Of T).Plan(T, List(Of IGameAction(Of T)), IGoal(Of T), PlannerSettings)
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1.Plan*
+  name: Plan
+  href: api/Tamato.GaifaGoap.MultiFramePlanner-1.html#Tamato_GaifaGoap_MultiFramePlanner_1_Plan_
+  commentId: Overload:Tamato.GaifaGoap.MultiFramePlanner`1.Plan
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>.Plan
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T).Plan
+  nameWithType: MultiFramePlanner<T>.Plan
+  nameWithType.vb: MultiFramePlanner(Of T).Plan
+- uid: Tamato.GaifaGoap.Node`1
+  name: Node<T>
+  href: api/Tamato.GaifaGoap.Node-1.html
+  commentId: T:Tamato.GaifaGoap.Node`1
+  name.vb: Node(Of T)
+  fullName: Tamato.GaifaGoap.Node<T>
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  nameWithType: Node<T>
+  nameWithType.vb: Node(Of T)
+- uid: Tamato.GaifaGoap.Node`1.Action
+  name: Action
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Action
+  commentId: P:Tamato.GaifaGoap.Node`1.Action
+  fullName: Tamato.GaifaGoap.Node<T>.Action
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Action
+  nameWithType: Node<T>.Action
+  nameWithType.vb: Node(Of T).Action
+- uid: Tamato.GaifaGoap.Node`1.Action*
+  name: Action
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Action_
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Action
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Node<T>.Action
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Action
+  nameWithType: Node<T>.Action
+  nameWithType.vb: Node(Of T).Action
+- uid: Tamato.GaifaGoap.Node`1.Cost
+  name: Cost
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Cost
+  commentId: P:Tamato.GaifaGoap.Node`1.Cost
+  fullName: Tamato.GaifaGoap.Node<T>.Cost
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Cost
+  nameWithType: Node<T>.Cost
+  nameWithType.vb: Node(Of T).Cost
+- uid: Tamato.GaifaGoap.Node`1.Cost*
+  name: Cost
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Cost_
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Cost
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Node<T>.Cost
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Cost
+  nameWithType: Node<T>.Cost
+  nameWithType.vb: Node(Of T).Cost
+- uid: Tamato.GaifaGoap.Node`1.Heuristic
+  name: Heuristic
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Heuristic
+  commentId: P:Tamato.GaifaGoap.Node`1.Heuristic
+  fullName: Tamato.GaifaGoap.Node<T>.Heuristic
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Heuristic
+  nameWithType: Node<T>.Heuristic
+  nameWithType.vb: Node(Of T).Heuristic
+- uid: Tamato.GaifaGoap.Node`1.Heuristic*
+  name: Heuristic
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Heuristic_
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Heuristic
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Node<T>.Heuristic
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Heuristic
+  nameWithType: Node<T>.Heuristic
+  nameWithType.vb: Node(Of T).Heuristic
+- uid: Tamato.GaifaGoap.Node`1.Initialize(`0,Tamato.GaifaGoap.IGameAction{`0},Tamato.GaifaGoap.Node{`0},System.Single,System.Single)
+  name: Initialize(T, IGameAction<T>, Node<T>, Single, Single)
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Initialize__0_Tamato_GaifaGoap_IGameAction__0__Tamato_GaifaGoap_Node__0__System_Single_System_Single_
+  commentId: M:Tamato.GaifaGoap.Node`1.Initialize(`0,Tamato.GaifaGoap.IGameAction{`0},Tamato.GaifaGoap.Node{`0},System.Single,System.Single)
+  name.vb: Initialize(T, IGameAction(Of T), Node(Of T), Single, Single)
+  fullName: Tamato.GaifaGoap.Node<T>.Initialize(T, Tamato.GaifaGoap.IGameAction<T>, Tamato.GaifaGoap.Node<T>, System.Single, System.Single)
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Initialize(T, Tamato.GaifaGoap.IGameAction(Of T), Tamato.GaifaGoap.Node(Of T), System.Single, System.Single)
+  nameWithType: Node<T>.Initialize(T, IGameAction<T>, Node<T>, Single, Single)
+  nameWithType.vb: Node(Of T).Initialize(T, IGameAction(Of T), Node(Of T), Single, Single)
+- uid: Tamato.GaifaGoap.Node`1.Initialize*
+  name: Initialize
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Initialize_
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Initialize
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Node<T>.Initialize
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Initialize
+  nameWithType: Node<T>.Initialize
+  nameWithType.vb: Node(Of T).Initialize
+- uid: Tamato.GaifaGoap.Node`1.Parent
+  name: Parent
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Parent
+  commentId: P:Tamato.GaifaGoap.Node`1.Parent
+  fullName: Tamato.GaifaGoap.Node<T>.Parent
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Parent
+  nameWithType: Node<T>.Parent
+  nameWithType.vb: Node(Of T).Parent
+- uid: Tamato.GaifaGoap.Node`1.Parent*
+  name: Parent
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Parent_
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Parent
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Node<T>.Parent
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Parent
+  nameWithType: Node<T>.Parent
+  nameWithType.vb: Node(Of T).Parent
+- uid: Tamato.GaifaGoap.Node`1.PathCost
+  name: PathCost
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_PathCost
+  commentId: P:Tamato.GaifaGoap.Node`1.PathCost
+  fullName: Tamato.GaifaGoap.Node<T>.PathCost
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).PathCost
+  nameWithType: Node<T>.PathCost
+  nameWithType.vb: Node(Of T).PathCost
+- uid: Tamato.GaifaGoap.Node`1.PathCost*
+  name: PathCost
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_PathCost_
+  commentId: Overload:Tamato.GaifaGoap.Node`1.PathCost
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Node<T>.PathCost
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).PathCost
+  nameWithType: Node<T>.PathCost
+  nameWithType.vb: Node(Of T).PathCost
+- uid: Tamato.GaifaGoap.Node`1.Reset
+  name: Reset()
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Reset
+  commentId: M:Tamato.GaifaGoap.Node`1.Reset
+  fullName: Tamato.GaifaGoap.Node<T>.Reset()
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Reset()
+  nameWithType: Node<T>.Reset()
+  nameWithType.vb: Node(Of T).Reset()
+- uid: Tamato.GaifaGoap.Node`1.Reset*
+  name: Reset
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_Reset_
+  commentId: Overload:Tamato.GaifaGoap.Node`1.Reset
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Node<T>.Reset
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).Reset
+  nameWithType: Node<T>.Reset
+  nameWithType.vb: Node(Of T).Reset
+- uid: Tamato.GaifaGoap.Node`1.State
+  name: State
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_State
+  commentId: P:Tamato.GaifaGoap.Node`1.State
+  fullName: Tamato.GaifaGoap.Node<T>.State
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).State
+  nameWithType: Node<T>.State
+  nameWithType.vb: Node(Of T).State
+- uid: Tamato.GaifaGoap.Node`1.State*
+  name: State
+  href: api/Tamato.GaifaGoap.Node-1.html#Tamato_GaifaGoap_Node_1_State_
+  commentId: Overload:Tamato.GaifaGoap.Node`1.State
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Node<T>.State
+  fullName.vb: Tamato.GaifaGoap.Node(Of T).State
+  nameWithType: Node<T>.State
+  nameWithType.vb: Node(Of T).State
+- uid: Tamato.GaifaGoap.ParameterizedActionFactory`1
+  name: ParameterizedActionFactory<T>
+  href: api/Tamato.GaifaGoap.ParameterizedActionFactory-1.html
+  commentId: T:Tamato.GaifaGoap.ParameterizedActionFactory`1
+  name.vb: ParameterizedActionFactory(Of T)
+  fullName: Tamato.GaifaGoap.ParameterizedActionFactory<T>
+  fullName.vb: Tamato.GaifaGoap.ParameterizedActionFactory(Of T)
+  nameWithType: ParameterizedActionFactory<T>
+  nameWithType.vb: ParameterizedActionFactory(Of T)
+- uid: Tamato.GaifaGoap.ParameterizedActionFactory`1.GetParameterizedActions
+  name: GetParameterizedActions()
+  href: api/Tamato.GaifaGoap.ParameterizedActionFactory-1.html#Tamato_GaifaGoap_ParameterizedActionFactory_1_GetParameterizedActions
+  commentId: M:Tamato.GaifaGoap.ParameterizedActionFactory`1.GetParameterizedActions
+  fullName: Tamato.GaifaGoap.ParameterizedActionFactory<T>.GetParameterizedActions()
+  fullName.vb: Tamato.GaifaGoap.ParameterizedActionFactory(Of T).GetParameterizedActions()
+  nameWithType: ParameterizedActionFactory<T>.GetParameterizedActions()
+  nameWithType.vb: ParameterizedActionFactory(Of T).GetParameterizedActions()
+- uid: Tamato.GaifaGoap.ParameterizedActionFactory`1.GetParameterizedActions*
+  name: GetParameterizedActions
+  href: api/Tamato.GaifaGoap.ParameterizedActionFactory-1.html#Tamato_GaifaGoap_ParameterizedActionFactory_1_GetParameterizedActions_
+  commentId: Overload:Tamato.GaifaGoap.ParameterizedActionFactory`1.GetParameterizedActions
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ParameterizedActionFactory<T>.GetParameterizedActions
+  fullName.vb: Tamato.GaifaGoap.ParameterizedActionFactory(Of T).GetParameterizedActions
+  nameWithType: ParameterizedActionFactory<T>.GetParameterizedActions
+  nameWithType.vb: ParameterizedActionFactory(Of T).GetParameterizedActions
+- uid: Tamato.GaifaGoap.ParameterizedActionFactory`1.Initialize(UnityEngine.GameObject)
+  name: Initialize(GameObject)
+  href: api/Tamato.GaifaGoap.ParameterizedActionFactory-1.html#Tamato_GaifaGoap_ParameterizedActionFactory_1_Initialize_UnityEngine_GameObject_
+  commentId: M:Tamato.GaifaGoap.ParameterizedActionFactory`1.Initialize(UnityEngine.GameObject)
+  fullName: Tamato.GaifaGoap.ParameterizedActionFactory<T>.Initialize(UnityEngine.GameObject)
+  fullName.vb: Tamato.GaifaGoap.ParameterizedActionFactory(Of T).Initialize(UnityEngine.GameObject)
+  nameWithType: ParameterizedActionFactory<T>.Initialize(GameObject)
+  nameWithType.vb: ParameterizedActionFactory(Of T).Initialize(GameObject)
+- uid: Tamato.GaifaGoap.ParameterizedActionFactory`1.Initialize*
+  name: Initialize
+  href: api/Tamato.GaifaGoap.ParameterizedActionFactory-1.html#Tamato_GaifaGoap_ParameterizedActionFactory_1_Initialize_
+  commentId: Overload:Tamato.GaifaGoap.ParameterizedActionFactory`1.Initialize
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ParameterizedActionFactory<T>.Initialize
+  fullName.vb: Tamato.GaifaGoap.ParameterizedActionFactory(Of T).Initialize
+  nameWithType: ParameterizedActionFactory<T>.Initialize
+  nameWithType.vb: ParameterizedActionFactory(Of T).Initialize
+- uid: Tamato.GaifaGoap.PlanController
+  name: PlanController
+  href: api/Tamato.GaifaGoap.PlanController.html
+  commentId: T:Tamato.GaifaGoap.PlanController
+  fullName: Tamato.GaifaGoap.PlanController
+  nameWithType: PlanController
+- uid: Tamato.GaifaGoap.PlanController`1
+  name: PlanController<T>
+  href: api/Tamato.GaifaGoap.PlanController-1.html
+  commentId: T:Tamato.GaifaGoap.PlanController`1
+  name.vb: PlanController(Of T)
+  fullName: Tamato.GaifaGoap.PlanController<T>
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T)
+  nameWithType: PlanController<T>
+  nameWithType.vb: PlanController(Of T)
+- uid: Tamato.GaifaGoap.PlanController`1.agent
+  name: agent
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_agent
+  commentId: F:Tamato.GaifaGoap.PlanController`1.agent
+  fullName: Tamato.GaifaGoap.PlanController<T>.agent
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).agent
+  nameWithType: PlanController<T>.agent
+  nameWithType.vb: PlanController(Of T).agent
+- uid: Tamato.GaifaGoap.PlanController`1.Agent
+  name: Agent
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_Agent
+  commentId: P:Tamato.GaifaGoap.PlanController`1.Agent
+  fullName: Tamato.GaifaGoap.PlanController<T>.Agent
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Agent
+  nameWithType: PlanController<T>.Agent
+  nameWithType.vb: PlanController(Of T).Agent
+- uid: Tamato.GaifaGoap.PlanController`1.Agent*
+  name: Agent
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_Agent_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.Agent
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.Agent
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Agent
+  nameWithType: PlanController<T>.Agent
+  nameWithType.vb: PlanController(Of T).Agent
+- uid: Tamato.GaifaGoap.PlanController`1.AgentActions
+  name: AgentActions
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AgentActions
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AgentActions
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentActions
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentActions
+  nameWithType: PlanController<T>.AgentActions
+  nameWithType.vb: PlanController(Of T).AgentActions
+- uid: Tamato.GaifaGoap.PlanController`1.AgentActions*
+  name: AgentActions
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AgentActions_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AgentActions
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentActions
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentActions
+  nameWithType: PlanController<T>.AgentActions
+  nameWithType.vb: PlanController(Of T).AgentActions
+- uid: Tamato.GaifaGoap.PlanController`1.agentDefinition
+  name: agentDefinition
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_agentDefinition
+  commentId: F:Tamato.GaifaGoap.PlanController`1.agentDefinition
+  fullName: Tamato.GaifaGoap.PlanController<T>.agentDefinition
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).agentDefinition
+  nameWithType: PlanController<T>.agentDefinition
+  nameWithType.vb: PlanController(Of T).agentDefinition
+- uid: Tamato.GaifaGoap.PlanController`1.AgentDefinition
+  name: AgentDefinition
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AgentDefinition
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AgentDefinition
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentDefinition
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentDefinition
+  nameWithType: PlanController<T>.AgentDefinition
+  nameWithType.vb: PlanController(Of T).AgentDefinition
+- uid: Tamato.GaifaGoap.PlanController`1.AgentDefinition*
+  name: AgentDefinition
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AgentDefinition_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AgentDefinition
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentDefinition
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentDefinition
+  nameWithType: PlanController<T>.AgentDefinition
+  nameWithType.vb: PlanController(Of T).AgentDefinition
+- uid: Tamato.GaifaGoap.PlanController`1.AgentGoals
+  name: AgentGoals
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AgentGoals
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AgentGoals
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentGoals
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentGoals
+  nameWithType: PlanController<T>.AgentGoals
+  nameWithType.vb: PlanController(Of T).AgentGoals
+- uid: Tamato.GaifaGoap.PlanController`1.AgentGoals*
+  name: AgentGoals
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AgentGoals_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AgentGoals
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentGoals
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentGoals
+  nameWithType: PlanController<T>.AgentGoals
+  nameWithType.vb: PlanController(Of T).AgentGoals
+- uid: Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions
+  name: AgentParameterizedActions
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AgentParameterizedActions
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentParameterizedActions
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentParameterizedActions
+  nameWithType: PlanController<T>.AgentParameterizedActions
+  nameWithType.vb: PlanController(Of T).AgentParameterizedActions
+- uid: Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions*
+  name: AgentParameterizedActions
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AgentParameterizedActions_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentParameterizedActions
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentParameterizedActions
+  nameWithType: PlanController<T>.AgentParameterizedActions
+  nameWithType.vb: PlanController(Of T).AgentParameterizedActions
+- uid: Tamato.GaifaGoap.PlanController`1.autoUpdate
+  name: autoUpdate
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_autoUpdate
+  commentId: F:Tamato.GaifaGoap.PlanController`1.autoUpdate
+  fullName: Tamato.GaifaGoap.PlanController<T>.autoUpdate
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).autoUpdate
+  nameWithType: PlanController<T>.autoUpdate
+  nameWithType.vb: PlanController(Of T).autoUpdate
+- uid: Tamato.GaifaGoap.PlanController`1.AutoUpdate
+  name: AutoUpdate
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AutoUpdate
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AutoUpdate
+  fullName: Tamato.GaifaGoap.PlanController<T>.AutoUpdate
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AutoUpdate
+  nameWithType: PlanController<T>.AutoUpdate
+  nameWithType.vb: PlanController(Of T).AutoUpdate
+- uid: Tamato.GaifaGoap.PlanController`1.AutoUpdate*
+  name: AutoUpdate
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_AutoUpdate_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AutoUpdate
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.AutoUpdate
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AutoUpdate
+  nameWithType: PlanController<T>.AutoUpdate
+  nameWithType.vb: PlanController(Of T).AutoUpdate
+- uid: Tamato.GaifaGoap.PlanController`1.enableTracker
+  name: enableTracker
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_enableTracker
+  commentId: F:Tamato.GaifaGoap.PlanController`1.enableTracker
+  fullName: Tamato.GaifaGoap.PlanController<T>.enableTracker
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).enableTracker
+  nameWithType: PlanController<T>.enableTracker
+  nameWithType.vb: PlanController(Of T).enableTracker
+- uid: Tamato.GaifaGoap.PlanController`1.Executor
+  name: Executor
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_Executor
+  commentId: P:Tamato.GaifaGoap.PlanController`1.Executor
+  fullName: Tamato.GaifaGoap.PlanController<T>.Executor
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Executor
+  nameWithType: PlanController<T>.Executor
+  nameWithType.vb: PlanController(Of T).Executor
+- uid: Tamato.GaifaGoap.PlanController`1.Executor*
+  name: Executor
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_Executor_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.Executor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.Executor
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Executor
+  nameWithType: PlanController<T>.Executor
+  nameWithType.vb: PlanController(Of T).Executor
+- uid: Tamato.GaifaGoap.PlanController`1.IsExecutingAction
+  name: IsExecutingAction
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_IsExecutingAction
+  commentId: P:Tamato.GaifaGoap.PlanController`1.IsExecutingAction
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsExecutingAction
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsExecutingAction
+  nameWithType: PlanController<T>.IsExecutingAction
+  nameWithType.vb: PlanController(Of T).IsExecutingAction
+- uid: Tamato.GaifaGoap.PlanController`1.IsExecutingAction*
+  name: IsExecutingAction
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_IsExecutingAction_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.IsExecutingAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsExecutingAction
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsExecutingAction
+  nameWithType: PlanController<T>.IsExecutingAction
+  nameWithType.vb: PlanController(Of T).IsExecutingAction
+- uid: Tamato.GaifaGoap.PlanController`1.IsIdle
+  name: IsIdle
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_IsIdle
+  commentId: P:Tamato.GaifaGoap.PlanController`1.IsIdle
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsIdle
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsIdle
+  nameWithType: PlanController<T>.IsIdle
+  nameWithType.vb: PlanController(Of T).IsIdle
+- uid: Tamato.GaifaGoap.PlanController`1.IsIdle*
+  name: IsIdle
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_IsIdle_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.IsIdle
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsIdle
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsIdle
+  nameWithType: PlanController<T>.IsIdle
+  nameWithType.vb: PlanController(Of T).IsIdle
+- uid: Tamato.GaifaGoap.PlanController`1.IsPlanning
+  name: IsPlanning
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_IsPlanning
+  commentId: P:Tamato.GaifaGoap.PlanController`1.IsPlanning
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsPlanning
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsPlanning
+  nameWithType: PlanController<T>.IsPlanning
+  nameWithType.vb: PlanController(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.PlanController`1.IsPlanning*
+  name: IsPlanning
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_IsPlanning_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.IsPlanning
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsPlanning
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsPlanning
+  nameWithType: PlanController<T>.IsPlanning
+  nameWithType.vb: PlanController(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.PlanController`1.onExecutionFinish
+  name: onExecutionFinish
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_onExecutionFinish
+  commentId: F:Tamato.GaifaGoap.PlanController`1.onExecutionFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.onExecutionFinish
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).onExecutionFinish
+  nameWithType: PlanController<T>.onExecutionFinish
+  nameWithType.vb: PlanController(Of T).onExecutionFinish
+- uid: Tamato.GaifaGoap.PlanController`1.OnExecutionFinish
+  name: OnExecutionFinish
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_OnExecutionFinish
+  commentId: P:Tamato.GaifaGoap.PlanController`1.OnExecutionFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.OnExecutionFinish
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).OnExecutionFinish
+  nameWithType: PlanController<T>.OnExecutionFinish
+  nameWithType.vb: PlanController(Of T).OnExecutionFinish
+- uid: Tamato.GaifaGoap.PlanController`1.OnExecutionFinish*
+  name: OnExecutionFinish
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_OnExecutionFinish_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.OnExecutionFinish
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.OnExecutionFinish
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).OnExecutionFinish
+  nameWithType: PlanController<T>.OnExecutionFinish
+  nameWithType.vb: PlanController(Of T).OnExecutionFinish
+- uid: Tamato.GaifaGoap.PlanController`1.onPlanningFinish
+  name: onPlanningFinish
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_onPlanningFinish
+  commentId: F:Tamato.GaifaGoap.PlanController`1.onPlanningFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.onPlanningFinish
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).onPlanningFinish
+  nameWithType: PlanController<T>.onPlanningFinish
+  nameWithType.vb: PlanController(Of T).onPlanningFinish
+- uid: Tamato.GaifaGoap.PlanController`1.OnPlanningFinish
+  name: OnPlanningFinish
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_OnPlanningFinish
+  commentId: P:Tamato.GaifaGoap.PlanController`1.OnPlanningFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.OnPlanningFinish
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).OnPlanningFinish
+  nameWithType: PlanController<T>.OnPlanningFinish
+  nameWithType.vb: PlanController(Of T).OnPlanningFinish
+- uid: Tamato.GaifaGoap.PlanController`1.OnPlanningFinish*
+  name: OnPlanningFinish
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_OnPlanningFinish_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.OnPlanningFinish
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.OnPlanningFinish
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).OnPlanningFinish
+  nameWithType: PlanController<T>.OnPlanningFinish
+  nameWithType.vb: PlanController(Of T).OnPlanningFinish
+- uid: Tamato.GaifaGoap.PlanController`1.planExecutionLength
+  name: planExecutionLength
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_planExecutionLength
+  commentId: F:Tamato.GaifaGoap.PlanController`1.planExecutionLength
+  fullName: Tamato.GaifaGoap.PlanController<T>.planExecutionLength
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).planExecutionLength
+  nameWithType: PlanController<T>.planExecutionLength
+  nameWithType.vb: PlanController(Of T).planExecutionLength
+- uid: Tamato.GaifaGoap.PlanController`1.PlanExecutionLength
+  name: PlanExecutionLength
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_PlanExecutionLength
+  commentId: P:Tamato.GaifaGoap.PlanController`1.PlanExecutionLength
+  fullName: Tamato.GaifaGoap.PlanController<T>.PlanExecutionLength
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).PlanExecutionLength
+  nameWithType: PlanController<T>.PlanExecutionLength
+  nameWithType.vb: PlanController(Of T).PlanExecutionLength
+- uid: Tamato.GaifaGoap.PlanController`1.PlanExecutionLength*
+  name: PlanExecutionLength
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_PlanExecutionLength_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.PlanExecutionLength
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.PlanExecutionLength
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).PlanExecutionLength
+  nameWithType: PlanController<T>.PlanExecutionLength
+  nameWithType.vb: PlanController(Of T).PlanExecutionLength
+- uid: Tamato.GaifaGoap.PlanController`1.Planner
+  name: Planner
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_Planner
+  commentId: P:Tamato.GaifaGoap.PlanController`1.Planner
+  fullName: Tamato.GaifaGoap.PlanController<T>.Planner
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Planner
+  nameWithType: PlanController<T>.Planner
+  nameWithType.vb: PlanController(Of T).Planner
+- uid: Tamato.GaifaGoap.PlanController`1.Planner*
+  name: Planner
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_Planner_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.Planner
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.Planner
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Planner
+  nameWithType: PlanController<T>.Planner
+  nameWithType.vb: PlanController(Of T).Planner
+- uid: Tamato.GaifaGoap.PlanController`1.plannerType
+  name: plannerType
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_plannerType
+  commentId: F:Tamato.GaifaGoap.PlanController`1.plannerType
+  fullName: Tamato.GaifaGoap.PlanController<T>.plannerType
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).plannerType
+  nameWithType: PlanController<T>.plannerType
+  nameWithType.vb: PlanController(Of T).plannerType
+- uid: Tamato.GaifaGoap.PlanController`1.PlannerType
+  name: PlannerType
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_PlannerType
+  commentId: P:Tamato.GaifaGoap.PlanController`1.PlannerType
+  fullName: Tamato.GaifaGoap.PlanController<T>.PlannerType
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).PlannerType
+  nameWithType: PlanController<T>.PlannerType
+  nameWithType.vb: PlanController(Of T).PlannerType
+- uid: Tamato.GaifaGoap.PlanController`1.PlannerType*
+  name: PlannerType
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_PlannerType_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.PlannerType
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.PlannerType
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).PlannerType
+  nameWithType: PlanController<T>.PlannerType
+  nameWithType.vb: PlanController(Of T).PlannerType
+- uid: Tamato.GaifaGoap.PlanController`1.SchedulePlanner
+  name: SchedulePlanner()
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_SchedulePlanner
+  commentId: M:Tamato.GaifaGoap.PlanController`1.SchedulePlanner
+  fullName: Tamato.GaifaGoap.PlanController<T>.SchedulePlanner()
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).SchedulePlanner()
+  nameWithType: PlanController<T>.SchedulePlanner()
+  nameWithType.vb: PlanController(Of T).SchedulePlanner()
+- uid: Tamato.GaifaGoap.PlanController`1.SchedulePlanner*
+  name: SchedulePlanner
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_SchedulePlanner_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.SchedulePlanner
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.SchedulePlanner
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).SchedulePlanner
+  nameWithType: PlanController<T>.SchedulePlanner
+  nameWithType.vb: PlanController(Of T).SchedulePlanner
+- uid: Tamato.GaifaGoap.PlanController`1.settings
+  name: settings
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_settings
+  commentId: F:Tamato.GaifaGoap.PlanController`1.settings
+  fullName: Tamato.GaifaGoap.PlanController<T>.settings
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).settings
+  nameWithType: PlanController<T>.settings
+  nameWithType.vb: PlanController(Of T).settings
+- uid: Tamato.GaifaGoap.PlanController`1.Settings
+  name: Settings
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_Settings
+  commentId: P:Tamato.GaifaGoap.PlanController`1.Settings
+  fullName: Tamato.GaifaGoap.PlanController<T>.Settings
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Settings
+  nameWithType: PlanController<T>.Settings
+  nameWithType.vb: PlanController(Of T).Settings
+- uid: Tamato.GaifaGoap.PlanController`1.Settings*
+  name: Settings
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_Settings_
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.Settings
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanController<T>.Settings
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Settings
+  nameWithType: PlanController<T>.Settings
+  nameWithType.vb: PlanController(Of T).Settings
+- uid: Tamato.GaifaGoap.PlanController`1.warnNoGoal
+  name: warnNoGoal
+  href: api/Tamato.GaifaGoap.PlanController-1.html#Tamato_GaifaGoap_PlanController_1_warnNoGoal
+  commentId: F:Tamato.GaifaGoap.PlanController`1.warnNoGoal
+  fullName: Tamato.GaifaGoap.PlanController<T>.warnNoGoal
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).warnNoGoal
+  nameWithType: PlanController<T>.warnNoGoal
+  nameWithType.vb: PlanController(Of T).warnNoGoal
+- uid: Tamato.GaifaGoap.PlanExecutor`1
+  name: PlanExecutor<T>
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html
+  commentId: T:Tamato.GaifaGoap.PlanExecutor`1
+  name.vb: PlanExecutor(Of T)
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T)
+  nameWithType: PlanExecutor<T>
+  nameWithType.vb: PlanExecutor(Of T)
+- uid: Tamato.GaifaGoap.PlanExecutor`1.#ctor(System.Threading.CancellationToken)
+  name: PlanExecutor(CancellationToken)
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1__ctor_System_Threading_CancellationToken_
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.#ctor(System.Threading.CancellationToken)
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.PlanExecutor(System.Threading.CancellationToken)
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).PlanExecutor(System.Threading.CancellationToken)
+  nameWithType: PlanExecutor<T>.PlanExecutor(CancellationToken)
+  nameWithType.vb: PlanExecutor(Of T).PlanExecutor(CancellationToken)
+- uid: Tamato.GaifaGoap.PlanExecutor`1.#ctor*
+  name: PlanExecutor
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1__ctor_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.PlanExecutor
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).PlanExecutor
+  nameWithType: PlanExecutor<T>.PlanExecutor
+  nameWithType.vb: PlanExecutor(Of T).PlanExecutor
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel
+  name: CompleteInterruptChannel()
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_CompleteInterruptChannel
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CompleteInterruptChannel()
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CompleteInterruptChannel()
+  nameWithType: PlanExecutor<T>.CompleteInterruptChannel()
+  nameWithType.vb: PlanExecutor(Of T).CompleteInterruptChannel()
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel*
+  name: CompleteInterruptChannel
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_CompleteInterruptChannel_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CompleteInterruptChannel
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CompleteInterruptChannel
+  nameWithType: PlanExecutor<T>.CompleteInterruptChannel
+  nameWithType.vb: PlanExecutor(Of T).CompleteInterruptChannel
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CurrentAction
+  name: CurrentAction
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_CurrentAction
+  commentId: P:Tamato.GaifaGoap.PlanExecutor`1.CurrentAction
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CurrentAction
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CurrentAction
+  nameWithType: PlanExecutor<T>.CurrentAction
+  nameWithType.vb: PlanExecutor(Of T).CurrentAction
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CurrentAction*
+  name: CurrentAction
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_CurrentAction_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.CurrentAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CurrentAction
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CurrentAction
+  nameWithType: PlanExecutor<T>.CurrentAction
+  nameWithType.vb: PlanExecutor(Of T).CurrentAction
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex
+  name: CurrentActionIndex
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_CurrentActionIndex
+  commentId: P:Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CurrentActionIndex
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CurrentActionIndex
+  nameWithType: PlanExecutor<T>.CurrentActionIndex
+  nameWithType.vb: PlanExecutor(Of T).CurrentActionIndex
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex*
+  name: CurrentActionIndex
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_CurrentActionIndex_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CurrentActionIndex
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CurrentActionIndex
+  nameWithType: PlanExecutor<T>.CurrentActionIndex
+  nameWithType.vb: PlanExecutor(Of T).CurrentActionIndex
+- uid: Tamato.GaifaGoap.PlanExecutor`1.Execute(Tamato.GaifaGoap.Node{`0},Tamato.GaifaGoap.IGoal{`0},System.Nullable{System.Int32})
+  name: Execute(Node<T>, IGoal<T>, Nullable<Int32>)
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_Execute_Tamato_GaifaGoap_Node__0__Tamato_GaifaGoap_IGoal__0__System_Nullable_System_Int32__
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.Execute(Tamato.GaifaGoap.Node{`0},Tamato.GaifaGoap.IGoal{`0},System.Nullable{System.Int32})
+  name.vb: Execute(Node(Of T), IGoal(Of T), Nullable(Of Int32))
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.Execute(Tamato.GaifaGoap.Node<T>, Tamato.GaifaGoap.IGoal<T>, System.Nullable<System.Int32>)
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).Execute(Tamato.GaifaGoap.Node(Of T), Tamato.GaifaGoap.IGoal(Of T), System.Nullable(Of System.Int32))
+  nameWithType: PlanExecutor<T>.Execute(Node<T>, IGoal<T>, Nullable<Int32>)
+  nameWithType.vb: PlanExecutor(Of T).Execute(Node(Of T), IGoal(Of T), Nullable(Of Int32))
+- uid: Tamato.GaifaGoap.PlanExecutor`1.Execute*
+  name: Execute
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_Execute_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.Execute
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.Execute
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).Execute
+  nameWithType: PlanExecutor<T>.Execute
+  nameWithType.vb: PlanExecutor(Of T).Execute
+- uid: Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan
+  name: InterruptPlan()
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_InterruptPlan
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.InterruptPlan()
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).InterruptPlan()
+  nameWithType: PlanExecutor<T>.InterruptPlan()
+  nameWithType.vb: PlanExecutor(Of T).InterruptPlan()
+- uid: Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan*
+  name: InterruptPlan
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_InterruptPlan_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.InterruptPlan
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).InterruptPlan
+  nameWithType: PlanExecutor<T>.InterruptPlan
+  nameWithType.vb: PlanExecutor(Of T).InterruptPlan
+- uid: Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction
+  name: IsExecutingAction
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_IsExecutingAction
+  commentId: P:Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.IsExecutingAction
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).IsExecutingAction
+  nameWithType: PlanExecutor<T>.IsExecutingAction
+  nameWithType.vb: PlanExecutor(Of T).IsExecutingAction
+- uid: Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction*
+  name: IsExecutingAction
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_IsExecutingAction_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.IsExecutingAction
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).IsExecutingAction
+  nameWithType: PlanExecutor<T>.IsExecutingAction
+  nameWithType.vb: PlanExecutor(Of T).IsExecutingAction
+- uid: Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest
+  name: IsInterruptionRequest
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_IsInterruptionRequest
+  commentId: P:Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.IsInterruptionRequest
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).IsInterruptionRequest
+  nameWithType: PlanExecutor<T>.IsInterruptionRequest
+  nameWithType.vb: PlanExecutor(Of T).IsInterruptionRequest
+- uid: Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest*
+  name: IsInterruptionRequest
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_IsInterruptionRequest_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.IsInterruptionRequest
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).IsInterruptionRequest
+  nameWithType: PlanExecutor<T>.IsInterruptionRequest
+  nameWithType.vb: PlanExecutor(Of T).IsInterruptionRequest
+- uid: Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption
+  name: RequestForInterruption()
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_RequestForInterruption
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.RequestForInterruption()
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).RequestForInterruption()
+  nameWithType: PlanExecutor<T>.RequestForInterruption()
+  nameWithType.vb: PlanExecutor(Of T).RequestForInterruption()
+- uid: Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption*
+  name: RequestForInterruption
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_RequestForInterruption_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.RequestForInterruption
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).RequestForInterruption
+  nameWithType: PlanExecutor<T>.RequestForInterruption
+  nameWithType.vb: PlanExecutor(Of T).RequestForInterruption
+- uid: Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel
+  name: TryCompleteInterruptChannel()
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_TryCompleteInterruptChannel
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.TryCompleteInterruptChannel()
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).TryCompleteInterruptChannel()
+  nameWithType: PlanExecutor<T>.TryCompleteInterruptChannel()
+  nameWithType.vb: PlanExecutor(Of T).TryCompleteInterruptChannel()
+- uid: Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel*
+  name: TryCompleteInterruptChannel
+  href: api/Tamato.GaifaGoap.PlanExecutor-1.html#Tamato_GaifaGoap_PlanExecutor_1_TryCompleteInterruptChannel_
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.TryCompleteInterruptChannel
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).TryCompleteInterruptChannel
+  nameWithType: PlanExecutor<T>.TryCompleteInterruptChannel
+  nameWithType.vb: PlanExecutor(Of T).TryCompleteInterruptChannel
+- uid: Tamato.GaifaGoap.PlannerSettings
+  name: PlannerSettings
+  href: api/Tamato.GaifaGoap.PlannerSettings.html
+  commentId: T:Tamato.GaifaGoap.PlannerSettings
+  fullName: Tamato.GaifaGoap.PlannerSettings
+  nameWithType: PlannerSettings
+- uid: Tamato.GaifaGoap.PlannerSettings.heuristicMultiplier
+  name: heuristicMultiplier
+  href: api/Tamato.GaifaGoap.PlannerSettings.html#Tamato_GaifaGoap_PlannerSettings_heuristicMultiplier
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.heuristicMultiplier
+  fullName: Tamato.GaifaGoap.PlannerSettings.heuristicMultiplier
+  nameWithType: PlannerSettings.heuristicMultiplier
+- uid: Tamato.GaifaGoap.PlannerSettings.iterationLimit
+  name: iterationLimit
+  href: api/Tamato.GaifaGoap.PlannerSettings.html#Tamato_GaifaGoap_PlannerSettings_iterationLimit
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.iterationLimit
+  fullName: Tamato.GaifaGoap.PlannerSettings.iterationLimit
+  nameWithType: PlannerSettings.iterationLimit
+- uid: Tamato.GaifaGoap.PlannerSettings.iterationPerFrame
+  name: iterationPerFrame
+  href: api/Tamato.GaifaGoap.PlannerSettings.html#Tamato_GaifaGoap_PlannerSettings_iterationPerFrame
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.iterationPerFrame
+  fullName: Tamato.GaifaGoap.PlannerSettings.iterationPerFrame
+  nameWithType: PlannerSettings.iterationPerFrame
+- uid: Tamato.GaifaGoap.PlannerSettings.nodeExpansionLimit
+  name: nodeExpansionLimit
+  href: api/Tamato.GaifaGoap.PlannerSettings.html#Tamato_GaifaGoap_PlannerSettings_nodeExpansionLimit
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.nodeExpansionLimit
+  fullName: Tamato.GaifaGoap.PlannerSettings.nodeExpansionLimit
+  nameWithType: PlannerSettings.nodeExpansionLimit
+- uid: Tamato.GaifaGoap.PlannerSettings.poolSize
+  name: poolSize
+  href: api/Tamato.GaifaGoap.PlannerSettings.html#Tamato_GaifaGoap_PlannerSettings_poolSize
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.poolSize
+  fullName: Tamato.GaifaGoap.PlannerSettings.poolSize
+  nameWithType: PlannerSettings.poolSize
+- uid: Tamato.GaifaGoap.PlannerStats
+  name: PlannerStats
+  href: api/Tamato.GaifaGoap.PlannerStats.html
+  commentId: T:Tamato.GaifaGoap.PlannerStats
+  fullName: Tamato.GaifaGoap.PlannerStats
+  nameWithType: PlannerStats
+- uid: Tamato.GaifaGoap.PlannerStats.#ctor(Tamato.GaifaGoap.PlannerStatus,System.Int32,System.Int32)
+  name: PlannerStats(PlannerStatus, Int32, Int32)
+  href: api/Tamato.GaifaGoap.PlannerStats.html#Tamato_GaifaGoap_PlannerStats__ctor_Tamato_GaifaGoap_PlannerStatus_System_Int32_System_Int32_
+  commentId: M:Tamato.GaifaGoap.PlannerStats.#ctor(Tamato.GaifaGoap.PlannerStatus,System.Int32,System.Int32)
+  fullName: Tamato.GaifaGoap.PlannerStats.PlannerStats(Tamato.GaifaGoap.PlannerStatus, System.Int32, System.Int32)
+  nameWithType: PlannerStats.PlannerStats(PlannerStatus, Int32, Int32)
+- uid: Tamato.GaifaGoap.PlannerStats.#ctor*
+  name: PlannerStats
+  href: api/Tamato.GaifaGoap.PlannerStats.html#Tamato_GaifaGoap_PlannerStats__ctor_
+  commentId: Overload:Tamato.GaifaGoap.PlannerStats.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlannerStats.PlannerStats
+  nameWithType: PlannerStats.PlannerStats
+- uid: Tamato.GaifaGoap.PlannerStats.IterationNumber
+  name: IterationNumber
+  href: api/Tamato.GaifaGoap.PlannerStats.html#Tamato_GaifaGoap_PlannerStats_IterationNumber
+  commentId: F:Tamato.GaifaGoap.PlannerStats.IterationNumber
+  fullName: Tamato.GaifaGoap.PlannerStats.IterationNumber
+  nameWithType: PlannerStats.IterationNumber
+- uid: Tamato.GaifaGoap.PlannerStats.NodeExpansionNumber
+  name: NodeExpansionNumber
+  href: api/Tamato.GaifaGoap.PlannerStats.html#Tamato_GaifaGoap_PlannerStats_NodeExpansionNumber
+  commentId: F:Tamato.GaifaGoap.PlannerStats.NodeExpansionNumber
+  fullName: Tamato.GaifaGoap.PlannerStats.NodeExpansionNumber
+  nameWithType: PlannerStats.NodeExpansionNumber
+- uid: Tamato.GaifaGoap.PlannerStats.Status
+  name: Status
+  href: api/Tamato.GaifaGoap.PlannerStats.html#Tamato_GaifaGoap_PlannerStats_Status
+  commentId: F:Tamato.GaifaGoap.PlannerStats.Status
+  fullName: Tamato.GaifaGoap.PlannerStats.Status
+  nameWithType: PlannerStats.Status
+- uid: Tamato.GaifaGoap.PlannerStats.ToString
+  name: ToString()
+  href: api/Tamato.GaifaGoap.PlannerStats.html#Tamato_GaifaGoap_PlannerStats_ToString
+  commentId: M:Tamato.GaifaGoap.PlannerStats.ToString
+  fullName: Tamato.GaifaGoap.PlannerStats.ToString()
+  nameWithType: PlannerStats.ToString()
+- uid: Tamato.GaifaGoap.PlannerStats.ToString*
+  name: ToString
+  href: api/Tamato.GaifaGoap.PlannerStats.html#Tamato_GaifaGoap_PlannerStats_ToString_
+  commentId: Overload:Tamato.GaifaGoap.PlannerStats.ToString
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.PlannerStats.ToString
+  nameWithType: PlannerStats.ToString
+- uid: Tamato.GaifaGoap.PlannerStatus
+  name: PlannerStatus
+  href: api/Tamato.GaifaGoap.PlannerStatus.html
+  commentId: T:Tamato.GaifaGoap.PlannerStatus
+  fullName: Tamato.GaifaGoap.PlannerStatus
+  nameWithType: PlannerStatus
+- uid: Tamato.GaifaGoap.PlannerStatus.Canceled
+  name: Canceled
+  href: api/Tamato.GaifaGoap.PlannerStatus.html#Tamato_GaifaGoap_PlannerStatus_Canceled
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.Canceled
+  fullName: Tamato.GaifaGoap.PlannerStatus.Canceled
+  nameWithType: PlannerStatus.Canceled
+- uid: Tamato.GaifaGoap.PlannerStatus.GoalUnreachable
+  name: GoalUnreachable
+  href: api/Tamato.GaifaGoap.PlannerStatus.html#Tamato_GaifaGoap_PlannerStatus_GoalUnreachable
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.GoalUnreachable
+  fullName: Tamato.GaifaGoap.PlannerStatus.GoalUnreachable
+  nameWithType: PlannerStatus.GoalUnreachable
+- uid: Tamato.GaifaGoap.PlannerStatus.IterationExceeded
+  name: IterationExceeded
+  href: api/Tamato.GaifaGoap.PlannerStatus.html#Tamato_GaifaGoap_PlannerStatus_IterationExceeded
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.IterationExceeded
+  fullName: Tamato.GaifaGoap.PlannerStatus.IterationExceeded
+  nameWithType: PlannerStatus.IterationExceeded
+- uid: Tamato.GaifaGoap.PlannerStatus.NodeExceeded
+  name: NodeExceeded
+  href: api/Tamato.GaifaGoap.PlannerStatus.html#Tamato_GaifaGoap_PlannerStatus_NodeExceeded
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.NodeExceeded
+  fullName: Tamato.GaifaGoap.PlannerStatus.NodeExceeded
+  nameWithType: PlannerStatus.NodeExceeded
+- uid: Tamato.GaifaGoap.PlannerStatus.Success
+  name: Success
+  href: api/Tamato.GaifaGoap.PlannerStatus.html#Tamato_GaifaGoap_PlannerStatus_Success
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.Success
+  fullName: Tamato.GaifaGoap.PlannerStatus.Success
+  nameWithType: PlannerStatus.Success
+- uid: Tamato.GaifaGoap.PlannerType
+  name: PlannerType
+  href: api/Tamato.GaifaGoap.PlannerType.html
+  commentId: T:Tamato.GaifaGoap.PlannerType
+  fullName: Tamato.GaifaGoap.PlannerType
+  nameWithType: PlannerType
+- uid: Tamato.GaifaGoap.PlannerType.MultiFramePlanner
+  name: MultiFramePlanner
+  href: api/Tamato.GaifaGoap.PlannerType.html#Tamato_GaifaGoap_PlannerType_MultiFramePlanner
+  commentId: F:Tamato.GaifaGoap.PlannerType.MultiFramePlanner
+  fullName: Tamato.GaifaGoap.PlannerType.MultiFramePlanner
+  nameWithType: PlannerType.MultiFramePlanner
+- uid: Tamato.GaifaGoap.PlannerType.ThreadPoolPlanner
+  name: ThreadPoolPlanner
+  href: api/Tamato.GaifaGoap.PlannerType.html#Tamato_GaifaGoap_PlannerType_ThreadPoolPlanner
+  commentId: F:Tamato.GaifaGoap.PlannerType.ThreadPoolPlanner
+  fullName: Tamato.GaifaGoap.PlannerType.ThreadPoolPlanner
+  nameWithType: PlannerType.ThreadPoolPlanner
+- uid: Tamato.GaifaGoap.Pool
+  name: Pool
+  href: api/Tamato.GaifaGoap.Pool.html
+  commentId: T:Tamato.GaifaGoap.Pool
+  fullName: Tamato.GaifaGoap.Pool
+  nameWithType: Pool
+- uid: Tamato.GaifaGoap.Pool.Create*
+  name: Create
+  href: api/Tamato.GaifaGoap.Pool.html#Tamato_GaifaGoap_Pool_Create_
+  commentId: Overload:Tamato.GaifaGoap.Pool.Create
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.Pool.Create
+  nameWithType: Pool.Create
+- uid: Tamato.GaifaGoap.Pool.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0},System.Nullable{System.Int32})
+  name: Create<T>(IPooledObjectPolicy<T>, Nullable<Int32>)
+  href: api/Tamato.GaifaGoap.Pool.html#Tamato_GaifaGoap_Pool_Create__1_Microsoft_Extensions_ObjectPool_IPooledObjectPolicy___0__System_Nullable_System_Int32__
+  commentId: M:Tamato.GaifaGoap.Pool.Create``1(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy{``0},System.Nullable{System.Int32})
+  name.vb: Create(Of T)(IPooledObjectPolicy(Of T), Nullable(Of Int32))
+  fullName: Tamato.GaifaGoap.Pool.Create<T>(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy<T>, System.Nullable<System.Int32>)
+  fullName.vb: Tamato.GaifaGoap.Pool.Create(Of T)(Microsoft.Extensions.ObjectPool.IPooledObjectPolicy(Of T), System.Nullable(Of System.Int32))
+  nameWithType: Pool.Create<T>(IPooledObjectPolicy<T>, Nullable<Int32>)
+  nameWithType.vb: Pool.Create(Of T)(IPooledObjectPolicy(Of T), Nullable(Of Int32))
+- uid: Tamato.GaifaGoap.Pool.Create``1(System.Action{``0},System.Nullable{System.Int32})
+  name: Create<T>(Action<T>, Nullable<Int32>)
+  href: api/Tamato.GaifaGoap.Pool.html#Tamato_GaifaGoap_Pool_Create__1_System_Action___0__System_Nullable_System_Int32__
+  commentId: M:Tamato.GaifaGoap.Pool.Create``1(System.Action{``0},System.Nullable{System.Int32})
+  name.vb: Create(Of T)(Action(Of T), Nullable(Of Int32))
+  fullName: Tamato.GaifaGoap.Pool.Create<T>(System.Action<T>, System.Nullable<System.Int32>)
+  fullName.vb: Tamato.GaifaGoap.Pool.Create(Of T)(System.Action(Of T), System.Nullable(Of System.Int32))
+  nameWithType: Pool.Create<T>(Action<T>, Nullable<Int32>)
+  nameWithType.vb: Pool.Create(Of T)(Action(Of T), Nullable(Of Int32))
+- uid: Tamato.GaifaGoap.Pool.Create``1(System.Func{``0},System.Action{``0},System.Nullable{System.Int32})
+  name: Create<T>(Func<T>, Action<T>, Nullable<Int32>)
+  href: api/Tamato.GaifaGoap.Pool.html#Tamato_GaifaGoap_Pool_Create__1_System_Func___0__System_Action___0__System_Nullable_System_Int32__
+  commentId: M:Tamato.GaifaGoap.Pool.Create``1(System.Func{``0},System.Action{``0},System.Nullable{System.Int32})
+  name.vb: Create(Of T)(Func(Of T), Action(Of T), Nullable(Of Int32))
+  fullName: Tamato.GaifaGoap.Pool.Create<T>(System.Func<T>, System.Action<T>, System.Nullable<System.Int32>)
+  fullName.vb: Tamato.GaifaGoap.Pool.Create(Of T)(System.Func(Of T), System.Action(Of T), System.Nullable(Of System.Int32))
+  nameWithType: Pool.Create<T>(Func<T>, Action<T>, Nullable<Int32>)
+  nameWithType.vb: Pool.Create(Of T)(Func(Of T), Action(Of T), Nullable(Of Int32))
+- uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1
+  name: ReturnOnlyPooledObjectPolicy<T>
+  href: api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.html
+  commentId: T:Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1
+  name.vb: ReturnOnlyPooledObjectPolicy(Of T)
+  fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy<T>
+  fullName.vb: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy(Of T)
+  nameWithType: ReturnOnlyPooledObjectPolicy<T>
+  nameWithType.vb: ReturnOnlyPooledObjectPolicy(Of T)
+- uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.#ctor(System.Action{`0})
+  name: ReturnOnlyPooledObjectPolicy(Action<T>)
+  href: api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.html#Tamato_GaifaGoap_ReturnOnlyPooledObjectPolicy_1__ctor_System_Action__0__
+  commentId: M:Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.#ctor(System.Action{`0})
+  name.vb: ReturnOnlyPooledObjectPolicy(Action(Of T))
+  fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy<T>.ReturnOnlyPooledObjectPolicy(System.Action<T>)
+  fullName.vb: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy(Of T).ReturnOnlyPooledObjectPolicy(System.Action(Of T))
+  nameWithType: ReturnOnlyPooledObjectPolicy<T>.ReturnOnlyPooledObjectPolicy(Action<T>)
+  nameWithType.vb: ReturnOnlyPooledObjectPolicy(Of T).ReturnOnlyPooledObjectPolicy(Action(Of T))
+- uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.#ctor*
+  name: ReturnOnlyPooledObjectPolicy
+  href: api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.html#Tamato_GaifaGoap_ReturnOnlyPooledObjectPolicy_1__ctor_
+  commentId: Overload:Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy<T>.ReturnOnlyPooledObjectPolicy
+  fullName.vb: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy(Of T).ReturnOnlyPooledObjectPolicy
+  nameWithType: ReturnOnlyPooledObjectPolicy<T>.ReturnOnlyPooledObjectPolicy
+  nameWithType.vb: ReturnOnlyPooledObjectPolicy(Of T).ReturnOnlyPooledObjectPolicy
+- uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.Create
+  name: Create()
+  href: api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.html#Tamato_GaifaGoap_ReturnOnlyPooledObjectPolicy_1_Create
+  commentId: M:Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.Create
+  fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy<T>.Create()
+  fullName.vb: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy(Of T).Create()
+  nameWithType: ReturnOnlyPooledObjectPolicy<T>.Create()
+  nameWithType.vb: ReturnOnlyPooledObjectPolicy(Of T).Create()
+- uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.Create*
+  name: Create
+  href: api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.html#Tamato_GaifaGoap_ReturnOnlyPooledObjectPolicy_1_Create_
+  commentId: Overload:Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.Create
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy<T>.Create
+  fullName.vb: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy(Of T).Create
+  nameWithType: ReturnOnlyPooledObjectPolicy<T>.Create
+  nameWithType.vb: ReturnOnlyPooledObjectPolicy(Of T).Create
+- uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.Return(`0)
+  name: Return(T)
+  href: api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.html#Tamato_GaifaGoap_ReturnOnlyPooledObjectPolicy_1_Return__0_
+  commentId: M:Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.Return(`0)
+  fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy<T>.Return(T)
+  fullName.vb: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy(Of T).Return(T)
+  nameWithType: ReturnOnlyPooledObjectPolicy<T>.Return(T)
+  nameWithType.vb: ReturnOnlyPooledObjectPolicy(Of T).Return(T)
+- uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.Return*
+  name: Return
+  href: api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.html#Tamato_GaifaGoap_ReturnOnlyPooledObjectPolicy_1_Return_
+  commentId: Overload:Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1.Return
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy<T>.Return
+  fullName.vb: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy(Of T).Return
+  nameWithType: ReturnOnlyPooledObjectPolicy<T>.Return
+  nameWithType.vb: ReturnOnlyPooledObjectPolicy(Of T).Return
+- uid: Tamato.GaifaGoap.SerializableTimespan
+  name: SerializableTimespan
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html
+  commentId: T:Tamato.GaifaGoap.SerializableTimespan
+  fullName: Tamato.GaifaGoap.SerializableTimespan
+  nameWithType: SerializableTimespan
+- uid: Tamato.GaifaGoap.SerializableTimespan.#ctor
+  name: SerializableTimespan()
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan__ctor
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.#ctor
+  fullName: Tamato.GaifaGoap.SerializableTimespan.SerializableTimespan()
+  nameWithType: SerializableTimespan.SerializableTimespan()
+- uid: Tamato.GaifaGoap.SerializableTimespan.#ctor(System.TimeSpan)
+  name: SerializableTimespan(TimeSpan)
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan__ctor_System_TimeSpan_
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.#ctor(System.TimeSpan)
+  fullName: Tamato.GaifaGoap.SerializableTimespan.SerializableTimespan(System.TimeSpan)
+  nameWithType: SerializableTimespan.SerializableTimespan(TimeSpan)
+- uid: Tamato.GaifaGoap.SerializableTimespan.#ctor*
+  name: SerializableTimespan
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan__ctor_
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.SerializableTimespan.SerializableTimespan
+  nameWithType: SerializableTimespan.SerializableTimespan
+- uid: Tamato.GaifaGoap.SerializableTimespan.From(System.Double,Tamato.GaifaGoap.TimeUnit)
+  name: From(Double, TimeUnit)
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_From_System_Double_Tamato_GaifaGoap_TimeUnit_
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.From(System.Double,Tamato.GaifaGoap.TimeUnit)
+  fullName: Tamato.GaifaGoap.SerializableTimespan.From(System.Double, Tamato.GaifaGoap.TimeUnit)
+  nameWithType: SerializableTimespan.From(Double, TimeUnit)
+- uid: Tamato.GaifaGoap.SerializableTimespan.From*
+  name: From
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_From_
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.From
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.SerializableTimespan.From
+  nameWithType: SerializableTimespan.From
+- uid: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+  name: OnAfterDeserialize()
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_OnAfterDeserialize
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+  fullName: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize()
+  nameWithType: SerializableTimespan.OnAfterDeserialize()
+- uid: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize*
+  name: OnAfterDeserialize
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_OnAfterDeserialize_
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+  nameWithType: SerializableTimespan.OnAfterDeserialize
+- uid: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+  name: OnBeforeSerialize()
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_OnBeforeSerialize
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+  fullName: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize()
+  nameWithType: SerializableTimespan.OnBeforeSerialize()
+- uid: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize*
+  name: OnBeforeSerialize
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_OnBeforeSerialize_
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+  nameWithType: SerializableTimespan.OnBeforeSerialize
+- uid: Tamato.GaifaGoap.SerializableTimespan.op_Explicit(System.TimeSpan)~Tamato.GaifaGoap.SerializableTimespan
+  name: Explicit(TimeSpan to SerializableTimespan)
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_op_Explicit_System_TimeSpan__Tamato_GaifaGoap_SerializableTimespan
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.op_Explicit(System.TimeSpan)~Tamato.GaifaGoap.SerializableTimespan
+  name.vb: Narrowing(TimeSpan to SerializableTimespan)
+  fullName: Tamato.GaifaGoap.SerializableTimespan.Explicit(System.TimeSpan to Tamato.GaifaGoap.SerializableTimespan)
+  fullName.vb: Tamato.GaifaGoap.SerializableTimespan.Narrowing(System.TimeSpan to Tamato.GaifaGoap.SerializableTimespan)
+  nameWithType: SerializableTimespan.Explicit(TimeSpan to SerializableTimespan)
+  nameWithType.vb: SerializableTimespan.Narrowing(TimeSpan to SerializableTimespan)
+- uid: Tamato.GaifaGoap.SerializableTimespan.op_Explicit*
+  name: Explicit
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_op_Explicit_
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.op_Explicit
+  isSpec: "True"
+  name.vb: Narrowing
+  fullName: Tamato.GaifaGoap.SerializableTimespan.Explicit
+  fullName.vb: Tamato.GaifaGoap.SerializableTimespan.Narrowing
+  nameWithType: SerializableTimespan.Explicit
+  nameWithType.vb: SerializableTimespan.Narrowing
+- uid: Tamato.GaifaGoap.SerializableTimespan.op_Implicit(Tamato.GaifaGoap.SerializableTimespan)~System.TimeSpan
+  name: Implicit(SerializableTimespan to TimeSpan)
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_op_Implicit_Tamato_GaifaGoap_SerializableTimespan__System_TimeSpan
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.op_Implicit(Tamato.GaifaGoap.SerializableTimespan)~System.TimeSpan
+  name.vb: Widening(SerializableTimespan to TimeSpan)
+  fullName: Tamato.GaifaGoap.SerializableTimespan.Implicit(Tamato.GaifaGoap.SerializableTimespan to System.TimeSpan)
+  fullName.vb: Tamato.GaifaGoap.SerializableTimespan.Widening(Tamato.GaifaGoap.SerializableTimespan to System.TimeSpan)
+  nameWithType: SerializableTimespan.Implicit(SerializableTimespan to TimeSpan)
+  nameWithType.vb: SerializableTimespan.Widening(SerializableTimespan to TimeSpan)
+- uid: Tamato.GaifaGoap.SerializableTimespan.op_Implicit*
+  name: Implicit
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_op_Implicit_
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Tamato.GaifaGoap.SerializableTimespan.Implicit
+  fullName.vb: Tamato.GaifaGoap.SerializableTimespan.Widening
+  nameWithType: SerializableTimespan.Implicit
+  nameWithType.vb: SerializableTimespan.Widening
+- uid: Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  name: TimeSpan
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_TimeSpan
+  commentId: P:Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  fullName: Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  nameWithType: SerializableTimespan.TimeSpan
+- uid: Tamato.GaifaGoap.SerializableTimespan.TimeSpan*
+  name: TimeSpan
+  href: api/Tamato.GaifaGoap.SerializableTimespan.html#Tamato_GaifaGoap_SerializableTimespan_TimeSpan_
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  nameWithType: SerializableTimespan.TimeSpan
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1
+  name: ThreadPoolPlanner<T>
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html
+  commentId: T:Tamato.GaifaGoap.ThreadPoolPlanner`1
+  name.vb: ThreadPoolPlanner(Of T)
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T)
+  nameWithType: ThreadPoolPlanner<T>
+  nameWithType.vb: ThreadPoolPlanner(Of T)
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.#ctor(Tamato.GaifaGoap.PlannerSettings,System.Func{`0})
+  name: ThreadPoolPlanner(PlannerSettings, Func<T>)
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1__ctor_Tamato_GaifaGoap_PlannerSettings_System_Func__0__
+  commentId: M:Tamato.GaifaGoap.ThreadPoolPlanner`1.#ctor(Tamato.GaifaGoap.PlannerSettings,System.Func{`0})
+  name.vb: ThreadPoolPlanner(PlannerSettings, Func(Of T))
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.ThreadPoolPlanner(Tamato.GaifaGoap.PlannerSettings, System.Func<T>)
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).ThreadPoolPlanner(Tamato.GaifaGoap.PlannerSettings, System.Func(Of T))
+  nameWithType: ThreadPoolPlanner<T>.ThreadPoolPlanner(PlannerSettings, Func<T>)
+  nameWithType.vb: ThreadPoolPlanner(Of T).ThreadPoolPlanner(PlannerSettings, Func(Of T))
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.#ctor*
+  name: ThreadPoolPlanner
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1__ctor_
+  commentId: Overload:Tamato.GaifaGoap.ThreadPoolPlanner`1.#ctor
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.ThreadPoolPlanner
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).ThreadPoolPlanner
+  nameWithType: ThreadPoolPlanner<T>.ThreadPoolPlanner
+  nameWithType.vb: ThreadPoolPlanner(Of T).ThreadPoolPlanner
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.Cancel
+  name: Cancel()
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1_Cancel
+  commentId: M:Tamato.GaifaGoap.ThreadPoolPlanner`1.Cancel
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.Cancel()
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).Cancel()
+  nameWithType: ThreadPoolPlanner<T>.Cancel()
+  nameWithType.vb: ThreadPoolPlanner(Of T).Cancel()
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.Cancel*
+  name: Cancel
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1_Cancel_
+  commentId: Overload:Tamato.GaifaGoap.ThreadPoolPlanner`1.Cancel
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.Cancel
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).Cancel
+  nameWithType: ThreadPoolPlanner<T>.Cancel
+  nameWithType.vb: ThreadPoolPlanner(Of T).Cancel
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.DefaultSettings
+  name: DefaultSettings
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1_DefaultSettings
+  commentId: P:Tamato.GaifaGoap.ThreadPoolPlanner`1.DefaultSettings
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.DefaultSettings
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).DefaultSettings
+  nameWithType: ThreadPoolPlanner<T>.DefaultSettings
+  nameWithType.vb: ThreadPoolPlanner(Of T).DefaultSettings
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.DefaultSettings*
+  name: DefaultSettings
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1_DefaultSettings_
+  commentId: Overload:Tamato.GaifaGoap.ThreadPoolPlanner`1.DefaultSettings
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.DefaultSettings
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).DefaultSettings
+  nameWithType: ThreadPoolPlanner<T>.DefaultSettings
+  nameWithType.vb: ThreadPoolPlanner(Of T).DefaultSettings
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.IsPlanning
+  name: IsPlanning
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1_IsPlanning
+  commentId: P:Tamato.GaifaGoap.ThreadPoolPlanner`1.IsPlanning
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.IsPlanning
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).IsPlanning
+  nameWithType: ThreadPoolPlanner<T>.IsPlanning
+  nameWithType.vb: ThreadPoolPlanner(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.IsPlanning*
+  name: IsPlanning
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1_IsPlanning_
+  commentId: Overload:Tamato.GaifaGoap.ThreadPoolPlanner`1.IsPlanning
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.IsPlanning
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).IsPlanning
+  nameWithType: ThreadPoolPlanner<T>.IsPlanning
+  nameWithType.vb: ThreadPoolPlanner(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  name: Plan(T, List<IGameAction<T>>, IGoal<T>, PlannerSettings)
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1_Plan__0_System_Collections_Generic_List_Tamato_GaifaGoap_IGameAction__0___Tamato_GaifaGoap_IGoal__0__Tamato_GaifaGoap_PlannerSettings_
+  commentId: M:Tamato.GaifaGoap.ThreadPoolPlanner`1.Plan(`0,System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}},Tamato.GaifaGoap.IGoal{`0},Tamato.GaifaGoap.PlannerSettings)
+  name.vb: Plan(T, List(Of IGameAction(Of T)), IGoal(Of T), PlannerSettings)
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.Plan(T, System.Collections.Generic.List<Tamato.GaifaGoap.IGameAction<T>>, Tamato.GaifaGoap.IGoal<T>, Tamato.GaifaGoap.PlannerSettings)
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).Plan(T, System.Collections.Generic.List(Of Tamato.GaifaGoap.IGameAction(Of T)), Tamato.GaifaGoap.IGoal(Of T), Tamato.GaifaGoap.PlannerSettings)
+  nameWithType: ThreadPoolPlanner<T>.Plan(T, List<IGameAction<T>>, IGoal<T>, PlannerSettings)
+  nameWithType.vb: ThreadPoolPlanner(Of T).Plan(T, List(Of IGameAction(Of T)), IGoal(Of T), PlannerSettings)
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1.Plan*
+  name: Plan
+  href: api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html#Tamato_GaifaGoap_ThreadPoolPlanner_1_Plan_
+  commentId: Overload:Tamato.GaifaGoap.ThreadPoolPlanner`1.Plan
+  isSpec: "True"
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>.Plan
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T).Plan
+  nameWithType: ThreadPoolPlanner<T>.Plan
+  nameWithType.vb: ThreadPoolPlanner(Of T).Plan
+- uid: Tamato.GaifaGoap.TimeUnit
+  name: TimeUnit
+  href: api/Tamato.GaifaGoap.TimeUnit.html
+  commentId: T:Tamato.GaifaGoap.TimeUnit
+  fullName: Tamato.GaifaGoap.TimeUnit
+  nameWithType: TimeUnit
+- uid: Tamato.GaifaGoap.TimeUnit.Days
+  name: Days
+  href: api/Tamato.GaifaGoap.TimeUnit.html#Tamato_GaifaGoap_TimeUnit_Days
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Days
+  fullName: Tamato.GaifaGoap.TimeUnit.Days
+  nameWithType: TimeUnit.Days
+- uid: Tamato.GaifaGoap.TimeUnit.Hours
+  name: Hours
+  href: api/Tamato.GaifaGoap.TimeUnit.html#Tamato_GaifaGoap_TimeUnit_Hours
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Hours
+  fullName: Tamato.GaifaGoap.TimeUnit.Hours
+  nameWithType: TimeUnit.Hours
+- uid: Tamato.GaifaGoap.TimeUnit.Milliseconds
+  name: Milliseconds
+  href: api/Tamato.GaifaGoap.TimeUnit.html#Tamato_GaifaGoap_TimeUnit_Milliseconds
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Milliseconds
+  fullName: Tamato.GaifaGoap.TimeUnit.Milliseconds
+  nameWithType: TimeUnit.Milliseconds
+- uid: Tamato.GaifaGoap.TimeUnit.Minutes
+  name: Minutes
+  href: api/Tamato.GaifaGoap.TimeUnit.html#Tamato_GaifaGoap_TimeUnit_Minutes
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Minutes
+  fullName: Tamato.GaifaGoap.TimeUnit.Minutes
+  nameWithType: TimeUnit.Minutes
+- uid: Tamato.GaifaGoap.TimeUnit.Seconds
+  name: Seconds
+  href: api/Tamato.GaifaGoap.TimeUnit.html#Tamato_GaifaGoap_TimeUnit_Seconds
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Seconds
+  fullName: Tamato.GaifaGoap.TimeUnit.Seconds
+  nameWithType: TimeUnit.Seconds

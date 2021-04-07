@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.IGoal`1
+  commentId: T:Tamato.GaifaGoap.IGoal`1
+  id: IGoal`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  - Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  - Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+  - Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  - Tamato.GaifaGoap.IGoal`1.Match(`0)
+  langs:
+  - csharp
+  - vb
+  name: IGoal<T>
+  nameWithType: IGoal<T>
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  type: Interface
+  source:
+    remote:
+      path: Runtime/AIAgent/IGoal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IGoal
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IGoal.cs
+    startLine: 8
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGoal of the agent\n"
+  example: []
+  syntax:
+    content: >-
+      public interface IGoal<in T>
+          where T : class, IModel<T>
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: Public Interface IGoal(Of In T As {Class, IModel(Of T)})
+  nameWithType.vb: IGoal(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  name.vb: IGoal(Of T)
+- uid: Tamato.GaifaGoap.IGoal`1.Match(`0)
+  commentId: M:Tamato.GaifaGoap.IGoal`1.Match(`0)
+  id: Match(`0)
+  parent: Tamato.GaifaGoap.IGoal`1
+  langs:
+  - csharp
+  - vb
+  name: Match(T)
+  nameWithType: IGoal<T>.Match(T)
+  fullName: Tamato.GaifaGoap.IGoal<T>.Match(T)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/IGoal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Match
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IGoal.cs
+    startLine: 15
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nDetermine whether a model&apos;s state satisfy the goal requirement.\n"
+  example: []
+  syntax:
+    content: bool Match(T model)
+    parameters:
+    - id: model
+      type: '{T}'
+      description: ''
+    return:
+      type: System.Boolean
+      description: True if a model satisfy the goal, otherwise false.
+    content.vb: Function Match(model As T) As Boolean
+  overload: Tamato.GaifaGoap.IGoal`1.Match*
+  nameWithType.vb: IGoal(Of T).Match(T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).Match(T)
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  id: ComputeGoalRelevance
+  parent: Tamato.GaifaGoap.IGoal`1
+  langs:
+  - csharp
+  - vb
+  name: ComputeGoalRelevance()
+  nameWithType: IGoal<T>.ComputeGoalRelevance()
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeGoalRelevance()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/IGoal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ComputeGoalRelevance
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IGoal.cs
+    startLine: 22
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCompute the relevance of the goal based on current world state.\nNegative or Zero relevance mean this goal should not be selected by the planner.\n"
+  example: []
+  syntax:
+    content: float ComputeGoalRelevance()
+    return:
+      type: System.Single
+      description: Relevance value
+    content.vb: Function ComputeGoalRelevance As Single
+  overload: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance*
+  nameWithType.vb: IGoal(Of T).ComputeGoalRelevance()
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeGoalRelevance()
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ComputeHeuristic(`0)
+  id: ComputeHeuristic(`0)
+  parent: Tamato.GaifaGoap.IGoal`1
+  langs:
+  - csharp
+  - vb
+  name: ComputeHeuristic(T)
+  nameWithType: IGoal<T>.ComputeHeuristic(T)
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeHeuristic(T)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/IGoal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ComputeHeuristic
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IGoal.cs
+    startLine: 30
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nCompute a heuristic value from a model&apos;s state.\n"
+  remarks: See <a href="https://en.wikipedia.org/wiki/Heuristic">Heuristic</a> for more information.
+  example: []
+  syntax:
+    content: float ComputeHeuristic(T model)
+    parameters:
+    - id: model
+      type: '{T}'
+      description: ''
+    return:
+      type: System.Single
+      description: heuristic
+    content.vb: Function ComputeHeuristic(model As T) As Single
+  overload: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic*
+  nameWithType.vb: IGoal(Of T).ComputeHeuristic(T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeHeuristic(T)
+- uid: Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  commentId: P:Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  id: IsConsistentHeuristic
+  parent: Tamato.GaifaGoap.IGoal`1
+  langs:
+  - csharp
+  - vb
+  name: IsConsistentHeuristic
+  nameWithType: IGoal<T>.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.IGoal<T>.IsConsistentHeuristic
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/IGoal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsConsistentHeuristic
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IGoal.cs
+    startLine: 39
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicating whether a heuristic function is consistent.\n"
+  remarks: "\nIf this value is true, the associated model&apos;s <xref href=\"System.Object.GetHashCode\" data-throw-if-not-resolved=\"false\"></xref> method must be overriden.\nSee <a href=\"https://en.wikipedia.org/wiki/Consistent_heuristic\">Consistent Heuristic</a> for more information.\n"
+  example: []
+  syntax:
+    content: bool IsConsistentHeuristic { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsConsistentHeuristic As Boolean
+  overload: Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic*
+  nameWithType.vb: IGoal(Of T).IsConsistentHeuristic
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  commentId: M:Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  id: ActivateGoal
+  parent: Tamato.GaifaGoap.IGoal`1
+  langs:
+  - csharp
+  - vb
+  name: ActivateGoal()
+  nameWithType: IGoal<T>.ActivateGoal()
+  fullName: Tamato.GaifaGoap.IGoal<T>.ActivateGoal()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/IGoal.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ActivateGoal
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/IGoal.cs
+    startLine: 44
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nActivate is called after planning finish but before plan execution start.\n"
+  example: []
+  syntax:
+    content: void ActivateGoal()
+    content.vb: Sub ActivateGoal
+  overload: Tamato.GaifaGoap.IGoal`1.ActivateGoal*
+  nameWithType.vb: IGoal(Of T).ActivateGoal()
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ActivateGoal()
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: Tamato.GaifaGoap.IGoal`1.Match*
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.Match
+  name: Match
+  nameWithType: IGoal<T>.Match
+  fullName: Tamato.GaifaGoap.IGoal<T>.Match
+  nameWithType.vb: IGoal(Of T).Match
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).Match
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance*
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.ComputeGoalRelevance
+  name: ComputeGoalRelevance
+  nameWithType: IGoal<T>.ComputeGoalRelevance
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeGoalRelevance
+  nameWithType.vb: IGoal(Of T).ComputeGoalRelevance
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeGoalRelevance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Tamato.GaifaGoap.IGoal`1.ComputeHeuristic*
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.ComputeHeuristic
+  name: ComputeHeuristic
+  nameWithType: IGoal<T>.ComputeHeuristic
+  fullName: Tamato.GaifaGoap.IGoal<T>.ComputeHeuristic
+  nameWithType.vb: IGoal(Of T).ComputeHeuristic
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ComputeHeuristic
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  isExternal: true
+- uid: Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic*
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.IsConsistentHeuristic
+  name: IsConsistentHeuristic
+  nameWithType: IGoal<T>.IsConsistentHeuristic
+  fullName: Tamato.GaifaGoap.IGoal<T>.IsConsistentHeuristic
+  nameWithType.vb: IGoal(Of T).IsConsistentHeuristic
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).IsConsistentHeuristic
+- uid: Tamato.GaifaGoap.IGoal`1.ActivateGoal*
+  commentId: Overload:Tamato.GaifaGoap.IGoal`1.ActivateGoal
+  name: ActivateGoal
+  nameWithType: IGoal<T>.ActivateGoal
+  fullName: Tamato.GaifaGoap.IGoal<T>.ActivateGoal
+  nameWithType.vb: IGoal(Of T).ActivateGoal
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T).ActivateGoal

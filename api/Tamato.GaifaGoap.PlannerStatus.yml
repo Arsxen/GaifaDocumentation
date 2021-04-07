@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.PlannerStatus
+  commentId: T:Tamato.GaifaGoap.PlannerStatus
+  id: PlannerStatus
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.PlannerStatus.Canceled
+  - Tamato.GaifaGoap.PlannerStatus.GoalUnreachable
+  - Tamato.GaifaGoap.PlannerStatus.IterationExceeded
+  - Tamato.GaifaGoap.PlannerStatus.NodeExceeded
+  - Tamato.GaifaGoap.PlannerStatus.Success
+  langs:
+  - csharp
+  - vb
+  name: PlannerStatus
+  nameWithType: PlannerStatus
+  fullName: Tamato.GaifaGoap.PlannerStatus
+  type: Enum
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStatus.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlannerStatus
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStatus.cs
+    startLine: 2
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public enum PlannerStatus
+    content.vb: Public Enum PlannerStatus
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Tamato.GaifaGoap.PlannerStatus.Success
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.Success
+  id: Success
+  parent: Tamato.GaifaGoap.PlannerStatus
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: PlannerStatus.Success
+  fullName: Tamato.GaifaGoap.PlannerStatus.Success
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStatus.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Success
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStatus.cs
+    startLine: 4
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: Success = 0
+    return:
+      type: Tamato.GaifaGoap.PlannerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.PlannerStatus.IterationExceeded
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.IterationExceeded
+  id: IterationExceeded
+  parent: Tamato.GaifaGoap.PlannerStatus
+  langs:
+  - csharp
+  - vb
+  name: IterationExceeded
+  nameWithType: PlannerStatus.IterationExceeded
+  fullName: Tamato.GaifaGoap.PlannerStatus.IterationExceeded
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStatus.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IterationExceeded
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStatus.cs
+    startLine: 5
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: IterationExceeded = 1
+    return:
+      type: Tamato.GaifaGoap.PlannerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.PlannerStatus.NodeExceeded
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.NodeExceeded
+  id: NodeExceeded
+  parent: Tamato.GaifaGoap.PlannerStatus
+  langs:
+  - csharp
+  - vb
+  name: NodeExceeded
+  nameWithType: PlannerStatus.NodeExceeded
+  fullName: Tamato.GaifaGoap.PlannerStatus.NodeExceeded
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStatus.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: NodeExceeded
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStatus.cs
+    startLine: 6
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: NodeExceeded = 2
+    return:
+      type: Tamato.GaifaGoap.PlannerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.PlannerStatus.GoalUnreachable
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.GoalUnreachable
+  id: GoalUnreachable
+  parent: Tamato.GaifaGoap.PlannerStatus
+  langs:
+  - csharp
+  - vb
+  name: GoalUnreachable
+  nameWithType: PlannerStatus.GoalUnreachable
+  fullName: Tamato.GaifaGoap.PlannerStatus.GoalUnreachable
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStatus.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: GoalUnreachable
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStatus.cs
+    startLine: 7
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: GoalUnreachable = 3
+    return:
+      type: Tamato.GaifaGoap.PlannerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.PlannerStatus.Canceled
+  commentId: F:Tamato.GaifaGoap.PlannerStatus.Canceled
+  id: Canceled
+  parent: Tamato.GaifaGoap.PlannerStatus
+  langs:
+  - csharp
+  - vb
+  name: Canceled
+  nameWithType: PlannerStatus.Canceled
+  fullName: Tamato.GaifaGoap.PlannerStatus.Canceled
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerStatus.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Canceled
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerStatus.cs
+    startLine: 8
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: Canceled = 4
+    return:
+      type: Tamato.GaifaGoap.PlannerStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: Tamato.GaifaGoap.PlannerStatus
+  commentId: T:Tamato.GaifaGoap.PlannerStatus
+  parent: Tamato.GaifaGoap
+  name: PlannerStatus
+  nameWithType: PlannerStatus
+  fullName: Tamato.GaifaGoap.PlannerStatus

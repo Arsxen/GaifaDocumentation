@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.PlannerType
+  commentId: T:Tamato.GaifaGoap.PlannerType
+  id: PlannerType
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.PlannerType.MultiFramePlanner
+  - Tamato.GaifaGoap.PlannerType.ThreadPoolPlanner
+  langs:
+  - csharp
+  - vb
+  name: PlannerType
+  nameWithType: PlannerType
+  fullName: Tamato.GaifaGoap.PlannerType
+  type: Enum
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlannerType
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 378
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public enum PlannerType
+    content.vb: Public Enum PlannerType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Tamato.GaifaGoap.PlannerType.MultiFramePlanner
+  commentId: F:Tamato.GaifaGoap.PlannerType.MultiFramePlanner
+  id: MultiFramePlanner
+  parent: Tamato.GaifaGoap.PlannerType
+  langs:
+  - csharp
+  - vb
+  name: MultiFramePlanner
+  nameWithType: PlannerType.MultiFramePlanner
+  fullName: Tamato.GaifaGoap.PlannerType.MultiFramePlanner
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: MultiFramePlanner
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 380
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: MultiFramePlanner = 0
+    return:
+      type: Tamato.GaifaGoap.PlannerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.PlannerType.ThreadPoolPlanner
+  commentId: F:Tamato.GaifaGoap.PlannerType.ThreadPoolPlanner
+  id: ThreadPoolPlanner
+  parent: Tamato.GaifaGoap.PlannerType
+  langs:
+  - csharp
+  - vb
+  name: ThreadPoolPlanner
+  nameWithType: PlannerType.ThreadPoolPlanner
+  fullName: Tamato.GaifaGoap.PlannerType.ThreadPoolPlanner
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ThreadPoolPlanner
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 381
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: ThreadPoolPlanner = 1
+    return:
+      type: Tamato.GaifaGoap.PlannerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: Tamato.GaifaGoap.PlannerType
+  commentId: T:Tamato.GaifaGoap.PlannerType
+  parent: Tamato.GaifaGoap
+  name: PlannerType
+  nameWithType: PlannerType
+  fullName: Tamato.GaifaGoap.PlannerType

@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.AgentDefinition
+  commentId: T:Tamato.GaifaGoap.AgentDefinition
+  id: AgentDefinition
+  parent: Tamato.GaifaGoap
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AgentDefinition
+  nameWithType: AgentDefinition
+  fullName: Tamato.GaifaGoap.AgentDefinition
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/AgentDefinition.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: AgentDefinition
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/AgentDefinition.cs
+    startLine: 9
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nBase class <xref href=\"Tamato.GaifaGoap.AgentDefinition%601\" data-throw-if-not-resolved=\"false\"></xref>. Use as a target for custom inspector.\n"
+  example: []
+  syntax:
+    content: 'public class AgentDefinition : ScriptableObject'
+    content.vb: >-
+      Public Class AgentDefinition
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  derivedClasses:
+  - Tamato.GaifaGoap.AgentDefinition`1
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Tamato.GaifaGoap.AgentDefinition`1
+  commentId: T:Tamato.GaifaGoap.AgentDefinition`1
+  name: AgentDefinition<T>
+  nameWithType: AgentDefinition<T>
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>
+  nameWithType.vb: AgentDefinition(Of T)
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T)
+  name.vb: AgentDefinition(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition
+    nameWithType: AgentDefinition
+    fullName: Tamato.GaifaGoap.AgentDefinition
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition
+    nameWithType: AgentDefinition
+    fullName: Tamato.GaifaGoap.AgentDefinition
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

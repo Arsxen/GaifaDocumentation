@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.InterruptChannel
+  commentId: T:Tamato.GaifaGoap.InterruptChannel
+  id: InterruptChannel
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.InterruptChannel.#ctor
+  - Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+  - Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptReceiver
+  - Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptSender
+  - Tamato.GaifaGoap.InterruptChannel.Receiver
+  - Tamato.GaifaGoap.InterruptChannel.Sender
+  langs:
+  - csharp
+  - vb
+  name: InterruptChannel
+  nameWithType: InterruptChannel
+  fullName: Tamato.GaifaGoap.InterruptChannel
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: InterruptChannel
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 11
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nSend and receive plan interruption signal.\n"
+  example: []
+  syntax:
+    content: public class InterruptChannel
+    content.vb: Public Class InterruptChannel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Tamato.GaifaGoap.InterruptChannel.Sender
+  commentId: P:Tamato.GaifaGoap.InterruptChannel.Sender
+  id: Sender
+  parent: Tamato.GaifaGoap.InterruptChannel
+  langs:
+  - csharp
+  - vb
+  name: Sender
+  nameWithType: InterruptChannel.Sender
+  fullName: Tamato.GaifaGoap.InterruptChannel.Sender
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Sender
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 18
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a sender that use to send signal to this channel.\n"
+  example: []
+  syntax:
+    content: public InterruptSender Sender { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.InterruptSender
+    content.vb: Public ReadOnly Property Sender As InterruptSender
+  overload: Tamato.GaifaGoap.InterruptChannel.Sender*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Tamato.GaifaGoap.InterruptChannel.Receiver
+  commentId: P:Tamato.GaifaGoap.InterruptChannel.Receiver
+  id: Receiver
+  parent: Tamato.GaifaGoap.InterruptChannel
+  langs:
+  - csharp
+  - vb
+  name: Receiver
+  nameWithType: InterruptChannel.Receiver
+  fullName: Tamato.GaifaGoap.InterruptChannel.Receiver
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Receiver
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 23
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a receiver that use to receive signal from sender of this channel.\n"
+  example: []
+  syntax:
+    content: public InterruptReceiver Receiver { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.InterruptReceiver
+    content.vb: Public ReadOnly Property Receiver As InterruptReceiver
+  overload: Tamato.GaifaGoap.InterruptChannel.Receiver*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Tamato.GaifaGoap.InterruptChannel.#ctor
+  commentId: M:Tamato.GaifaGoap.InterruptChannel.#ctor
+  id: '#ctor'
+  parent: Tamato.GaifaGoap.InterruptChannel
+  langs:
+  - csharp
+  - vb
+  name: InterruptChannel()
+  nameWithType: InterruptChannel.InterruptChannel()
+  fullName: Tamato.GaifaGoap.InterruptChannel.InterruptChannel()
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 25
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public InterruptChannel()
+    content.vb: Public Sub New
+  overload: Tamato.GaifaGoap.InterruptChannel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+  commentId: M:Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+  id: ClearChannelQueue
+  parent: Tamato.GaifaGoap.InterruptChannel
+  langs:
+  - csharp
+  - vb
+  name: ClearChannelQueue()
+  nameWithType: InterruptChannel.ClearChannelQueue()
+  fullName: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ClearChannelQueue
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 35
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nClear remaining interruption signals from this channel.\n"
+  example: []
+  syntax:
+    content: public void ClearChannelQueue()
+    content.vb: Public Sub ClearChannelQueue
+  overload: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptSender
+  commentId: M:Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptSender
+  id: op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptSender
+  parent: Tamato.GaifaGoap.InterruptChannel
+  langs:
+  - csharp
+  - vb
+  name: Implicit(InterruptChannel to InterruptSender)
+  nameWithType: InterruptChannel.Implicit(InterruptChannel to InterruptSender)
+  fullName: Tamato.GaifaGoap.InterruptChannel.Implicit(Tamato.GaifaGoap.InterruptChannel to Tamato.GaifaGoap.InterruptSender)
+  type: Operator
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: op_Implicit
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 40
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public static implicit operator InterruptSender(InterruptChannel channel)
+    parameters:
+    - id: channel
+      type: Tamato.GaifaGoap.InterruptChannel
+    return:
+      type: Tamato.GaifaGoap.InterruptSender
+    content.vb: Public Shared Widening Operator CType(channel As InterruptChannel) As InterruptSender
+  overload: Tamato.GaifaGoap.InterruptChannel.op_Implicit*
+  nameWithType.vb: InterruptChannel.Widening(InterruptChannel to InterruptSender)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Tamato.GaifaGoap.InterruptChannel.Widening(Tamato.GaifaGoap.InterruptChannel to Tamato.GaifaGoap.InterruptSender)
+  name.vb: Widening(InterruptChannel to InterruptSender)
+- uid: Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptReceiver
+  commentId: M:Tamato.GaifaGoap.InterruptChannel.op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptReceiver
+  id: op_Implicit(Tamato.GaifaGoap.InterruptChannel)~Tamato.GaifaGoap.InterruptReceiver
+  parent: Tamato.GaifaGoap.InterruptChannel
+  langs:
+  - csharp
+  - vb
+  name: Implicit(InterruptChannel to InterruptReceiver)
+  nameWithType: InterruptChannel.Implicit(InterruptChannel to InterruptReceiver)
+  fullName: Tamato.GaifaGoap.InterruptChannel.Implicit(Tamato.GaifaGoap.InterruptChannel to Tamato.GaifaGoap.InterruptReceiver)
+  type: Operator
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: op_Implicit
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 41
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public static implicit operator InterruptReceiver(InterruptChannel channel)
+    parameters:
+    - id: channel
+      type: Tamato.GaifaGoap.InterruptChannel
+    return:
+      type: Tamato.GaifaGoap.InterruptReceiver
+    content.vb: Public Shared Widening Operator CType(channel As InterruptChannel) As InterruptReceiver
+  overload: Tamato.GaifaGoap.InterruptChannel.op_Implicit*
+  nameWithType.vb: InterruptChannel.Widening(InterruptChannel to InterruptReceiver)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Tamato.GaifaGoap.InterruptChannel.Widening(Tamato.GaifaGoap.InterruptChannel to Tamato.GaifaGoap.InterruptReceiver)
+  name.vb: Widening(InterruptChannel to InterruptReceiver)
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.InterruptChannel.Sender*
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.Sender
+  name: Sender
+  nameWithType: InterruptChannel.Sender
+  fullName: Tamato.GaifaGoap.InterruptChannel.Sender
+- uid: Tamato.GaifaGoap.InterruptSender
+  commentId: T:Tamato.GaifaGoap.InterruptSender
+  parent: Tamato.GaifaGoap
+  name: InterruptSender
+  nameWithType: InterruptSender
+  fullName: Tamato.GaifaGoap.InterruptSender
+- uid: Tamato.GaifaGoap.InterruptChannel.Receiver*
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.Receiver
+  name: Receiver
+  nameWithType: InterruptChannel.Receiver
+  fullName: Tamato.GaifaGoap.InterruptChannel.Receiver
+- uid: Tamato.GaifaGoap.InterruptReceiver
+  commentId: T:Tamato.GaifaGoap.InterruptReceiver
+  parent: Tamato.GaifaGoap
+  name: InterruptReceiver
+  nameWithType: InterruptReceiver
+  fullName: Tamato.GaifaGoap.InterruptReceiver
+- uid: Tamato.GaifaGoap.InterruptChannel.#ctor*
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.#ctor
+  name: InterruptChannel
+  nameWithType: InterruptChannel.InterruptChannel
+  fullName: Tamato.GaifaGoap.InterruptChannel.InterruptChannel
+- uid: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue*
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+  name: ClearChannelQueue
+  nameWithType: InterruptChannel.ClearChannelQueue
+  fullName: Tamato.GaifaGoap.InterruptChannel.ClearChannelQueue
+- uid: Tamato.GaifaGoap.InterruptChannel.op_Implicit*
+  commentId: Overload:Tamato.GaifaGoap.InterruptChannel.op_Implicit
+  name: Implicit
+  nameWithType: InterruptChannel.Implicit
+  fullName: Tamato.GaifaGoap.InterruptChannel.Implicit
+  nameWithType.vb: InterruptChannel.Widening
+  fullName.vb: Tamato.GaifaGoap.InterruptChannel.Widening
+  name.vb: Widening
+- uid: Tamato.GaifaGoap.InterruptChannel
+  commentId: T:Tamato.GaifaGoap.InterruptChannel
+  parent: Tamato.GaifaGoap
+  name: InterruptChannel
+  nameWithType: InterruptChannel
+  fullName: Tamato.GaifaGoap.InterruptChannel

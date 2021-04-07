@@ -1,0 +1,493 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "changefreq": "daily"
+      }
+    },
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "C:/UnityProjects/Gaifa/GaifaDocumentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.AIAgent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.AIAgent-1.html",
+          "hash": "DWyPL2xmWLBoQL5zJES8EQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.AStarFrontier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.AStarFrontier-1.html",
+          "hash": "MoD21gcm71V3/pOUu4x+1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.AgentDefinition-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.AgentDefinition-1.html",
+          "hash": "kWo9j+V460VJ8nFV1iA4xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.AgentDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.AgentDefinition.html",
+          "hash": "hDUgqsl3s2D4Ud1u5WRCBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.DelegatePooledObjectPolicy-1.html",
+          "hash": "5XRM2lUCtXmdpjeJyMMuAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.GameAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.GameAction-1.html",
+          "hash": "uI7EjlRWWi468pdmw/3AjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.Goal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.Goal-1.html",
+          "hash": "4ixl4lM2DzgmpmA19/iw0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.IFrontier-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.IFrontier-1.html",
+          "hash": "s6a53M76Q6eyvjc8Xr3kTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.IGameAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.IGameAction-1.html",
+          "hash": "nX+HEOoZ5NG1yhF4xPnZnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.IGameObjectInitializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.IGameObjectInitializable.html",
+          "hash": "DS7gpSA7nHOZx06RjtkqBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.IGoal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.IGoal-1.html",
+          "hash": "5msdzTl2BC7XAruWJlYlCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.IModel-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.IModel-1.html",
+          "hash": "u7LKEWbSd983P62du27Ceg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.IPlanner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.IPlanner-1.html",
+          "hash": "vWn4UmpVD5/Jf7Qdg1RyuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.InterruptChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.InterruptChannel.html",
+          "hash": "/MuRllT+BV+6RWL4JLR2zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.InterruptReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.InterruptReceiver.html",
+          "hash": "964T4UcuLUhpVMzxYlbs8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.InterruptSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.InterruptSender.html",
+          "hash": "VipRgtzrclrEResN+qHr6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.MultiFramePlanner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.MultiFramePlanner-1.html",
+          "hash": "e8nR/4DE5h73GLs1j4G28A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.Node-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.Node-1.html",
+          "hash": "g4OfoHUrUcmIhZMmOMdWcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.ParameterizedActionFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.ParameterizedActionFactory-1.html",
+          "hash": "TzP4OIEsSdH2YgKgD0IlHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.PlanController-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.PlanController-1.html",
+          "hash": "5S7IvLcsNkbcHS2N285FQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.PlanController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.PlanController.html",
+          "hash": "DUFuJfajzBGups3GnHmq6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.PlanExecutor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.PlanExecutor-1.html",
+          "hash": "OGKSXJ+74MKPQN8bCT/nEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.PlannerSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.PlannerSettings.html",
+          "hash": "fbklra758foDkNNiGUlbuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.PlannerStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.PlannerStats.html",
+          "hash": "E9cUtGOkwZsCO86bCCl6eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.PlannerStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.PlannerStatus.html",
+          "hash": "ln8ghlEIOkXHbjZ9HEkNKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.PlannerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.PlannerType.html",
+          "hash": "1BSfO/Uoab3TnRLk2eHMsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.Pool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.Pool.html",
+          "hash": "OqJTHrOFWzVTxvPsVR+FqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy-1.html",
+          "hash": "I6eBgQALhWkM9kXlM9+4Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.SerializableTimespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.SerializableTimespan.html",
+          "hash": "jwAzKlyCWSNGtasuxm3/0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.ThreadPoolPlanner-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.ThreadPoolPlanner-1.html",
+          "hash": "MBi3ayO5zLi2zesKuZMkhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.TimeUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.TimeUnit.html",
+          "hash": "7vwK0d3YelqO1PXJLLcacA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tamato.GaifaGoap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tamato.GaifaGoap.html",
+          "hash": "KTbpzEJ1/ITWZJp62GUIdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "+v9dDbU+Q3BsKjkkMngluw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "yLO4bGzO5TYaHZkYsergrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "t9WThfAbl8y3O7Bbv+wnHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 32,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

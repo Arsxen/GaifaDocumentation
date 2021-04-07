@@ -1,0 +1,2023 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.PlanController`1
+  commentId: T:Tamato.GaifaGoap.PlanController`1
+  id: PlanController`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.PlanController`1.agent
+  - Tamato.GaifaGoap.PlanController`1.Agent
+  - Tamato.GaifaGoap.PlanController`1.AgentActions
+  - Tamato.GaifaGoap.PlanController`1.agentDefinition
+  - Tamato.GaifaGoap.PlanController`1.AgentDefinition
+  - Tamato.GaifaGoap.PlanController`1.AgentGoals
+  - Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions
+  - Tamato.GaifaGoap.PlanController`1.autoUpdate
+  - Tamato.GaifaGoap.PlanController`1.AutoUpdate
+  - Tamato.GaifaGoap.PlanController`1.enableTracker
+  - Tamato.GaifaGoap.PlanController`1.Executor
+  - Tamato.GaifaGoap.PlanController`1.IsExecutingAction
+  - Tamato.GaifaGoap.PlanController`1.IsIdle
+  - Tamato.GaifaGoap.PlanController`1.IsPlanning
+  - Tamato.GaifaGoap.PlanController`1.onExecutionFinish
+  - Tamato.GaifaGoap.PlanController`1.OnExecutionFinish
+  - Tamato.GaifaGoap.PlanController`1.onPlanningFinish
+  - Tamato.GaifaGoap.PlanController`1.OnPlanningFinish
+  - Tamato.GaifaGoap.PlanController`1.planExecutionLength
+  - Tamato.GaifaGoap.PlanController`1.PlanExecutionLength
+  - Tamato.GaifaGoap.PlanController`1.Planner
+  - Tamato.GaifaGoap.PlanController`1.plannerType
+  - Tamato.GaifaGoap.PlanController`1.PlannerType
+  - Tamato.GaifaGoap.PlanController`1.SchedulePlanner
+  - Tamato.GaifaGoap.PlanController`1.settings
+  - Tamato.GaifaGoap.PlanController`1.Settings
+  - Tamato.GaifaGoap.PlanController`1.warnNoGoal
+  langs:
+  - csharp
+  - vb
+  name: PlanController<T>
+  nameWithType: PlanController<T>
+  fullName: Tamato.GaifaGoap.PlanController<T>
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlanController
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 27
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nControl plan scheduling and plan execution of the agent.\n"
+  example: []
+  syntax:
+    content: 'public class PlanController<T> : PlanController where T : class, IModel<T>'
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: >-
+      Public Class PlanController(Of T As {Class, IModel(Of T)})
+          Inherits PlanController
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - Tamato.GaifaGoap.PlanController
+  nameWithType.vb: PlanController(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T)
+  name.vb: PlanController(Of T)
+- uid: Tamato.GaifaGoap.PlanController`1.agentDefinition
+  commentId: F:Tamato.GaifaGoap.PlanController`1.agentDefinition
+  id: agentDefinition
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: agentDefinition
+  nameWithType: PlanController<T>.agentDefinition
+  fullName: Tamato.GaifaGoap.PlanController<T>.agentDefinition
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: agentDefinition
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 31
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected AgentDefinition<T> agentDefinition
+    return:
+      type: Tamato.GaifaGoap.AgentDefinition{{T}}
+    content.vb: >-
+      <SerializeField>
+
+      Protected agentDefinition As AgentDefinition(Of T)
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).agentDefinition
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).agentDefinition
+- uid: Tamato.GaifaGoap.PlanController`1.agent
+  commentId: F:Tamato.GaifaGoap.PlanController`1.agent
+  id: agent
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: agent
+  nameWithType: PlanController<T>.agent
+  fullName: Tamato.GaifaGoap.PlanController<T>.agent
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: agent
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 34
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected AIAgent<T> agent
+    return:
+      type: Tamato.GaifaGoap.AIAgent{{T}}
+    content.vb: >-
+      <SerializeField>
+
+      Protected agent As AIAgent(Of T)
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).agent
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).agent
+- uid: Tamato.GaifaGoap.PlanController`1.autoUpdate
+  commentId: F:Tamato.GaifaGoap.PlanController`1.autoUpdate
+  id: autoUpdate
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: autoUpdate
+  nameWithType: PlanController<T>.autoUpdate
+  fullName: Tamato.GaifaGoap.PlanController<T>.autoUpdate
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: autoUpdate
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 37
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected bool autoUpdate
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Protected autoUpdate As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).autoUpdate
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).autoUpdate
+- uid: Tamato.GaifaGoap.PlanController`1.plannerType
+  commentId: F:Tamato.GaifaGoap.PlanController`1.plannerType
+  id: plannerType
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: plannerType
+  nameWithType: PlanController<T>.plannerType
+  fullName: Tamato.GaifaGoap.PlanController<T>.plannerType
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: plannerType
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 40
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected PlannerType plannerType
+    return:
+      type: Tamato.GaifaGoap.PlannerType
+    content.vb: >-
+      <SerializeField>
+
+      Protected plannerType As PlannerType
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).plannerType
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).plannerType
+- uid: Tamato.GaifaGoap.PlanController`1.settings
+  commentId: F:Tamato.GaifaGoap.PlanController`1.settings
+  id: settings
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: settings
+  nameWithType: PlanController<T>.settings
+  fullName: Tamato.GaifaGoap.PlanController<T>.settings
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: settings
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 43
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected PlannerSettings settings
+    return:
+      type: Tamato.GaifaGoap.PlannerSettings
+    content.vb: >-
+      <SerializeField>
+
+      Protected settings As PlannerSettings
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).settings
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).settings
+- uid: Tamato.GaifaGoap.PlanController`1.planExecutionLength
+  commentId: F:Tamato.GaifaGoap.PlanController`1.planExecutionLength
+  id: planExecutionLength
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: planExecutionLength
+  nameWithType: PlanController<T>.planExecutionLength
+  fullName: Tamato.GaifaGoap.PlanController<T>.planExecutionLength
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: planExecutionLength
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 46
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected int planExecutionLength
+    return:
+      type: System.Int32
+    content.vb: >-
+      <SerializeField>
+
+      Protected planExecutionLength As Integer
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).planExecutionLength
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).planExecutionLength
+- uid: Tamato.GaifaGoap.PlanController`1.onPlanningFinish
+  commentId: F:Tamato.GaifaGoap.PlanController`1.onPlanningFinish
+  id: onPlanningFinish
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: onPlanningFinish
+  nameWithType: PlanController<T>.onPlanningFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.onPlanningFinish
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: onPlanningFinish
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 49
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected UnityEvent<PlannerStats> onPlanningFinish
+    return:
+      type: UnityEngine.Events.UnityEvent{Tamato.GaifaGoap.PlannerStats}
+    content.vb: >-
+      <SerializeField>
+
+      Protected onPlanningFinish As UnityEvent(Of PlannerStats)
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).onPlanningFinish
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).onPlanningFinish
+- uid: Tamato.GaifaGoap.PlanController`1.onExecutionFinish
+  commentId: F:Tamato.GaifaGoap.PlanController`1.onExecutionFinish
+  id: onExecutionFinish
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: onExecutionFinish
+  nameWithType: PlanController<T>.onExecutionFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.onExecutionFinish
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: onExecutionFinish
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 52
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected UnityEvent<bool> onExecutionFinish
+    return:
+      type: UnityEngine.Events.UnityEvent{System.Boolean}
+    content.vb: >-
+      <SerializeField>
+
+      Protected onExecutionFinish As UnityEvent(Of Boolean)
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).onExecutionFinish
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).onExecutionFinish
+- uid: Tamato.GaifaGoap.PlanController`1.enableTracker
+  commentId: F:Tamato.GaifaGoap.PlanController`1.enableTracker
+  id: enableTracker
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: enableTracker
+  nameWithType: PlanController<T>.enableTracker
+  fullName: Tamato.GaifaGoap.PlanController<T>.enableTracker
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: enableTracker
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 55
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected bool enableTracker
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Protected enableTracker As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).enableTracker
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).enableTracker
+- uid: Tamato.GaifaGoap.PlanController`1.warnNoGoal
+  commentId: F:Tamato.GaifaGoap.PlanController`1.warnNoGoal
+  id: warnNoGoal
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: warnNoGoal
+  nameWithType: PlanController<T>.warnNoGoal
+  fullName: Tamato.GaifaGoap.PlanController<T>.warnNoGoal
+  type: Field
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: warnNoGoal
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 58
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected bool warnNoGoal
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Protected warnNoGoal As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+  nameWithType.vb: PlanController(Of T).warnNoGoal
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).warnNoGoal
+- uid: Tamato.GaifaGoap.PlanController`1.AgentDefinition
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AgentDefinition
+  id: AgentDefinition
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: AgentDefinition
+  nameWithType: PlanController<T>.AgentDefinition
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentDefinition
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: AgentDefinition
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 66
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets definition of the agent.\n"
+  example: []
+  syntax:
+    content: public AgentDefinition<T> AgentDefinition { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.AgentDefinition{{T}}
+    content.vb: Public ReadOnly Property AgentDefinition As AgentDefinition(Of T)
+  overload: Tamato.GaifaGoap.PlanController`1.AgentDefinition*
+  nameWithType.vb: PlanController(Of T).AgentDefinition
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentDefinition
+- uid: Tamato.GaifaGoap.PlanController`1.Agent
+  commentId: P:Tamato.GaifaGoap.PlanController`1.Agent
+  id: Agent
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: Agent
+  nameWithType: PlanController<T>.Agent
+  fullName: Tamato.GaifaGoap.PlanController<T>.Agent
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Agent
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 71
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets the agent that associate with this controller.\n"
+  example: []
+  syntax:
+    content: public AIAgent<T> Agent { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.AIAgent{{T}}
+    content.vb: Public ReadOnly Property Agent As AIAgent(Of T)
+  overload: Tamato.GaifaGoap.PlanController`1.Agent*
+  nameWithType.vb: PlanController(Of T).Agent
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Agent
+- uid: Tamato.GaifaGoap.PlanController`1.AutoUpdate
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AutoUpdate
+  id: AutoUpdate
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: AutoUpdate
+  nameWithType: PlanController<T>.AutoUpdate
+  fullName: Tamato.GaifaGoap.PlanController<T>.AutoUpdate
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: AutoUpdate
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 76
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets or sets a value indicating whether a controller should schedule next planning automatically when the agent is idle.\n"
+  example: []
+  syntax:
+    content: public bool AutoUpdate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoUpdate As Boolean
+  overload: Tamato.GaifaGoap.PlanController`1.AutoUpdate*
+  nameWithType.vb: PlanController(Of T).AutoUpdate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AutoUpdate
+- uid: Tamato.GaifaGoap.PlanController`1.PlannerType
+  commentId: P:Tamato.GaifaGoap.PlanController`1.PlannerType
+  id: PlannerType
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: PlannerType
+  nameWithType: PlanController<T>.PlannerType
+  fullName: Tamato.GaifaGoap.PlanController<T>.PlannerType
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlannerType
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 85
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a type of the planner for this controller.\n"
+  example: []
+  syntax:
+    content: public PlannerType PlannerType { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.PlannerType
+    content.vb: Public ReadOnly Property PlannerType As PlannerType
+  overload: Tamato.GaifaGoap.PlanController`1.PlannerType*
+  nameWithType.vb: PlanController(Of T).PlannerType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).PlannerType
+- uid: Tamato.GaifaGoap.PlanController`1.Settings
+  commentId: P:Tamato.GaifaGoap.PlanController`1.Settings
+  id: Settings
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: PlanController<T>.Settings
+  fullName: Tamato.GaifaGoap.PlanController<T>.Settings
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Settings
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 90
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a planner&apos;s settings for this controller.\n"
+  example: []
+  syntax:
+    content: public PlannerSettings Settings { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.PlannerSettings
+    content.vb: Public ReadOnly Property Settings As PlannerSettings
+  overload: Tamato.GaifaGoap.PlanController`1.Settings*
+  nameWithType.vb: PlanController(Of T).Settings
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Settings
+- uid: Tamato.GaifaGoap.PlanController`1.PlanExecutionLength
+  commentId: P:Tamato.GaifaGoap.PlanController`1.PlanExecutionLength
+  id: PlanExecutionLength
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: PlanExecutionLength
+  nameWithType: PlanController<T>.PlanExecutionLength
+  fullName: Tamato.GaifaGoap.PlanController<T>.PlanExecutionLength
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlanExecutionLength
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 95
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets or sets a maximum number of an action that will get executed before the execution stop.\n"
+  example: []
+  syntax:
+    content: public int PlanExecutionLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PlanExecutionLength As Integer
+  overload: Tamato.GaifaGoap.PlanController`1.PlanExecutionLength*
+  nameWithType.vb: PlanController(Of T).PlanExecutionLength
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).PlanExecutionLength
+- uid: Tamato.GaifaGoap.PlanController`1.OnPlanningFinish
+  commentId: P:Tamato.GaifaGoap.PlanController`1.OnPlanningFinish
+  id: OnPlanningFinish
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: OnPlanningFinish
+  nameWithType: PlanController<T>.OnPlanningFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.OnPlanningFinish
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: OnPlanningFinish
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 104
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a event that invoke when the planner finish.\n"
+  example: []
+  syntax:
+    content: public UnityEvent<PlannerStats> OnPlanningFinish { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent{Tamato.GaifaGoap.PlannerStats}
+    content.vb: Public ReadOnly Property OnPlanningFinish As UnityEvent(Of PlannerStats)
+  overload: Tamato.GaifaGoap.PlanController`1.OnPlanningFinish*
+  nameWithType.vb: PlanController(Of T).OnPlanningFinish
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).OnPlanningFinish
+- uid: Tamato.GaifaGoap.PlanController`1.OnExecutionFinish
+  commentId: P:Tamato.GaifaGoap.PlanController`1.OnExecutionFinish
+  id: OnExecutionFinish
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: OnExecutionFinish
+  nameWithType: PlanController<T>.OnExecutionFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.OnExecutionFinish
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: OnExecutionFinish
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 109
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a event that invoke when the plan execution finish.\n"
+  example: []
+  syntax:
+    content: public UnityEvent<bool> OnExecutionFinish { get; }
+    parameters: []
+    return:
+      type: UnityEngine.Events.UnityEvent{System.Boolean}
+    content.vb: Public ReadOnly Property OnExecutionFinish As UnityEvent(Of Boolean)
+  overload: Tamato.GaifaGoap.PlanController`1.OnExecutionFinish*
+  nameWithType.vb: PlanController(Of T).OnExecutionFinish
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).OnExecutionFinish
+- uid: Tamato.GaifaGoap.PlanController`1.IsIdle
+  commentId: P:Tamato.GaifaGoap.PlanController`1.IsIdle
+  id: IsIdle
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: IsIdle
+  nameWithType: PlanController<T>.IsIdle
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsIdle
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsIdle
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 114
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicating whether the controller is idle (not planning or executing a plan).\n"
+  example: []
+  syntax:
+    content: public bool IsIdle { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsIdle As Boolean
+  overload: Tamato.GaifaGoap.PlanController`1.IsIdle*
+  nameWithType.vb: PlanController(Of T).IsIdle
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsIdle
+- uid: Tamato.GaifaGoap.PlanController`1.IsPlanning
+  commentId: P:Tamato.GaifaGoap.PlanController`1.IsPlanning
+  id: IsPlanning
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: IsPlanning
+  nameWithType: PlanController<T>.IsPlanning
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsPlanning
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsPlanning
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 119
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicating whether the planner is planning.\n"
+  example: []
+  syntax:
+    content: public bool IsPlanning { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPlanning As Boolean
+  overload: Tamato.GaifaGoap.PlanController`1.IsPlanning*
+  nameWithType.vb: PlanController(Of T).IsPlanning
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.PlanController`1.IsExecutingAction
+  commentId: P:Tamato.GaifaGoap.PlanController`1.IsExecutingAction
+  id: IsExecutingAction
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: IsExecutingAction
+  nameWithType: PlanController<T>.IsExecutingAction
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsExecutingAction
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsExecutingAction
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 124
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicating whether the agent is executing any action.\n"
+  example: []
+  syntax:
+    content: public bool IsExecutingAction { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsExecutingAction As Boolean
+  overload: Tamato.GaifaGoap.PlanController`1.IsExecutingAction*
+  nameWithType.vb: PlanController(Of T).IsExecutingAction
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsExecutingAction
+- uid: Tamato.GaifaGoap.PlanController`1.Planner
+  commentId: P:Tamato.GaifaGoap.PlanController`1.Planner
+  id: Planner
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: Planner
+  nameWithType: PlanController<T>.Planner
+  fullName: Tamato.GaifaGoap.PlanController<T>.Planner
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Planner
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 129
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a planner of the agent.\n"
+  example: []
+  syntax:
+    content: public IPlanner<T> Planner { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.IPlanner{{T}}
+    content.vb: Public ReadOnly Property Planner As IPlanner(Of T)
+  overload: Tamato.GaifaGoap.PlanController`1.Planner*
+  nameWithType.vb: PlanController(Of T).Planner
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Planner
+- uid: Tamato.GaifaGoap.PlanController`1.AgentActions
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AgentActions
+  id: AgentActions
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: AgentActions
+  nameWithType: PlanController<T>.AgentActions
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentActions
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: AgentActions
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 134
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a list of possible actions for the agent.\n"
+  example: []
+  syntax:
+    content: public List<IGameAction<T>> AgentActions { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{{T}}}
+    content.vb: Public ReadOnly Property AgentActions As List(Of IGameAction(Of T))
+  overload: Tamato.GaifaGoap.PlanController`1.AgentActions*
+  nameWithType.vb: PlanController(Of T).AgentActions
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentActions
+- uid: Tamato.GaifaGoap.PlanController`1.AgentGoals
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AgentGoals
+  id: AgentGoals
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: AgentGoals
+  nameWithType: PlanController<T>.AgentGoals
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentGoals
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: AgentGoals
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 139
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a list of possible goals for the agent.\n"
+  example: []
+  syntax:
+    content: public List<IGoal<T>> AgentGoals { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Tamato.GaifaGoap.IGoal{{T}}}
+    content.vb: Public ReadOnly Property AgentGoals As List(Of IGoal(Of T))
+  overload: Tamato.GaifaGoap.PlanController`1.AgentGoals*
+  nameWithType.vb: PlanController(Of T).AgentGoals
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentGoals
+- uid: Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions
+  commentId: P:Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions
+  id: AgentParameterizedActions
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: AgentParameterizedActions
+  nameWithType: PlanController<T>.AgentParameterizedActions
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentParameterizedActions
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: AgentParameterizedActions
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 144
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a list of possible parameterized actions for the agent.\n"
+  example: []
+  syntax:
+    content: public List<ParameterizedActionFactory<T>> AgentParameterizedActions { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Tamato.GaifaGoap.ParameterizedActionFactory{{T}}}
+    content.vb: Public ReadOnly Property AgentParameterizedActions As List(Of ParameterizedActionFactory(Of T))
+  overload: Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions*
+  nameWithType.vb: PlanController(Of T).AgentParameterizedActions
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentParameterizedActions
+- uid: Tamato.GaifaGoap.PlanController`1.Executor
+  commentId: P:Tamato.GaifaGoap.PlanController`1.Executor
+  id: Executor
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: Executor
+  nameWithType: PlanController<T>.Executor
+  fullName: Tamato.GaifaGoap.PlanController<T>.Executor
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Executor
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 148
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public PlanExecutor<T> Executor { get; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.PlanExecutor{{T}}
+    content.vb: Public ReadOnly Property Executor As PlanExecutor(Of T)
+  overload: Tamato.GaifaGoap.PlanController`1.Executor*
+  nameWithType.vb: PlanController(Of T).Executor
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Executor
+- uid: Tamato.GaifaGoap.PlanController`1.SchedulePlanner
+  commentId: M:Tamato.GaifaGoap.PlanController`1.SchedulePlanner
+  id: SchedulePlanner
+  parent: Tamato.GaifaGoap.PlanController`1
+  langs:
+  - csharp
+  - vb
+  name: SchedulePlanner()
+  nameWithType: PlanController<T>.SchedulePlanner()
+  fullName: Tamato.GaifaGoap.PlanController<T>.SchedulePlanner()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: SchedulePlanner
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 206
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nSchedule the planer and the executor.\nIf the agent is planning or executing any action, it will send the interruption signal and wait for the planner or the executor to finish.\n"
+  example: []
+  syntax:
+    content: public bool SchedulePlanner()
+    return:
+      type: System.Boolean
+      description: True if the scheduling is success, false if there are no possible goals for the agent.
+    content.vb: Public Function SchedulePlanner As Boolean
+  overload: Tamato.GaifaGoap.PlanController`1.SchedulePlanner*
+  nameWithType.vb: PlanController(Of T).SchedulePlanner()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).SchedulePlanner()
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: Tamato.GaifaGoap.PlanController
+  commentId: T:Tamato.GaifaGoap.PlanController
+  parent: Tamato.GaifaGoap
+  name: PlanController
+  nameWithType: PlanController
+  fullName: Tamato.GaifaGoap.PlanController
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Tamato.GaifaGoap.AgentDefinition{{T}}
+  commentId: T:Tamato.GaifaGoap.AgentDefinition{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.AgentDefinition`1
+  name: AgentDefinition<T>
+  nameWithType: AgentDefinition<T>
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>
+  nameWithType.vb: AgentDefinition(Of T)
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T)
+  name.vb: AgentDefinition(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition
+    nameWithType: AgentDefinition
+    fullName: Tamato.GaifaGoap.AgentDefinition
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition
+    nameWithType: AgentDefinition
+    fullName: Tamato.GaifaGoap.AgentDefinition
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AgentDefinition`1
+  commentId: T:Tamato.GaifaGoap.AgentDefinition`1
+  name: AgentDefinition<T>
+  nameWithType: AgentDefinition<T>
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>
+  nameWithType.vb: AgentDefinition(Of T)
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T)
+  name.vb: AgentDefinition(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition
+    nameWithType: AgentDefinition
+    fullName: Tamato.GaifaGoap.AgentDefinition
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition
+    nameWithType: AgentDefinition
+    fullName: Tamato.GaifaGoap.AgentDefinition
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AIAgent{{T}}
+  commentId: T:Tamato.GaifaGoap.AIAgent{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.AIAgent`1
+  name: AIAgent<T>
+  nameWithType: AIAgent<T>
+  fullName: Tamato.GaifaGoap.AIAgent<T>
+  nameWithType.vb: AIAgent(Of T)
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T)
+  name.vb: AIAgent(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.AIAgent`1
+    name: AIAgent
+    nameWithType: AIAgent
+    fullName: Tamato.GaifaGoap.AIAgent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.AIAgent`1
+    name: AIAgent
+    nameWithType: AIAgent
+    fullName: Tamato.GaifaGoap.AIAgent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AIAgent`1
+  commentId: T:Tamato.GaifaGoap.AIAgent`1
+  name: AIAgent<T>
+  nameWithType: AIAgent<T>
+  fullName: Tamato.GaifaGoap.AIAgent<T>
+  nameWithType.vb: AIAgent(Of T)
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T)
+  name.vb: AIAgent(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.AIAgent`1
+    name: AIAgent
+    nameWithType: AIAgent
+    fullName: Tamato.GaifaGoap.AIAgent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.AIAgent`1
+    name: AIAgent
+    nameWithType: AIAgent
+    fullName: Tamato.GaifaGoap.AIAgent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Tamato.GaifaGoap.PlannerType
+  commentId: T:Tamato.GaifaGoap.PlannerType
+  parent: Tamato.GaifaGoap
+  name: PlannerType
+  nameWithType: PlannerType
+  fullName: Tamato.GaifaGoap.PlannerType
+- uid: Tamato.GaifaGoap.PlannerSettings
+  commentId: T:Tamato.GaifaGoap.PlannerSettings
+  parent: Tamato.GaifaGoap
+  name: PlannerSettings
+  nameWithType: PlannerSettings
+  fullName: Tamato.GaifaGoap.PlannerSettings
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.Events.UnityEvent{Tamato.GaifaGoap.PlannerStats}
+  commentId: T:UnityEngine.Events.UnityEvent{Tamato.GaifaGoap.PlannerStats}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityEvent`1
+  name: UnityEvent<PlannerStats>
+  nameWithType: UnityEvent<PlannerStats>
+  fullName: UnityEngine.Events.UnityEvent<Tamato.GaifaGoap.PlannerStats>
+  nameWithType.vb: UnityEvent(Of PlannerStats)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of Tamato.GaifaGoap.PlannerStats)
+  name.vb: UnityEvent(Of PlannerStats)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tamato.GaifaGoap.PlannerStats
+    name: PlannerStats
+    nameWithType: PlannerStats
+    fullName: Tamato.GaifaGoap.PlannerStats
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tamato.GaifaGoap.PlannerStats
+    name: PlannerStats
+    nameWithType: PlannerStats
+    fullName: Tamato.GaifaGoap.PlannerStats
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Events.UnityEvent`1
+  commentId: T:UnityEngine.Events.UnityEvent`1
+  isExternal: true
+  name: UnityEvent<T0>
+  nameWithType: UnityEvent<T0>
+  fullName: UnityEngine.Events.UnityEvent<T0>
+  nameWithType.vb: UnityEvent(Of T0)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of T0)
+  name.vb: UnityEvent(Of T0)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+- uid: UnityEngine.Events.UnityEvent{System.Boolean}
+  commentId: T:UnityEngine.Events.UnityEvent{System.Boolean}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityEvent`1
+  name: UnityEvent<Boolean>
+  nameWithType: UnityEvent<Boolean>
+  fullName: UnityEngine.Events.UnityEvent<System.Boolean>
+  nameWithType.vb: UnityEvent(Of Boolean)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of System.Boolean)
+  name.vb: UnityEvent(Of Boolean)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEngine.Events.UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlanController`1.AgentDefinition*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AgentDefinition
+  name: AgentDefinition
+  nameWithType: PlanController<T>.AgentDefinition
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentDefinition
+  nameWithType.vb: PlanController(Of T).AgentDefinition
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentDefinition
+- uid: Tamato.GaifaGoap.PlanController`1.Agent*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.Agent
+  name: Agent
+  nameWithType: PlanController<T>.Agent
+  fullName: Tamato.GaifaGoap.PlanController<T>.Agent
+  nameWithType.vb: PlanController(Of T).Agent
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Agent
+- uid: Tamato.GaifaGoap.PlanController`1.AutoUpdate*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AutoUpdate
+  name: AutoUpdate
+  nameWithType: PlanController<T>.AutoUpdate
+  fullName: Tamato.GaifaGoap.PlanController<T>.AutoUpdate
+  nameWithType.vb: PlanController(Of T).AutoUpdate
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AutoUpdate
+- uid: Tamato.GaifaGoap.PlanController`1.PlannerType*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.PlannerType
+  name: PlannerType
+  nameWithType: PlanController<T>.PlannerType
+  fullName: Tamato.GaifaGoap.PlanController<T>.PlannerType
+  nameWithType.vb: PlanController(Of T).PlannerType
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).PlannerType
+- uid: Tamato.GaifaGoap.PlanController`1.Settings*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.Settings
+  name: Settings
+  nameWithType: PlanController<T>.Settings
+  fullName: Tamato.GaifaGoap.PlanController<T>.Settings
+  nameWithType.vb: PlanController(Of T).Settings
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Settings
+- uid: Tamato.GaifaGoap.PlanController`1.PlanExecutionLength*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.PlanExecutionLength
+  name: PlanExecutionLength
+  nameWithType: PlanController<T>.PlanExecutionLength
+  fullName: Tamato.GaifaGoap.PlanController<T>.PlanExecutionLength
+  nameWithType.vb: PlanController(Of T).PlanExecutionLength
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).PlanExecutionLength
+- uid: Tamato.GaifaGoap.PlanController`1.OnPlanningFinish*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.OnPlanningFinish
+  name: OnPlanningFinish
+  nameWithType: PlanController<T>.OnPlanningFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.OnPlanningFinish
+  nameWithType.vb: PlanController(Of T).OnPlanningFinish
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).OnPlanningFinish
+- uid: Tamato.GaifaGoap.PlanController`1.OnExecutionFinish*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.OnExecutionFinish
+  name: OnExecutionFinish
+  nameWithType: PlanController<T>.OnExecutionFinish
+  fullName: Tamato.GaifaGoap.PlanController<T>.OnExecutionFinish
+  nameWithType.vb: PlanController(Of T).OnExecutionFinish
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).OnExecutionFinish
+- uid: Tamato.GaifaGoap.PlanController`1.IsIdle*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.IsIdle
+  name: IsIdle
+  nameWithType: PlanController<T>.IsIdle
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsIdle
+  nameWithType.vb: PlanController(Of T).IsIdle
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsIdle
+- uid: Tamato.GaifaGoap.PlanController`1.IsPlanning*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.IsPlanning
+  name: IsPlanning
+  nameWithType: PlanController<T>.IsPlanning
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsPlanning
+  nameWithType.vb: PlanController(Of T).IsPlanning
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsPlanning
+- uid: Tamato.GaifaGoap.PlanController`1.IsExecutingAction*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.IsExecutingAction
+  name: IsExecutingAction
+  nameWithType: PlanController<T>.IsExecutingAction
+  fullName: Tamato.GaifaGoap.PlanController<T>.IsExecutingAction
+  nameWithType.vb: PlanController(Of T).IsExecutingAction
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).IsExecutingAction
+- uid: Tamato.GaifaGoap.PlanController`1.Planner*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.Planner
+  name: Planner
+  nameWithType: PlanController<T>.Planner
+  fullName: Tamato.GaifaGoap.PlanController<T>.Planner
+  nameWithType.vb: PlanController(Of T).Planner
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Planner
+- uid: Tamato.GaifaGoap.IPlanner{{T}}
+  commentId: T:Tamato.GaifaGoap.IPlanner{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.IPlanner`1
+  name: IPlanner<T>
+  nameWithType: IPlanner<T>
+  fullName: Tamato.GaifaGoap.IPlanner<T>
+  nameWithType.vb: IPlanner(Of T)
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T)
+  name.vb: IPlanner(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner
+    nameWithType: IPlanner
+    fullName: Tamato.GaifaGoap.IPlanner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner
+    nameWithType: IPlanner
+    fullName: Tamato.GaifaGoap.IPlanner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IPlanner`1
+  commentId: T:Tamato.GaifaGoap.IPlanner`1
+  name: IPlanner<T>
+  nameWithType: IPlanner<T>
+  fullName: Tamato.GaifaGoap.IPlanner<T>
+  nameWithType.vb: IPlanner(Of T)
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T)
+  name.vb: IPlanner(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner
+    nameWithType: IPlanner
+    fullName: Tamato.GaifaGoap.IPlanner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner
+    nameWithType: IPlanner
+    fullName: Tamato.GaifaGoap.IPlanner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlanController`1.AgentActions*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AgentActions
+  name: AgentActions
+  nameWithType: PlanController<T>.AgentActions
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentActions
+  nameWithType.vb: PlanController(Of T).AgentActions
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentActions
+- uid: System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{{T}}}
+  commentId: T:System.Collections.Generic.List{Tamato.GaifaGoap.IGameAction{`0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IGameAction<T>>
+  nameWithType: List<IGameAction<T>>
+  fullName: System.Collections.Generic.List<Tamato.GaifaGoap.IGameAction<T>>
+  nameWithType.vb: List(Of IGameAction(Of T))
+  fullName.vb: System.Collections.Generic.List(Of Tamato.GaifaGoap.IGameAction(Of T))
+  name.vb: List(Of IGameAction(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Tamato.GaifaGoap.PlanController`1.AgentGoals*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AgentGoals
+  name: AgentGoals
+  nameWithType: PlanController<T>.AgentGoals
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentGoals
+  nameWithType.vb: PlanController(Of T).AgentGoals
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentGoals
+- uid: System.Collections.Generic.List{Tamato.GaifaGoap.IGoal{{T}}}
+  commentId: T:System.Collections.Generic.List{Tamato.GaifaGoap.IGoal{`0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IGoal<T>>
+  nameWithType: List<IGoal<T>>
+  fullName: System.Collections.Generic.List<Tamato.GaifaGoap.IGoal<T>>
+  nameWithType.vb: List(Of IGoal(Of T))
+  fullName.vb: System.Collections.Generic.List(Of Tamato.GaifaGoap.IGoal(Of T))
+  name.vb: List(Of IGoal(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions
+  name: AgentParameterizedActions
+  nameWithType: PlanController<T>.AgentParameterizedActions
+  fullName: Tamato.GaifaGoap.PlanController<T>.AgentParameterizedActions
+  nameWithType.vb: PlanController(Of T).AgentParameterizedActions
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).AgentParameterizedActions
+- uid: System.Collections.Generic.List{Tamato.GaifaGoap.ParameterizedActionFactory{{T}}}
+  commentId: T:System.Collections.Generic.List{Tamato.GaifaGoap.ParameterizedActionFactory{`0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ParameterizedActionFactory<T>>
+  nameWithType: List<ParameterizedActionFactory<T>>
+  fullName: System.Collections.Generic.List<Tamato.GaifaGoap.ParameterizedActionFactory<T>>
+  nameWithType.vb: List(Of ParameterizedActionFactory(Of T))
+  fullName.vb: System.Collections.Generic.List(Of Tamato.GaifaGoap.ParameterizedActionFactory(Of T))
+  name.vb: List(Of ParameterizedActionFactory(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Tamato.GaifaGoap.ParameterizedActionFactory`1
+    name: ParameterizedActionFactory
+    nameWithType: ParameterizedActionFactory
+    fullName: Tamato.GaifaGoap.ParameterizedActionFactory
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Tamato.GaifaGoap.ParameterizedActionFactory`1
+    name: ParameterizedActionFactory
+    nameWithType: ParameterizedActionFactory
+    fullName: Tamato.GaifaGoap.ParameterizedActionFactory
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlanController`1.Executor*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.Executor
+  name: Executor
+  nameWithType: PlanController<T>.Executor
+  fullName: Tamato.GaifaGoap.PlanController<T>.Executor
+  nameWithType.vb: PlanController(Of T).Executor
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).Executor
+- uid: Tamato.GaifaGoap.PlanExecutor{{T}}
+  commentId: T:Tamato.GaifaGoap.PlanExecutor{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.PlanExecutor`1
+  name: PlanExecutor<T>
+  nameWithType: PlanExecutor<T>
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>
+  nameWithType.vb: PlanExecutor(Of T)
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T)
+  name.vb: PlanExecutor(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.PlanExecutor`1
+    name: PlanExecutor
+    nameWithType: PlanExecutor
+    fullName: Tamato.GaifaGoap.PlanExecutor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.PlanExecutor`1
+    name: PlanExecutor
+    nameWithType: PlanExecutor
+    fullName: Tamato.GaifaGoap.PlanExecutor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlanExecutor`1
+  commentId: T:Tamato.GaifaGoap.PlanExecutor`1
+  name: PlanExecutor<T>
+  nameWithType: PlanExecutor<T>
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>
+  nameWithType.vb: PlanExecutor(Of T)
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T)
+  name.vb: PlanExecutor(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.PlanExecutor`1
+    name: PlanExecutor
+    nameWithType: PlanExecutor
+    fullName: Tamato.GaifaGoap.PlanExecutor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.PlanExecutor`1
+    name: PlanExecutor
+    nameWithType: PlanExecutor
+    fullName: Tamato.GaifaGoap.PlanExecutor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlanController`1.SchedulePlanner*
+  commentId: Overload:Tamato.GaifaGoap.PlanController`1.SchedulePlanner
+  name: SchedulePlanner
+  nameWithType: PlanController<T>.SchedulePlanner
+  fullName: Tamato.GaifaGoap.PlanController<T>.SchedulePlanner
+  nameWithType.vb: PlanController(Of T).SchedulePlanner
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T).SchedulePlanner

@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.SerializableTimespan
+  commentId: T:Tamato.GaifaGoap.SerializableTimespan
+  id: SerializableTimespan
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.SerializableTimespan.#ctor
+  - Tamato.GaifaGoap.SerializableTimespan.#ctor(System.TimeSpan)
+  - Tamato.GaifaGoap.SerializableTimespan.From(System.Double,Tamato.GaifaGoap.TimeUnit)
+  - Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+  - Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+  - Tamato.GaifaGoap.SerializableTimespan.op_Explicit(System.TimeSpan)~Tamato.GaifaGoap.SerializableTimespan
+  - Tamato.GaifaGoap.SerializableTimespan.op_Implicit(Tamato.GaifaGoap.SerializableTimespan)~System.TimeSpan
+  - Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  langs:
+  - csharp
+  - vb
+  name: SerializableTimespan
+  nameWithType: SerializableTimespan
+  fullName: Tamato.GaifaGoap.SerializableTimespan
+  type: Class
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: SerializableTimespan
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 8
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nWrapper for <xref href=\"Tamato.GaifaGoap.SerializableTimespan.TimeSpan\" data-throw-if-not-resolved=\"false\"></xref> to make it serializable by Unity, as well as provide a custom inspector it.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SerializableTimespan : ISerializationCallbackReceiver
+    content.vb: >-
+      <Serializable>
+
+      Public Class SerializableTimespan
+          Implements ISerializationCallbackReceiver
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  commentId: P:Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  id: TimeSpan
+  parent: Tamato.GaifaGoap.SerializableTimespan
+  langs:
+  - csharp
+  - vb
+  name: TimeSpan
+  nameWithType: SerializableTimespan.TimeSpan
+  fullName: Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  type: Property
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: TimeSpan
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 11
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public TimeSpan TimeSpan { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public ReadOnly Property TimeSpan As TimeSpan
+  overload: Tamato.GaifaGoap.SerializableTimespan.TimeSpan*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Tamato.GaifaGoap.SerializableTimespan.#ctor
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.#ctor
+  id: '#ctor'
+  parent: Tamato.GaifaGoap.SerializableTimespan
+  langs:
+  - csharp
+  - vb
+  name: SerializableTimespan()
+  nameWithType: SerializableTimespan.SerializableTimespan()
+  fullName: Tamato.GaifaGoap.SerializableTimespan.SerializableTimespan()
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 19
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public SerializableTimespan()
+    content.vb: Public Sub New
+  overload: Tamato.GaifaGoap.SerializableTimespan.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.SerializableTimespan.#ctor(System.TimeSpan)
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.#ctor(System.TimeSpan)
+  id: '#ctor(System.TimeSpan)'
+  parent: Tamato.GaifaGoap.SerializableTimespan
+  langs:
+  - csharp
+  - vb
+  name: SerializableTimespan(TimeSpan)
+  nameWithType: SerializableTimespan.SerializableTimespan(TimeSpan)
+  fullName: Tamato.GaifaGoap.SerializableTimespan.SerializableTimespan(System.TimeSpan)
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 21
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public SerializableTimespan(TimeSpan timeSpan)
+    parameters:
+    - id: timeSpan
+      type: System.TimeSpan
+    content.vb: Public Sub New(timeSpan As TimeSpan)
+  overload: Tamato.GaifaGoap.SerializableTimespan.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+  id: OnBeforeSerialize
+  parent: Tamato.GaifaGoap.SerializableTimespan
+  langs:
+  - csharp
+  - vb
+  name: OnBeforeSerialize()
+  nameWithType: SerializableTimespan.OnBeforeSerialize()
+  fullName: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize()
+  type: Method
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: OnBeforeSerialize
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 33
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public void OnBeforeSerialize()
+    content.vb: Public Sub OnBeforeSerialize
+  overload: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+  id: OnAfterDeserialize
+  parent: Tamato.GaifaGoap.SerializableTimespan
+  langs:
+  - csharp
+  - vb
+  name: OnAfterDeserialize()
+  nameWithType: SerializableTimespan.OnAfterDeserialize()
+  fullName: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize()
+  type: Method
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: OnAfterDeserialize
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 38
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public void OnAfterDeserialize()
+    content.vb: Public Sub OnAfterDeserialize
+  overload: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.SerializableTimespan.op_Implicit(Tamato.GaifaGoap.SerializableTimespan)~System.TimeSpan
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.op_Implicit(Tamato.GaifaGoap.SerializableTimespan)~System.TimeSpan
+  id: op_Implicit(Tamato.GaifaGoap.SerializableTimespan)~System.TimeSpan
+  parent: Tamato.GaifaGoap.SerializableTimespan
+  langs:
+  - csharp
+  - vb
+  name: Implicit(SerializableTimespan to TimeSpan)
+  nameWithType: SerializableTimespan.Implicit(SerializableTimespan to TimeSpan)
+  fullName: Tamato.GaifaGoap.SerializableTimespan.Implicit(Tamato.GaifaGoap.SerializableTimespan to System.TimeSpan)
+  type: Operator
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: op_Implicit
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 43
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public static implicit operator TimeSpan(SerializableTimespan st)
+    parameters:
+    - id: st
+      type: Tamato.GaifaGoap.SerializableTimespan
+    return:
+      type: System.TimeSpan
+    content.vb: Public Shared Widening Operator CType(st As SerializableTimespan) As TimeSpan
+  overload: Tamato.GaifaGoap.SerializableTimespan.op_Implicit*
+  nameWithType.vb: SerializableTimespan.Widening(SerializableTimespan to TimeSpan)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Tamato.GaifaGoap.SerializableTimespan.Widening(Tamato.GaifaGoap.SerializableTimespan to System.TimeSpan)
+  name.vb: Widening(SerializableTimespan to TimeSpan)
+- uid: Tamato.GaifaGoap.SerializableTimespan.op_Explicit(System.TimeSpan)~Tamato.GaifaGoap.SerializableTimespan
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.op_Explicit(System.TimeSpan)~Tamato.GaifaGoap.SerializableTimespan
+  id: op_Explicit(System.TimeSpan)~Tamato.GaifaGoap.SerializableTimespan
+  parent: Tamato.GaifaGoap.SerializableTimespan
+  langs:
+  - csharp
+  - vb
+  name: Explicit(TimeSpan to SerializableTimespan)
+  nameWithType: SerializableTimespan.Explicit(TimeSpan to SerializableTimespan)
+  fullName: Tamato.GaifaGoap.SerializableTimespan.Explicit(System.TimeSpan to Tamato.GaifaGoap.SerializableTimespan)
+  type: Operator
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: op_Explicit
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 44
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public static explicit operator SerializableTimespan(TimeSpan t)
+    parameters:
+    - id: t
+      type: System.TimeSpan
+    return:
+      type: Tamato.GaifaGoap.SerializableTimespan
+    content.vb: Public Shared Narrowing Operator CType(t As TimeSpan) As SerializableTimespan
+  overload: Tamato.GaifaGoap.SerializableTimespan.op_Explicit*
+  nameWithType.vb: SerializableTimespan.Narrowing(TimeSpan to SerializableTimespan)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Tamato.GaifaGoap.SerializableTimespan.Narrowing(System.TimeSpan to Tamato.GaifaGoap.SerializableTimespan)
+  name.vb: Narrowing(TimeSpan to SerializableTimespan)
+- uid: Tamato.GaifaGoap.SerializableTimespan.From(System.Double,Tamato.GaifaGoap.TimeUnit)
+  commentId: M:Tamato.GaifaGoap.SerializableTimespan.From(System.Double,Tamato.GaifaGoap.TimeUnit)
+  id: From(System.Double,Tamato.GaifaGoap.TimeUnit)
+  parent: Tamato.GaifaGoap.SerializableTimespan
+  langs:
+  - csharp
+  - vb
+  name: From(Double, TimeUnit)
+  nameWithType: SerializableTimespan.From(Double, TimeUnit)
+  fullName: Tamato.GaifaGoap.SerializableTimespan.From(System.Double, Tamato.GaifaGoap.TimeUnit)
+  type: Method
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: From
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 46
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public static SerializableTimespan From(double value, TimeUnit timeUnit)
+    parameters:
+    - id: value
+      type: System.Double
+    - id: timeUnit
+      type: Tamato.GaifaGoap.TimeUnit
+    return:
+      type: Tamato.GaifaGoap.SerializableTimespan
+    content.vb: Public Shared Function From(value As Double, timeUnit As TimeUnit) As SerializableTimespan
+  overload: Tamato.GaifaGoap.SerializableTimespan.From*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  commentId: P:Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  isExternal: true
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.SerializableTimespan.TimeSpan*
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+  name: TimeSpan
+  nameWithType: SerializableTimespan.TimeSpan
+  fullName: Tamato.GaifaGoap.SerializableTimespan.TimeSpan
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Tamato.GaifaGoap.SerializableTimespan.#ctor*
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.#ctor
+  name: SerializableTimespan
+  nameWithType: SerializableTimespan.SerializableTimespan
+  fullName: Tamato.GaifaGoap.SerializableTimespan.SerializableTimespan
+- uid: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize*
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+  name: OnBeforeSerialize
+  nameWithType: SerializableTimespan.OnBeforeSerialize
+  fullName: Tamato.GaifaGoap.SerializableTimespan.OnBeforeSerialize
+- uid: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize*
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+  name: OnAfterDeserialize
+  nameWithType: SerializableTimespan.OnAfterDeserialize
+  fullName: Tamato.GaifaGoap.SerializableTimespan.OnAfterDeserialize
+- uid: Tamato.GaifaGoap.SerializableTimespan.op_Implicit*
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.op_Implicit
+  name: Implicit
+  nameWithType: SerializableTimespan.Implicit
+  fullName: Tamato.GaifaGoap.SerializableTimespan.Implicit
+  nameWithType.vb: SerializableTimespan.Widening
+  fullName.vb: Tamato.GaifaGoap.SerializableTimespan.Widening
+  name.vb: Widening
+- uid: Tamato.GaifaGoap.SerializableTimespan
+  commentId: T:Tamato.GaifaGoap.SerializableTimespan
+  parent: Tamato.GaifaGoap
+  name: SerializableTimespan
+  nameWithType: SerializableTimespan
+  fullName: Tamato.GaifaGoap.SerializableTimespan
+- uid: Tamato.GaifaGoap.SerializableTimespan.op_Explicit*
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.op_Explicit
+  name: Explicit
+  nameWithType: SerializableTimespan.Explicit
+  fullName: Tamato.GaifaGoap.SerializableTimespan.Explicit
+  nameWithType.vb: SerializableTimespan.Narrowing
+  fullName.vb: Tamato.GaifaGoap.SerializableTimespan.Narrowing
+  name.vb: Narrowing
+- uid: Tamato.GaifaGoap.SerializableTimespan.From*
+  commentId: Overload:Tamato.GaifaGoap.SerializableTimespan.From
+  name: From
+  nameWithType: SerializableTimespan.From
+  fullName: Tamato.GaifaGoap.SerializableTimespan.From
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Tamato.GaifaGoap.TimeUnit
+  commentId: T:Tamato.GaifaGoap.TimeUnit
+  parent: Tamato.GaifaGoap
+  name: TimeUnit
+  nameWithType: TimeUnit
+  fullName: Tamato.GaifaGoap.TimeUnit

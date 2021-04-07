@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.PlanController
+  commentId: T:Tamato.GaifaGoap.PlanController
+  id: PlanController
+  parent: Tamato.GaifaGoap
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PlanController
+  nameWithType: PlanController
+  fullName: Tamato.GaifaGoap.PlanController
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanController.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlanController
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanController.cs
+    startLine: 14
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nBase class <xref href=\"Tamato.GaifaGoap.PlanController%601\" data-throw-if-not-resolved=\"false\"></xref>. Use as a target for custom inspector.\n"
+  example: []
+  syntax:
+    content: 'public abstract class PlanController : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class PlanController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - Tamato.GaifaGoap.PlanController`1
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+references:
+- uid: Tamato.GaifaGoap.PlanController`1
+  commentId: T:Tamato.GaifaGoap.PlanController`1
+  name: PlanController<T>
+  nameWithType: PlanController<T>
+  fullName: Tamato.GaifaGoap.PlanController<T>
+  nameWithType.vb: PlanController(Of T)
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T)
+  name.vb: PlanController(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.PlanController`1
+    name: PlanController
+    nameWithType: PlanController
+    fullName: Tamato.GaifaGoap.PlanController
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.PlanController`1
+    name: PlanController
+    nameWithType: PlanController
+    fullName: Tamato.GaifaGoap.PlanController
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

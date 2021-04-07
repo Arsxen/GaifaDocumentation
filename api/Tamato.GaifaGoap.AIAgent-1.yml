@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.AIAgent`1
+  commentId: T:Tamato.GaifaGoap.AIAgent`1
+  id: AIAgent`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.AIAgent`1.GetCurrentModel
+  - Tamato.GaifaGoap.AIAgent`1.ModelFactory
+  langs:
+  - csharp
+  - vb
+  name: AIAgent<T>
+  nameWithType: AIAgent<T>
+  fullName: Tamato.GaifaGoap.AIAgent<T>
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/AIAgent.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: AIAgent
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/AIAgent.cs
+    startLine: 9
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nThe agent that interact with the game.\n"
+  example: []
+  syntax:
+    content: 'public abstract class AIAgent<T> : MonoBehaviour where T : class, IModel<T>'
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: >-
+      Public MustInherit Class AIAgent(Of T As {Class, IModel(Of T)})
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  nameWithType.vb: AIAgent(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T)
+  name.vb: AIAgent(Of T)
+- uid: Tamato.GaifaGoap.AIAgent`1.ModelFactory
+  commentId: P:Tamato.GaifaGoap.AIAgent`1.ModelFactory
+  id: ModelFactory
+  parent: Tamato.GaifaGoap.AIAgent`1
+  langs:
+  - csharp
+  - vb
+  name: ModelFactory
+  nameWithType: AIAgent<T>.ModelFactory
+  fullName: Tamato.GaifaGoap.AIAgent<T>.ModelFactory
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/AIAgent.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: ModelFactory
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/AIAgent.cs
+    startLine: 14
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a function that return a new instance of a specify model.\n"
+  example: []
+  syntax:
+    content: public abstract Func<T> ModelFactory { get; }
+    parameters: []
+    return:
+      type: System.Func{{T}}
+    content.vb: Public MustOverride ReadOnly Property ModelFactory As Func(Of T)
+  overload: Tamato.GaifaGoap.AIAgent`1.ModelFactory*
+  nameWithType.vb: AIAgent(Of T).ModelFactory
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T).ModelFactory
+- uid: Tamato.GaifaGoap.AIAgent`1.GetCurrentModel
+  commentId: M:Tamato.GaifaGoap.AIAgent`1.GetCurrentModel
+  id: GetCurrentModel
+  parent: Tamato.GaifaGoap.AIAgent`1
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentModel()
+  nameWithType: AIAgent<T>.GetCurrentModel()
+  fullName: Tamato.GaifaGoap.AIAgent<T>.GetCurrentModel()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/AIAgent.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: GetCurrentModel
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/AIAgent.cs
+    startLine: 20
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGet a model that represent the current world state .\n"
+  example: []
+  syntax:
+    content: public abstract T GetCurrentModel()
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public MustOverride Function GetCurrentModel As T
+  overload: Tamato.GaifaGoap.AIAgent`1.GetCurrentModel*
+  nameWithType.vb: AIAgent(Of T).GetCurrentModel()
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T).GetCurrentModel()
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Tamato.GaifaGoap.AIAgent`1.ModelFactory*
+  commentId: Overload:Tamato.GaifaGoap.AIAgent`1.ModelFactory
+  name: ModelFactory
+  nameWithType: AIAgent<T>.ModelFactory
+  fullName: Tamato.GaifaGoap.AIAgent<T>.ModelFactory
+  nameWithType.vb: AIAgent(Of T).ModelFactory
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T).ModelFactory
+- uid: System.Func{{T}}
+  commentId: T:System.Func{`0}
+  parent: System
+  definition: System.Func`1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AIAgent`1.GetCurrentModel*
+  commentId: Overload:Tamato.GaifaGoap.AIAgent`1.GetCurrentModel
+  name: GetCurrentModel
+  nameWithType: AIAgent<T>.GetCurrentModel
+  fullName: Tamato.GaifaGoap.AIAgent<T>.GetCurrentModel
+  nameWithType.vb: AIAgent(Of T).GetCurrentModel
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T).GetCurrentModel
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

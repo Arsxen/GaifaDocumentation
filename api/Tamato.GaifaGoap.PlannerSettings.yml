@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.PlannerSettings
+  commentId: T:Tamato.GaifaGoap.PlannerSettings
+  id: PlannerSettings
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.PlannerSettings.heuristicMultiplier
+  - Tamato.GaifaGoap.PlannerSettings.iterationLimit
+  - Tamato.GaifaGoap.PlannerSettings.iterationPerFrame
+  - Tamato.GaifaGoap.PlannerSettings.nodeExpansionLimit
+  - Tamato.GaifaGoap.PlannerSettings.poolSize
+  langs:
+  - csharp
+  - vb
+  name: PlannerSettings
+  nameWithType: PlannerSettings
+  fullName: Tamato.GaifaGoap.PlannerSettings
+  type: Class
+  source:
+    remote:
+      path: Runtime/Planner/PlannerSettings.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlannerSettings
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerSettings.cs
+    startLine: 7
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nSettings for <xref href=\"Tamato.GaifaGoap.IPlanner%601\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class PlannerSettings
+    content.vb: >-
+      <Serializable>
+
+      Public Class PlannerSettings
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Tamato.GaifaGoap.PlannerSettings.iterationPerFrame
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.iterationPerFrame
+  id: iterationPerFrame
+  parent: Tamato.GaifaGoap.PlannerSettings
+  langs:
+  - csharp
+  - vb
+  name: iterationPerFrame
+  nameWithType: PlannerSettings.iterationPerFrame
+  fullName: Tamato.GaifaGoap.PlannerSettings.iterationPerFrame
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerSettings.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: iterationPerFrame
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerSettings.cs
+    startLine: 13
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nMax number of iteration per frame.\n"
+  example: []
+  syntax:
+    content: public int iterationPerFrame
+    return:
+      type: System.Int32
+    content.vb: Public iterationPerFrame As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.PlannerSettings.iterationLimit
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.iterationLimit
+  id: iterationLimit
+  parent: Tamato.GaifaGoap.PlannerSettings
+  langs:
+  - csharp
+  - vb
+  name: iterationLimit
+  nameWithType: PlannerSettings.iterationLimit
+  fullName: Tamato.GaifaGoap.PlannerSettings.iterationLimit
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerSettings.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: iterationLimit
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerSettings.cs
+    startLine: 18
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nMax number of iteration allowed, if exceed, the planner will stop.\n"
+  example: []
+  syntax:
+    content: public int iterationLimit
+    return:
+      type: System.Int32
+    content.vb: Public iterationLimit As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.PlannerSettings.nodeExpansionLimit
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.nodeExpansionLimit
+  id: nodeExpansionLimit
+  parent: Tamato.GaifaGoap.PlannerSettings
+  langs:
+  - csharp
+  - vb
+  name: nodeExpansionLimit
+  nameWithType: PlannerSettings.nodeExpansionLimit
+  fullName: Tamato.GaifaGoap.PlannerSettings.nodeExpansionLimit
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerSettings.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: nodeExpansionLimit
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerSettings.cs
+    startLine: 23
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nMax number of expansion allowed, if exceed, the planner will stop.\n"
+  example: []
+  syntax:
+    content: public int nodeExpansionLimit
+    return:
+      type: System.Int32
+    content.vb: Public nodeExpansionLimit As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.PlannerSettings.heuristicMultiplier
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.heuristicMultiplier
+  id: heuristicMultiplier
+  parent: Tamato.GaifaGoap.PlannerSettings
+  langs:
+  - csharp
+  - vb
+  name: heuristicMultiplier
+  nameWithType: PlannerSettings.heuristicMultiplier
+  fullName: Tamato.GaifaGoap.PlannerSettings.heuristicMultiplier
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerSettings.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: heuristicMultiplier
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerSettings.cs
+    startLine: 28
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nMultiplier use to adjust the heuristic value to match the cost.\n"
+  example: []
+  syntax:
+    content: public float heuristicMultiplier
+    return:
+      type: System.Single
+    content.vb: Public heuristicMultiplier As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.PlannerSettings.poolSize
+  commentId: F:Tamato.GaifaGoap.PlannerSettings.poolSize
+  id: poolSize
+  parent: Tamato.GaifaGoap.PlannerSettings
+  langs:
+  - csharp
+  - vb
+  name: poolSize
+  nameWithType: PlannerSettings.poolSize
+  fullName: Tamato.GaifaGoap.PlannerSettings.poolSize
+  type: Field
+  source:
+    remote:
+      path: Runtime/Planner/PlannerSettings.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: poolSize
+    path: ../Assets/GaifaGoap/Runtime/Planner/PlannerSettings.cs
+    startLine: 33
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nSize of the pool that use to cache objects by planner.\n"
+  example: []
+  syntax:
+    content: public int poolSize
+    return:
+      type: System.Int32
+    content.vb: Public poolSize As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Tamato.GaifaGoap.IPlanner`1
+  commentId: T:Tamato.GaifaGoap.IPlanner`1
+  name: IPlanner<T>
+  nameWithType: IPlanner<T>
+  fullName: Tamato.GaifaGoap.IPlanner<T>
+  nameWithType.vb: IPlanner(Of T)
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T)
+  name.vb: IPlanner(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner
+    nameWithType: IPlanner
+    fullName: Tamato.GaifaGoap.IPlanner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner
+    nameWithType: IPlanner
+    fullName: Tamato.GaifaGoap.IPlanner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

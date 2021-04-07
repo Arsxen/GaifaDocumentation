@@ -1,0 +1,798 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PlanController&lt;T&gt;
+   | Gaifa API documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PlanController&lt;T&gt;
+   | Gaifa API documentation ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Tamato.GaifaGoap.PlanController`1">
+  
+  
+  <h1 id="Tamato_GaifaGoap_PlanController_1" data-uid="Tamato.GaifaGoap.PlanController`1" class="text-break">Class PlanController&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Control plan scheduling and plan execution of the agent.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
+    <div class="level3"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
+    <div class="level4"><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+    <div class="level5"><a class="xref" href="Tamato.GaifaGoap.PlanController.html">PlanController</a></div>
+    <div class="level6"><span class="xref">PlanController&lt;T&gt;</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Tamato.GaifaGoap.html">Tamato.GaifaGoap</a></h6>
+  <h6><strong>Assembly</strong>: Tamato.GaifaGoap.dll</h6>
+  <h5 id="Tamato_GaifaGoap_PlanController_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlanController&lt;T&gt; : PlanController where T : class, IModel&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Model</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_agent" data-uid="Tamato.GaifaGoap.PlanController`1.agent">agent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected AIAgent&lt;T&gt; agent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.AIAgent-1.html">AIAgent</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_agentDefinition" data-uid="Tamato.GaifaGoap.PlanController`1.agentDefinition">agentDefinition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected AgentDefinition&lt;T&gt; agentDefinition</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.AgentDefinition-1.html">AgentDefinition</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_autoUpdate" data-uid="Tamato.GaifaGoap.PlanController`1.autoUpdate">autoUpdate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected bool autoUpdate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_enableTracker" data-uid="Tamato.GaifaGoap.PlanController`1.enableTracker">enableTracker</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected bool enableTracker</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_onExecutionFinish" data-uid="Tamato.GaifaGoap.PlanController`1.onExecutionFinish">onExecutionFinish</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected UnityEvent&lt;bool&gt; onExecutionFinish</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_onPlanningFinish" data-uid="Tamato.GaifaGoap.PlanController`1.onPlanningFinish">onPlanningFinish</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected UnityEvent&lt;PlannerStats&gt; onPlanningFinish</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Tamato.GaifaGoap.PlannerStats.html">PlannerStats</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_planExecutionLength" data-uid="Tamato.GaifaGoap.PlanController`1.planExecutionLength">planExecutionLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected int planExecutionLength</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_plannerType" data-uid="Tamato.GaifaGoap.PlanController`1.plannerType">plannerType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected PlannerType plannerType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.PlannerType.html">PlannerType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_settings" data-uid="Tamato.GaifaGoap.PlanController`1.settings">settings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected PlannerSettings settings</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.PlannerSettings.html">PlannerSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_warnNoGoal" data-uid="Tamato.GaifaGoap.PlanController`1.warnNoGoal">warnNoGoal</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected bool warnNoGoal</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Tamato_GaifaGoap_PlanController_1_Agent_" data-uid="Tamato.GaifaGoap.PlanController`1.Agent*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_Agent" data-uid="Tamato.GaifaGoap.PlanController`1.Agent">Agent</h4>
+  <div class="markdown level1 summary"><p>Gets the agent that associate with this controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AIAgent&lt;T&gt; Agent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.AIAgent-1.html">AIAgent</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_AgentActions_" data-uid="Tamato.GaifaGoap.PlanController`1.AgentActions*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_AgentActions" data-uid="Tamato.GaifaGoap.PlanController`1.AgentActions">AgentActions</h4>
+  <div class="markdown level1 summary"><p>Gets a list of possible actions for the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IGameAction&lt;T&gt;&gt; AgentActions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Tamato.GaifaGoap.IGameAction-1.html">IGameAction</a>&lt;T&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_AgentDefinition_" data-uid="Tamato.GaifaGoap.PlanController`1.AgentDefinition*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_AgentDefinition" data-uid="Tamato.GaifaGoap.PlanController`1.AgentDefinition">AgentDefinition</h4>
+  <div class="markdown level1 summary"><p>Gets definition of the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AgentDefinition&lt;T&gt; AgentDefinition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.AgentDefinition-1.html">AgentDefinition</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_AgentGoals_" data-uid="Tamato.GaifaGoap.PlanController`1.AgentGoals*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_AgentGoals" data-uid="Tamato.GaifaGoap.PlanController`1.AgentGoals">AgentGoals</h4>
+  <div class="markdown level1 summary"><p>Gets a list of possible goals for the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IGoal&lt;T&gt;&gt; AgentGoals { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Tamato.GaifaGoap.IGoal-1.html">IGoal</a>&lt;T&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_AgentParameterizedActions_" data-uid="Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_AgentParameterizedActions" data-uid="Tamato.GaifaGoap.PlanController`1.AgentParameterizedActions">AgentParameterizedActions</h4>
+  <div class="markdown level1 summary"><p>Gets a list of possible parameterized actions for the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ParameterizedActionFactory&lt;T&gt;&gt; AgentParameterizedActions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Tamato.GaifaGoap.ParameterizedActionFactory-1.html">ParameterizedActionFactory</a>&lt;T&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_AutoUpdate_" data-uid="Tamato.GaifaGoap.PlanController`1.AutoUpdate*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_AutoUpdate" data-uid="Tamato.GaifaGoap.PlanController`1.AutoUpdate">AutoUpdate</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether a controller should schedule next planning automatically when the agent is idle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoUpdate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_Executor_" data-uid="Tamato.GaifaGoap.PlanController`1.Executor*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_Executor" data-uid="Tamato.GaifaGoap.PlanController`1.Executor">Executor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlanExecutor&lt;T&gt; Executor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.PlanExecutor-1.html">PlanExecutor</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_IsExecutingAction_" data-uid="Tamato.GaifaGoap.PlanController`1.IsExecutingAction*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_IsExecutingAction" data-uid="Tamato.GaifaGoap.PlanController`1.IsExecutingAction">IsExecutingAction</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the agent is executing any action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsExecutingAction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_IsIdle_" data-uid="Tamato.GaifaGoap.PlanController`1.IsIdle*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_IsIdle" data-uid="Tamato.GaifaGoap.PlanController`1.IsIdle">IsIdle</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the controller is idle (not planning or executing a plan).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIdle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_IsPlanning_" data-uid="Tamato.GaifaGoap.PlanController`1.IsPlanning*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_IsPlanning" data-uid="Tamato.GaifaGoap.PlanController`1.IsPlanning">IsPlanning</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the planner is planning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPlanning { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_OnExecutionFinish_" data-uid="Tamato.GaifaGoap.PlanController`1.OnExecutionFinish*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_OnExecutionFinish" data-uid="Tamato.GaifaGoap.PlanController`1.OnExecutionFinish">OnExecutionFinish</h4>
+  <div class="markdown level1 summary"><p>Gets a event that invoke when the plan execution finish.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;bool&gt; OnExecutionFinish { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_OnPlanningFinish_" data-uid="Tamato.GaifaGoap.PlanController`1.OnPlanningFinish*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_OnPlanningFinish" data-uid="Tamato.GaifaGoap.PlanController`1.OnPlanningFinish">OnPlanningFinish</h4>
+  <div class="markdown level1 summary"><p>Gets a event that invoke when the planner finish.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;PlannerStats&gt; OnPlanningFinish { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Tamato.GaifaGoap.PlannerStats.html">PlannerStats</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_PlanExecutionLength_" data-uid="Tamato.GaifaGoap.PlanController`1.PlanExecutionLength*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_PlanExecutionLength" data-uid="Tamato.GaifaGoap.PlanController`1.PlanExecutionLength">PlanExecutionLength</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a maximum number of an action that will get executed before the execution stop.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PlanExecutionLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_Planner_" data-uid="Tamato.GaifaGoap.PlanController`1.Planner*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_Planner" data-uid="Tamato.GaifaGoap.PlanController`1.Planner">Planner</h4>
+  <div class="markdown level1 summary"><p>Gets a planner of the agent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPlanner&lt;T&gt; Planner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.IPlanner-1.html">IPlanner</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_PlannerType_" data-uid="Tamato.GaifaGoap.PlanController`1.PlannerType*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_PlannerType" data-uid="Tamato.GaifaGoap.PlanController`1.PlannerType">PlannerType</h4>
+  <div class="markdown level1 summary"><p>Gets a type of the planner for this controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlannerType PlannerType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.PlannerType.html">PlannerType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Tamato_GaifaGoap_PlanController_1_Settings_" data-uid="Tamato.GaifaGoap.PlanController`1.Settings*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_Settings" data-uid="Tamato.GaifaGoap.PlanController`1.Settings">Settings</h4>
+  <div class="markdown level1 summary"><p>Gets a planner&apos;s settings for this controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlannerSettings Settings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Tamato.GaifaGoap.PlannerSettings.html">PlannerSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Tamato_GaifaGoap_PlanController_1_SchedulePlanner_" data-uid="Tamato.GaifaGoap.PlanController`1.SchedulePlanner*"></a>
+  <h4 id="Tamato_GaifaGoap_PlanController_1_SchedulePlanner" data-uid="Tamato.GaifaGoap.PlanController`1.SchedulePlanner">SchedulePlanner()</h4>
+  <div class="markdown level1 summary"><p>Schedule the planer and the executor.
+If the agent is planning or executing any action, it will send the interruption signal and wait for the planner or the executor to finish.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SchedulePlanner()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>True if the scheduling is success, false if there are no possible goals for the agent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Mahidol University All Rights Reserved | Gaifa API documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

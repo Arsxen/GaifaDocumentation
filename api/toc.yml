@@ -1,0 +1,84 @@
+### YamlMime:TableOfContent
+- uid: Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  items:
+  - uid: Tamato.GaifaGoap.AgentDefinition
+    name: AgentDefinition
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition<T>
+    name.vb: AgentDefinition(Of T)
+  - uid: Tamato.GaifaGoap.AIAgent`1
+    name: AIAgent<T>
+    name.vb: AIAgent(Of T)
+  - uid: Tamato.GaifaGoap.AStarFrontier`1
+    name: AStarFrontier<T>
+    name.vb: AStarFrontier(Of T)
+  - uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+    name: DelegatePooledObjectPolicy<T>
+    name.vb: DelegatePooledObjectPolicy(Of T)
+  - uid: Tamato.GaifaGoap.GameAction`1
+    name: GameAction<T>
+    name.vb: GameAction(Of T)
+  - uid: Tamato.GaifaGoap.Goal`1
+    name: Goal<T>
+    name.vb: Goal(Of T)
+  - uid: Tamato.GaifaGoap.IFrontier`1
+    name: IFrontier<T>
+    name.vb: IFrontier(Of T)
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction<T>
+    name.vb: IGameAction(Of T)
+  - uid: Tamato.GaifaGoap.IGameObjectInitializable
+    name: IGameObjectInitializable
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal<T>
+    name.vb: IGoal(Of T)
+  - uid: Tamato.GaifaGoap.IModel`1
+    name: IModel<T>
+    name.vb: IModel(Of T)
+  - uid: Tamato.GaifaGoap.InterruptChannel
+    name: InterruptChannel
+  - uid: Tamato.GaifaGoap.InterruptReceiver
+    name: InterruptReceiver
+  - uid: Tamato.GaifaGoap.InterruptSender
+    name: InterruptSender
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner<T>
+    name.vb: IPlanner(Of T)
+  - uid: Tamato.GaifaGoap.MultiFramePlanner`1
+    name: MultiFramePlanner<T>
+    name.vb: MultiFramePlanner(Of T)
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node<T>
+    name.vb: Node(Of T)
+  - uid: Tamato.GaifaGoap.ParameterizedActionFactory`1
+    name: ParameterizedActionFactory<T>
+    name.vb: ParameterizedActionFactory(Of T)
+  - uid: Tamato.GaifaGoap.PlanController
+    name: PlanController
+  - uid: Tamato.GaifaGoap.PlanController`1
+    name: PlanController<T>
+    name.vb: PlanController(Of T)
+  - uid: Tamato.GaifaGoap.PlanExecutor`1
+    name: PlanExecutor<T>
+    name.vb: PlanExecutor(Of T)
+  - uid: Tamato.GaifaGoap.PlannerSettings
+    name: PlannerSettings
+  - uid: Tamato.GaifaGoap.PlannerStats
+    name: PlannerStats
+  - uid: Tamato.GaifaGoap.PlannerStatus
+    name: PlannerStatus
+  - uid: Tamato.GaifaGoap.PlannerType
+    name: PlannerType
+  - uid: Tamato.GaifaGoap.Pool
+    name: Pool
+  - uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1
+    name: ReturnOnlyPooledObjectPolicy<T>
+    name.vb: ReturnOnlyPooledObjectPolicy(Of T)
+  - uid: Tamato.GaifaGoap.SerializableTimespan
+    name: SerializableTimespan
+  - uid: Tamato.GaifaGoap.ThreadPoolPlanner`1
+    name: ThreadPoolPlanner<T>
+    name.vb: ThreadPoolPlanner(Of T)
+  - uid: Tamato.GaifaGoap.TimeUnit
+    name: TimeUnit

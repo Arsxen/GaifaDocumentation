@@ -1,0 +1,345 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.InterruptSender
+  commentId: T:Tamato.GaifaGoap.InterruptSender
+  id: InterruptSender
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.InterruptSender.#ctor(Cysharp.Threading.Tasks.ChannelWriter{System.Boolean})
+  - Tamato.GaifaGoap.InterruptSender.Complete(System.Exception)
+  - Tamato.GaifaGoap.InterruptSender.TryComplete(System.Exception)
+  - Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+  langs:
+  - csharp
+  - vb
+  name: InterruptSender
+  nameWithType: InterruptSender
+  fullName: Tamato.GaifaGoap.InterruptSender
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: InterruptSender
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 47
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nSender side of the <xref href=\"Tamato.GaifaGoap.InterruptChannel\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public sealed class InterruptSender
+    content.vb: Public NotInheritable Class InterruptSender
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Tamato.GaifaGoap.InterruptSender.#ctor(Cysharp.Threading.Tasks.ChannelWriter{System.Boolean})
+  commentId: M:Tamato.GaifaGoap.InterruptSender.#ctor(Cysharp.Threading.Tasks.ChannelWriter{System.Boolean})
+  id: '#ctor(Cysharp.Threading.Tasks.ChannelWriter{System.Boolean})'
+  parent: Tamato.GaifaGoap.InterruptSender
+  langs:
+  - csharp
+  - vb
+  name: InterruptSender(ChannelWriter<Boolean>)
+  nameWithType: InterruptSender.InterruptSender(ChannelWriter<Boolean>)
+  fullName: Tamato.GaifaGoap.InterruptSender.InterruptSender(Cysharp.Threading.Tasks.ChannelWriter<System.Boolean>)
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 50
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public InterruptSender(ChannelWriter<bool> writer)
+    parameters:
+    - id: writer
+      type: Cysharp.Threading.Tasks.ChannelWriter{System.Boolean}
+    content.vb: Public Sub New(writer As ChannelWriter(Of Boolean))
+  overload: Tamato.GaifaGoap.InterruptSender.#ctor*
+  nameWithType.vb: InterruptSender.InterruptSender(ChannelWriter(Of Boolean))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.InterruptSender.InterruptSender(Cysharp.Threading.Tasks.ChannelWriter(Of System.Boolean))
+  name.vb: InterruptSender(ChannelWriter(Of Boolean))
+- uid: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+  commentId: M:Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+  id: TrySendInterruptionSignal
+  parent: Tamato.GaifaGoap.InterruptSender
+  langs:
+  - csharp
+  - vb
+  name: TrySendInterruptionSignal()
+  nameWithType: InterruptSender.TrySendInterruptionSignal()
+  fullName: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: TrySendInterruptionSignal
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 59
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nSend an interruption signal to the channel.\n"
+  example: []
+  syntax:
+    content: public bool TrySendInterruptionSignal()
+    return:
+      type: System.Boolean
+      description: True if channel is not complete and signal is sent successfully, otherwise false.
+    content.vb: Public Function TrySendInterruptionSignal As Boolean
+  overload: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.InterruptSender.TryComplete(System.Exception)
+  commentId: M:Tamato.GaifaGoap.InterruptSender.TryComplete(System.Exception)
+  id: TryComplete(System.Exception)
+  parent: Tamato.GaifaGoap.InterruptSender
+  langs:
+  - csharp
+  - vb
+  name: TryComplete(Exception)
+  nameWithType: InterruptSender.TryComplete(Exception)
+  fullName: Tamato.GaifaGoap.InterruptSender.TryComplete(System.Exception)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: TryComplete
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 69
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nComplete and Close the channel.\n"
+  example: []
+  syntax:
+    content: public bool TryComplete(Exception error = null)
+    parameters:
+    - id: error
+      type: System.Exception
+      description: Exception to raise when the channel complete due to exception.
+    return:
+      type: System.Boolean
+      description: True if channel is closed successfully.
+    content.vb: Public Function TryComplete(error As Exception = Nothing) As Boolean
+  overload: Tamato.GaifaGoap.InterruptSender.TryComplete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Tamato.GaifaGoap.InterruptSender.Complete(System.Exception)
+  commentId: M:Tamato.GaifaGoap.InterruptSender.Complete(System.Exception)
+  id: Complete(System.Exception)
+  parent: Tamato.GaifaGoap.InterruptSender
+  langs:
+  - csharp
+  - vb
+  name: Complete(Exception)
+  nameWithType: InterruptSender.Complete(Exception)
+  fullName: Tamato.GaifaGoap.InterruptSender.Complete(System.Exception)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/InterruptChannel.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Complete
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/InterruptChannel.cs
+    startLine: 79
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nComplete and Close the channel.\n"
+  example: []
+  syntax:
+    content: public void Complete(Exception error = null)
+    parameters:
+    - id: error
+      type: System.Exception
+      description: Exception to raise when the channel complete due to exception.
+    content.vb: Public Sub Complete(error As Exception = Nothing)
+  overload: Tamato.GaifaGoap.InterruptSender.Complete*
+  exceptions:
+  - type: Cysharp.Threading.Tasks.ChannelClosedException
+    commentId: T:Cysharp.Threading.Tasks.ChannelClosedException
+    description: channel is already closed.
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Tamato.GaifaGoap.InterruptChannel
+  commentId: T:Tamato.GaifaGoap.InterruptChannel
+  parent: Tamato.GaifaGoap
+  name: InterruptChannel
+  nameWithType: InterruptChannel
+  fullName: Tamato.GaifaGoap.InterruptChannel
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.InterruptSender.#ctor*
+  commentId: Overload:Tamato.GaifaGoap.InterruptSender.#ctor
+  name: InterruptSender
+  nameWithType: InterruptSender.InterruptSender
+  fullName: Tamato.GaifaGoap.InterruptSender.InterruptSender
+- uid: Cysharp.Threading.Tasks.ChannelWriter{System.Boolean}
+  commentId: T:Cysharp.Threading.Tasks.ChannelWriter{System.Boolean}
+  parent: Cysharp.Threading.Tasks
+  definition: Cysharp.Threading.Tasks.ChannelWriter`1
+  name: ChannelWriter<Boolean>
+  nameWithType: ChannelWriter<Boolean>
+  fullName: Cysharp.Threading.Tasks.ChannelWriter<System.Boolean>
+  nameWithType.vb: ChannelWriter(Of Boolean)
+  fullName.vb: Cysharp.Threading.Tasks.ChannelWriter(Of System.Boolean)
+  name.vb: ChannelWriter(Of Boolean)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.ChannelWriter`1
+    name: ChannelWriter
+    nameWithType: ChannelWriter
+    fullName: Cysharp.Threading.Tasks.ChannelWriter
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.ChannelWriter`1
+    name: ChannelWriter
+    nameWithType: ChannelWriter
+    fullName: Cysharp.Threading.Tasks.ChannelWriter
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks.ChannelWriter`1
+  commentId: T:Cysharp.Threading.Tasks.ChannelWriter`1
+  isExternal: true
+  name: ChannelWriter<T>
+  nameWithType: ChannelWriter<T>
+  fullName: Cysharp.Threading.Tasks.ChannelWriter<T>
+  nameWithType.vb: ChannelWriter(Of T)
+  fullName.vb: Cysharp.Threading.Tasks.ChannelWriter(Of T)
+  name.vb: ChannelWriter(Of T)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.ChannelWriter`1
+    name: ChannelWriter
+    nameWithType: ChannelWriter
+    fullName: Cysharp.Threading.Tasks.ChannelWriter
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.ChannelWriter`1
+    name: ChannelWriter
+    nameWithType: ChannelWriter
+    fullName: Cysharp.Threading.Tasks.ChannelWriter
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks
+  commentId: N:Cysharp.Threading.Tasks
+  isExternal: true
+  name: Cysharp.Threading.Tasks
+  nameWithType: Cysharp.Threading.Tasks
+  fullName: Cysharp.Threading.Tasks
+- uid: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal*
+  commentId: Overload:Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+  name: TrySendInterruptionSignal
+  nameWithType: InterruptSender.TrySendInterruptionSignal
+  fullName: Tamato.GaifaGoap.InterruptSender.TrySendInterruptionSignal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Tamato.GaifaGoap.InterruptSender.TryComplete*
+  commentId: Overload:Tamato.GaifaGoap.InterruptSender.TryComplete
+  name: TryComplete
+  nameWithType: InterruptSender.TryComplete
+  fullName: Tamato.GaifaGoap.InterruptSender.TryComplete
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Cysharp.Threading.Tasks.ChannelClosedException
+  commentId: T:Cysharp.Threading.Tasks.ChannelClosedException
+  isExternal: true
+- uid: Tamato.GaifaGoap.InterruptSender.Complete*
+  commentId: Overload:Tamato.GaifaGoap.InterruptSender.Complete
+  name: Complete
+  nameWithType: InterruptSender.Complete
+  fullName: Tamato.GaifaGoap.InterruptSender.Complete

@@ -1,0 +1,776 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  id: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.AgentDefinition
+  - Tamato.GaifaGoap.AgentDefinition`1
+  - Tamato.GaifaGoap.AIAgent`1
+  - Tamato.GaifaGoap.AStarFrontier`1
+  - Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  - Tamato.GaifaGoap.GameAction`1
+  - Tamato.GaifaGoap.Goal`1
+  - Tamato.GaifaGoap.IFrontier`1
+  - Tamato.GaifaGoap.IGameAction`1
+  - Tamato.GaifaGoap.IGameObjectInitializable
+  - Tamato.GaifaGoap.IGoal`1
+  - Tamato.GaifaGoap.IModel`1
+  - Tamato.GaifaGoap.InterruptChannel
+  - Tamato.GaifaGoap.InterruptReceiver
+  - Tamato.GaifaGoap.InterruptSender
+  - Tamato.GaifaGoap.IPlanner`1
+  - Tamato.GaifaGoap.MultiFramePlanner`1
+  - Tamato.GaifaGoap.Node`1
+  - Tamato.GaifaGoap.ParameterizedActionFactory`1
+  - Tamato.GaifaGoap.PlanController
+  - Tamato.GaifaGoap.PlanController`1
+  - Tamato.GaifaGoap.PlanExecutor`1
+  - Tamato.GaifaGoap.PlannerSettings
+  - Tamato.GaifaGoap.PlannerStats
+  - Tamato.GaifaGoap.PlannerStatus
+  - Tamato.GaifaGoap.PlannerType
+  - Tamato.GaifaGoap.Pool
+  - Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1
+  - Tamato.GaifaGoap.SerializableTimespan
+  - Tamato.GaifaGoap.ThreadPoolPlanner`1
+  - Tamato.GaifaGoap.TimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+  type: Namespace
+  assemblies:
+  - Tamato.GaifaGoap
+references:
+- uid: Tamato.GaifaGoap.GameAction`1
+  commentId: T:Tamato.GaifaGoap.GameAction`1
+  name: GameAction<T>
+  nameWithType: GameAction<T>
+  fullName: Tamato.GaifaGoap.GameAction<T>
+  nameWithType.vb: GameAction(Of T)
+  fullName.vb: Tamato.GaifaGoap.GameAction(Of T)
+  name.vb: GameAction(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.GameAction`1
+    name: GameAction
+    nameWithType: GameAction
+    fullName: Tamato.GaifaGoap.GameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.GameAction`1
+    name: GameAction
+    nameWithType: GameAction
+    fullName: Tamato.GaifaGoap.GameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlannerSettings
+  commentId: T:Tamato.GaifaGoap.PlannerSettings
+  parent: Tamato.GaifaGoap
+  name: PlannerSettings
+  nameWithType: PlannerSettings
+  fullName: Tamato.GaifaGoap.PlannerSettings
+- uid: Tamato.GaifaGoap.ParameterizedActionFactory`1
+  commentId: T:Tamato.GaifaGoap.ParameterizedActionFactory`1
+  name: ParameterizedActionFactory<T>
+  nameWithType: ParameterizedActionFactory<T>
+  fullName: Tamato.GaifaGoap.ParameterizedActionFactory<T>
+  nameWithType.vb: ParameterizedActionFactory(Of T)
+  fullName.vb: Tamato.GaifaGoap.ParameterizedActionFactory(Of T)
+  name.vb: ParameterizedActionFactory(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.ParameterizedActionFactory`1
+    name: ParameterizedActionFactory
+    nameWithType: ParameterizedActionFactory
+    fullName: Tamato.GaifaGoap.ParameterizedActionFactory
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.ParameterizedActionFactory`1
+    name: ParameterizedActionFactory
+    nameWithType: ParameterizedActionFactory
+    fullName: Tamato.GaifaGoap.ParameterizedActionFactory
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.SerializableTimespan
+  commentId: T:Tamato.GaifaGoap.SerializableTimespan
+  parent: Tamato.GaifaGoap
+  name: SerializableTimespan
+  nameWithType: SerializableTimespan
+  fullName: Tamato.GaifaGoap.SerializableTimespan
+- uid: Tamato.GaifaGoap.TimeUnit
+  commentId: T:Tamato.GaifaGoap.TimeUnit
+  parent: Tamato.GaifaGoap
+  name: TimeUnit
+  nameWithType: TimeUnit
+  fullName: Tamato.GaifaGoap.TimeUnit
+- uid: Tamato.GaifaGoap.MultiFramePlanner`1
+  commentId: T:Tamato.GaifaGoap.MultiFramePlanner`1
+  name: MultiFramePlanner<T>
+  nameWithType: MultiFramePlanner<T>
+  fullName: Tamato.GaifaGoap.MultiFramePlanner<T>
+  nameWithType.vb: MultiFramePlanner(Of T)
+  fullName.vb: Tamato.GaifaGoap.MultiFramePlanner(Of T)
+  name.vb: MultiFramePlanner(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.MultiFramePlanner`1
+    name: MultiFramePlanner
+    nameWithType: MultiFramePlanner
+    fullName: Tamato.GaifaGoap.MultiFramePlanner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.MultiFramePlanner`1
+    name: MultiFramePlanner
+    nameWithType: MultiFramePlanner
+    fullName: Tamato.GaifaGoap.MultiFramePlanner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Pool
+  commentId: T:Tamato.GaifaGoap.Pool
+  name: Pool
+  nameWithType: Pool
+  fullName: Tamato.GaifaGoap.Pool
+- uid: Tamato.GaifaGoap.AgentDefinition
+  commentId: T:Tamato.GaifaGoap.AgentDefinition
+  parent: Tamato.GaifaGoap
+  name: AgentDefinition
+  nameWithType: AgentDefinition
+  fullName: Tamato.GaifaGoap.AgentDefinition
+- uid: Tamato.GaifaGoap.AgentDefinition`1
+  commentId: T:Tamato.GaifaGoap.AgentDefinition`1
+  name: AgentDefinition<T>
+  nameWithType: AgentDefinition<T>
+  fullName: Tamato.GaifaGoap.AgentDefinition<T>
+  nameWithType.vb: AgentDefinition(Of T)
+  fullName.vb: Tamato.GaifaGoap.AgentDefinition(Of T)
+  name.vb: AgentDefinition(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition
+    nameWithType: AgentDefinition
+    fullName: Tamato.GaifaGoap.AgentDefinition
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.AgentDefinition`1
+    name: AgentDefinition
+    nameWithType: AgentDefinition
+    fullName: Tamato.GaifaGoap.AgentDefinition
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.InterruptChannel
+  commentId: T:Tamato.GaifaGoap.InterruptChannel
+  parent: Tamato.GaifaGoap
+  name: InterruptChannel
+  nameWithType: InterruptChannel
+  fullName: Tamato.GaifaGoap.InterruptChannel
+- uid: Tamato.GaifaGoap.InterruptSender
+  commentId: T:Tamato.GaifaGoap.InterruptSender
+  parent: Tamato.GaifaGoap
+  name: InterruptSender
+  nameWithType: InterruptSender
+  fullName: Tamato.GaifaGoap.InterruptSender
+- uid: Tamato.GaifaGoap.InterruptReceiver
+  commentId: T:Tamato.GaifaGoap.InterruptReceiver
+  parent: Tamato.GaifaGoap
+  name: InterruptReceiver
+  nameWithType: InterruptReceiver
+  fullName: Tamato.GaifaGoap.InterruptReceiver
+- uid: Tamato.GaifaGoap.Goal`1
+  commentId: T:Tamato.GaifaGoap.Goal`1
+  name: Goal<T>
+  nameWithType: Goal<T>
+  fullName: Tamato.GaifaGoap.Goal<T>
+  nameWithType.vb: Goal(Of T)
+  fullName.vb: Tamato.GaifaGoap.Goal(Of T)
+  name.vb: Goal(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.Goal`1
+    name: Goal
+    nameWithType: Goal
+    fullName: Tamato.GaifaGoap.Goal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.Goal`1
+    name: Goal
+    nameWithType: Goal
+    fullName: Tamato.GaifaGoap.Goal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGameObjectInitializable
+  commentId: T:Tamato.GaifaGoap.IGameObjectInitializable
+  parent: Tamato.GaifaGoap
+  name: IGameObjectInitializable
+  nameWithType: IGameObjectInitializable
+  fullName: Tamato.GaifaGoap.IGameObjectInitializable
+- uid: Tamato.GaifaGoap.PlanExecutor`1
+  commentId: T:Tamato.GaifaGoap.PlanExecutor`1
+  name: PlanExecutor<T>
+  nameWithType: PlanExecutor<T>
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>
+  nameWithType.vb: PlanExecutor(Of T)
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T)
+  name.vb: PlanExecutor(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.PlanExecutor`1
+    name: PlanExecutor
+    nameWithType: PlanExecutor
+    fullName: Tamato.GaifaGoap.PlanExecutor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.PlanExecutor`1
+    name: PlanExecutor
+    nameWithType: PlanExecutor
+    fullName: Tamato.GaifaGoap.PlanExecutor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlanController
+  commentId: T:Tamato.GaifaGoap.PlanController
+  parent: Tamato.GaifaGoap
+  name: PlanController
+  nameWithType: PlanController
+  fullName: Tamato.GaifaGoap.PlanController
+- uid: Tamato.GaifaGoap.PlanController`1
+  commentId: T:Tamato.GaifaGoap.PlanController`1
+  name: PlanController<T>
+  nameWithType: PlanController<T>
+  fullName: Tamato.GaifaGoap.PlanController<T>
+  nameWithType.vb: PlanController(Of T)
+  fullName.vb: Tamato.GaifaGoap.PlanController(Of T)
+  name.vb: PlanController(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.PlanController`1
+    name: PlanController
+    nameWithType: PlanController
+    fullName: Tamato.GaifaGoap.PlanController
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.PlanController`1
+    name: PlanController
+    nameWithType: PlanController
+    fullName: Tamato.GaifaGoap.PlanController
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlannerType
+  commentId: T:Tamato.GaifaGoap.PlannerType
+  parent: Tamato.GaifaGoap
+  name: PlannerType
+  nameWithType: PlannerType
+  fullName: Tamato.GaifaGoap.PlannerType
+- uid: Tamato.GaifaGoap.ThreadPoolPlanner`1
+  commentId: T:Tamato.GaifaGoap.ThreadPoolPlanner`1
+  name: ThreadPoolPlanner<T>
+  nameWithType: ThreadPoolPlanner<T>
+  fullName: Tamato.GaifaGoap.ThreadPoolPlanner<T>
+  nameWithType.vb: ThreadPoolPlanner(Of T)
+  fullName.vb: Tamato.GaifaGoap.ThreadPoolPlanner(Of T)
+  name.vb: ThreadPoolPlanner(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.ThreadPoolPlanner`1
+    name: ThreadPoolPlanner
+    nameWithType: ThreadPoolPlanner
+    fullName: Tamato.GaifaGoap.ThreadPoolPlanner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.ThreadPoolPlanner`1
+    name: ThreadPoolPlanner
+    nameWithType: ThreadPoolPlanner
+    fullName: Tamato.GaifaGoap.ThreadPoolPlanner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AStarFrontier`1
+  commentId: T:Tamato.GaifaGoap.AStarFrontier`1
+  name: AStarFrontier<T>
+  nameWithType: AStarFrontier<T>
+  fullName: Tamato.GaifaGoap.AStarFrontier<T>
+  nameWithType.vb: AStarFrontier(Of T)
+  fullName.vb: Tamato.GaifaGoap.AStarFrontier(Of T)
+  name.vb: AStarFrontier(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.AStarFrontier`1
+    name: AStarFrontier
+    nameWithType: AStarFrontier
+    fullName: Tamato.GaifaGoap.AStarFrontier
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.AStarFrontier`1
+    name: AStarFrontier
+    nameWithType: AStarFrontier
+    fullName: Tamato.GaifaGoap.AStarFrontier
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IModel`1
+  commentId: T:Tamato.GaifaGoap.IModel`1
+  name: IModel<T>
+  nameWithType: IModel<T>
+  fullName: Tamato.GaifaGoap.IModel<T>
+  nameWithType.vb: IModel(Of T)
+  fullName.vb: Tamato.GaifaGoap.IModel(Of T)
+  name.vb: IModel(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IModel`1
+    name: IModel
+    nameWithType: IModel
+    fullName: Tamato.GaifaGoap.IModel
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IModel`1
+    name: IModel
+    nameWithType: IModel
+    fullName: Tamato.GaifaGoap.IModel
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IFrontier`1
+  commentId: T:Tamato.GaifaGoap.IFrontier`1
+  name: IFrontier<T>
+  nameWithType: IFrontier<T>
+  fullName: Tamato.GaifaGoap.IFrontier<T>
+  nameWithType.vb: IFrontier(Of T)
+  fullName.vb: Tamato.GaifaGoap.IFrontier(Of T)
+  name.vb: IFrontier(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IFrontier`1
+    name: IFrontier
+    nameWithType: IFrontier
+    fullName: Tamato.GaifaGoap.IFrontier
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IFrontier`1
+    name: IFrontier
+    nameWithType: IFrontier
+    fullName: Tamato.GaifaGoap.IFrontier
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlannerStatus
+  commentId: T:Tamato.GaifaGoap.PlannerStatus
+  parent: Tamato.GaifaGoap
+  name: PlannerStatus
+  nameWithType: PlannerStatus
+  fullName: Tamato.GaifaGoap.PlannerStatus
+- uid: Tamato.GaifaGoap.Node`1
+  commentId: T:Tamato.GaifaGoap.Node`1
+  name: Node<T>
+  nameWithType: Node<T>
+  fullName: Tamato.GaifaGoap.Node<T>
+  nameWithType.vb: Node(Of T)
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  name.vb: Node(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlannerStats
+  commentId: T:Tamato.GaifaGoap.PlannerStats
+  name: PlannerStats
+  nameWithType: PlannerStats
+  fullName: Tamato.GaifaGoap.PlannerStats
+- uid: Tamato.GaifaGoap.IPlanner`1
+  commentId: T:Tamato.GaifaGoap.IPlanner`1
+  name: IPlanner<T>
+  nameWithType: IPlanner<T>
+  fullName: Tamato.GaifaGoap.IPlanner<T>
+  nameWithType.vb: IPlanner(Of T)
+  fullName.vb: Tamato.GaifaGoap.IPlanner(Of T)
+  name.vb: IPlanner(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner
+    nameWithType: IPlanner
+    fullName: Tamato.GaifaGoap.IPlanner
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IPlanner`1
+    name: IPlanner
+    nameWithType: IPlanner
+    fullName: Tamato.GaifaGoap.IPlanner
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  commentId: T:Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+  name: DelegatePooledObjectPolicy<T>
+  nameWithType: DelegatePooledObjectPolicy<T>
+  fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy<T>
+  nameWithType.vb: DelegatePooledObjectPolicy(Of T)
+  fullName.vb: Tamato.GaifaGoap.DelegatePooledObjectPolicy(Of T)
+  name.vb: DelegatePooledObjectPolicy(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+    name: DelegatePooledObjectPolicy
+    nameWithType: DelegatePooledObjectPolicy
+    fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.DelegatePooledObjectPolicy`1
+    name: DelegatePooledObjectPolicy
+    nameWithType: DelegatePooledObjectPolicy
+    fullName: Tamato.GaifaGoap.DelegatePooledObjectPolicy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1
+  commentId: T:Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1
+  name: ReturnOnlyPooledObjectPolicy<T>
+  nameWithType: ReturnOnlyPooledObjectPolicy<T>
+  fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy<T>
+  nameWithType.vb: ReturnOnlyPooledObjectPolicy(Of T)
+  fullName.vb: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy(Of T)
+  name.vb: ReturnOnlyPooledObjectPolicy(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1
+    name: ReturnOnlyPooledObjectPolicy
+    nameWithType: ReturnOnlyPooledObjectPolicy
+    fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy`1
+    name: ReturnOnlyPooledObjectPolicy
+    nameWithType: ReturnOnlyPooledObjectPolicy
+    fullName: Tamato.GaifaGoap.ReturnOnlyPooledObjectPolicy
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGameAction`1
+  commentId: T:Tamato.GaifaGoap.IGameAction`1
+  name: IGameAction<T>
+  nameWithType: IGameAction<T>
+  fullName: Tamato.GaifaGoap.IGameAction<T>
+  nameWithType.vb: IGameAction(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T)
+  name.vb: IGameAction(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.AIAgent`1
+  commentId: T:Tamato.GaifaGoap.AIAgent`1
+  name: AIAgent<T>
+  nameWithType: AIAgent<T>
+  fullName: Tamato.GaifaGoap.AIAgent<T>
+  nameWithType.vb: AIAgent(Of T)
+  fullName.vb: Tamato.GaifaGoap.AIAgent(Of T)
+  name.vb: AIAgent(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.AIAgent`1
+    name: AIAgent
+    nameWithType: AIAgent
+    fullName: Tamato.GaifaGoap.AIAgent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.AIAgent`1
+    name: AIAgent
+    nameWithType: AIAgent
+    fullName: Tamato.GaifaGoap.AIAgent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGoal`1
+  commentId: T:Tamato.GaifaGoap.IGoal`1
+  name: IGoal<T>
+  nameWithType: IGoal<T>
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  nameWithType.vb: IGoal(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  name.vb: IGoal(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap

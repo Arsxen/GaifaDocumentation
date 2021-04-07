@@ -1,0 +1,992 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.PlanExecutor`1
+  commentId: T:Tamato.GaifaGoap.PlanExecutor`1
+  id: PlanExecutor`1
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.PlanExecutor`1.#ctor(System.Threading.CancellationToken)
+  - Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel
+  - Tamato.GaifaGoap.PlanExecutor`1.CurrentAction
+  - Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex
+  - Tamato.GaifaGoap.PlanExecutor`1.Execute(Tamato.GaifaGoap.Node{`0},Tamato.GaifaGoap.IGoal{`0},System.Nullable{System.Int32})
+  - Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan
+  - Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction
+  - Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest
+  - Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption
+  - Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel
+  langs:
+  - csharp
+  - vb
+  name: PlanExecutor<T>
+  nameWithType: PlanExecutor<T>
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>
+  type: Class
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: PlanExecutor
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 13
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nExecute and cancel the plan.\n"
+  example: []
+  syntax:
+    content: >-
+      public class PlanExecutor<T>
+          where T : class, IModel<T>
+    typeParameters:
+    - id: T
+      description: Model
+    content.vb: Public Class PlanExecutor(Of T As {Class, IModel(Of T)})
+  inheritance:
+  - System.Object
+  nameWithType.vb: PlanExecutor(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T)
+  name.vb: PlanExecutor(Of T)
+- uid: Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction
+  commentId: P:Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction
+  id: IsExecutingAction
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: IsExecutingAction
+  nameWithType: PlanExecutor<T>.IsExecutingAction
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.IsExecutingAction
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsExecutingAction
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 18
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicating whether the agent is executing any action.\n"
+  example: []
+  syntax:
+    content: public bool IsExecutingAction { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsExecutingAction As Boolean
+  overload: Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction*
+  nameWithType.vb: PlanExecutor(Of T).IsExecutingAction
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).IsExecutingAction
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex
+  commentId: P:Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex
+  id: CurrentActionIndex
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: CurrentActionIndex
+  nameWithType: PlanExecutor<T>.CurrentActionIndex
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CurrentActionIndex
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: CurrentActionIndex
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 23
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a index of an action that is executing.\n"
+  example: []
+  syntax:
+    content: public int CurrentActionIndex { get; protected set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentActionIndex As Integer
+  overload: Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex*
+  nameWithType.vb: PlanExecutor(Of T).CurrentActionIndex
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CurrentActionIndex
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CurrentAction
+  commentId: P:Tamato.GaifaGoap.PlanExecutor`1.CurrentAction
+  id: CurrentAction
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: CurrentAction
+  nameWithType: PlanExecutor<T>.CurrentAction
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CurrentAction
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: CurrentAction
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 28
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a current action of the agent.\n"
+  example: []
+  syntax:
+    content: public IGameAction<T> CurrentAction { get; protected set; }
+    parameters: []
+    return:
+      type: Tamato.GaifaGoap.IGameAction{{T}}
+    content.vb: Public Property CurrentAction As IGameAction(Of T)
+  overload: Tamato.GaifaGoap.PlanExecutor`1.CurrentAction*
+  nameWithType.vb: PlanExecutor(Of T).CurrentAction
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CurrentAction
+- uid: Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest
+  commentId: P:Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest
+  id: IsInterruptionRequest
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: IsInterruptionRequest
+  nameWithType: PlanExecutor<T>.IsInterruptionRequest
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.IsInterruptionRequest
+  type: Property
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: IsInterruptionRequest
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 33
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nGets a value indicating there is any interruption signal from external source.\n"
+  example: []
+  syntax:
+    content: public bool IsInterruptionRequest { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsInterruptionRequest As Boolean
+  overload: Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest*
+  nameWithType.vb: PlanExecutor(Of T).IsInterruptionRequest
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).IsInterruptionRequest
+- uid: Tamato.GaifaGoap.PlanExecutor`1.#ctor(System.Threading.CancellationToken)
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.#ctor(System.Threading.CancellationToken)
+  id: '#ctor(System.Threading.CancellationToken)'
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: PlanExecutor(CancellationToken)
+  nameWithType: PlanExecutor<T>.PlanExecutor(CancellationToken)
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.PlanExecutor(System.Threading.CancellationToken)
+  type: Constructor
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: .ctor
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 41
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public PlanExecutor(CancellationToken onDestroyCancellationToken)
+    parameters:
+    - id: onDestroyCancellationToken
+      type: System.Threading.CancellationToken
+    content.vb: Public Sub New(onDestroyCancellationToken As CancellationToken)
+  overload: Tamato.GaifaGoap.PlanExecutor`1.#ctor*
+  nameWithType.vb: PlanExecutor(Of T).PlanExecutor(CancellationToken)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).PlanExecutor(System.Threading.CancellationToken)
+- uid: Tamato.GaifaGoap.PlanExecutor`1.Execute(Tamato.GaifaGoap.Node{`0},Tamato.GaifaGoap.IGoal{`0},System.Nullable{System.Int32})
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.Execute(Tamato.GaifaGoap.Node{`0},Tamato.GaifaGoap.IGoal{`0},System.Nullable{System.Int32})
+  id: Execute(Tamato.GaifaGoap.Node{`0},Tamato.GaifaGoap.IGoal{`0},System.Nullable{System.Int32})
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: Execute(Node<T>, IGoal<T>, Nullable<Int32>)
+  nameWithType: PlanExecutor<T>.Execute(Node<T>, IGoal<T>, Nullable<Int32>)
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.Execute(Tamato.GaifaGoap.Node<T>, Tamato.GaifaGoap.IGoal<T>, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Execute
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 59
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nExecute a list of action traced from the goal node.\n"
+  example: []
+  syntax:
+    content: public UniTask<bool> Execute(Node<T> goalNode, IGoal<T> goal, int? executionLength = default(int? ))
+    parameters:
+    - id: goalNode
+      type: Tamato.GaifaGoap.Node{{T}}
+      description: Goal node from the planner.
+    - id: goal
+      type: Tamato.GaifaGoap.IGoal{{T}}
+      description: Goal of the agent.
+    - id: executionLength
+      type: System.Nullable{System.Int32}
+      description: Maximum number of an action that will get executed before the execution stop.
+    return:
+      type: Cysharp.Threading.Tasks.UniTask{System.Boolean}
+      description: True if execution is successful, false if an action fail or interruption is requested.
+    content.vb: Public Function Execute(goalNode As Node(Of T), goal As IGoal(Of T), executionLength As Integer? = Nothing) As UniTask(Of Boolean)
+  overload: Tamato.GaifaGoap.PlanExecutor`1.Execute*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Execution length is negative
+  nameWithType.vb: PlanExecutor(Of T).Execute(Node(Of T), IGoal(Of T), Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).Execute(Tamato.GaifaGoap.Node(Of T), Tamato.GaifaGoap.IGoal(Of T), System.Nullable(Of System.Int32))
+  name.vb: Execute(Node(Of T), IGoal(Of T), Nullable(Of Int32))
+- uid: Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan
+  id: InterruptPlan
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: InterruptPlan()
+  nameWithType: PlanExecutor<T>.InterruptPlan()
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.InterruptPlan()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: InterruptPlan
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 113
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nStop the current plan and wait for a plan to stop.\n"
+  example: []
+  syntax:
+    content: public UniTask InterruptPlan()
+    return:
+      type: Cysharp.Threading.Tasks.UniTask
+    content.vb: Public Function InterruptPlan As UniTask
+  overload: Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Agent does not execute any action.
+  - type: Cysharp.Threading.Tasks.ChannelClosedException
+    commentId: T:Cysharp.Threading.Tasks.ChannelClosedException
+    description: The interrupt channel is already closed.
+  nameWithType.vb: PlanExecutor(Of T).InterruptPlan()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).InterruptPlan()
+- uid: Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption
+  id: RequestForInterruption
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: RequestForInterruption()
+  nameWithType: PlanExecutor<T>.RequestForInterruption()
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.RequestForInterruption()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: RequestForInterruption
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 128
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nStop the current plan without waiting.\n"
+  example: []
+  syntax:
+    content: public void RequestForInterruption()
+    content.vb: Public Sub RequestForInterruption
+  overload: Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Agent does not execute any action.
+  - type: Cysharp.Threading.Tasks.ChannelClosedException
+    commentId: T:Cysharp.Threading.Tasks.ChannelClosedException
+    description: The interrupt channel is already closed.
+  nameWithType.vb: PlanExecutor(Of T).RequestForInterruption()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).RequestForInterruption()
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel
+  id: CompleteInterruptChannel
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: CompleteInterruptChannel()
+  nameWithType: PlanExecutor<T>.CompleteInterruptChannel()
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CompleteInterruptChannel()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: CompleteInterruptChannel
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 168
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nComplete and close interruption channel\n"
+  example: []
+  syntax:
+    content: public void CompleteInterruptChannel()
+    content.vb: Public Sub CompleteInterruptChannel
+  overload: Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel*
+  exceptions:
+  - type: Cysharp.Threading.Tasks.ChannelClosedException
+    commentId: T:Cysharp.Threading.Tasks.ChannelClosedException
+    description: channel is already closed.
+  nameWithType.vb: PlanExecutor(Of T).CompleteInterruptChannel()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CompleteInterruptChannel()
+- uid: Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel
+  commentId: M:Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel
+  id: TryCompleteInterruptChannel
+  parent: Tamato.GaifaGoap.PlanExecutor`1
+  langs:
+  - csharp
+  - vb
+  name: TryCompleteInterruptChannel()
+  nameWithType: PlanExecutor<T>.TryCompleteInterruptChannel()
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.TryCompleteInterruptChannel()
+  type: Method
+  source:
+    remote:
+      path: Runtime/AIAgent/PlanExecutor.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: TryCompleteInterruptChannel
+    path: ../Assets/GaifaGoap/Runtime/AIAgent/PlanExecutor.cs
+    startLine: 178
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  summary: "\nComplete and close interruption channel\n"
+  example: []
+  syntax:
+    content: public bool TryCompleteInterruptChannel()
+    return:
+      type: System.Boolean
+      description: True if channel is closed successfully.
+    content.vb: Public Function TryCompleteInterruptChannel As Boolean
+  overload: Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel*
+  nameWithType.vb: PlanExecutor(Of T).TryCompleteInterruptChannel()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).TryCompleteInterruptChannel()
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.IsExecutingAction
+  name: IsExecutingAction
+  nameWithType: PlanExecutor<T>.IsExecutingAction
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.IsExecutingAction
+  nameWithType.vb: PlanExecutor(Of T).IsExecutingAction
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).IsExecutingAction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.CurrentActionIndex
+  name: CurrentActionIndex
+  nameWithType: PlanExecutor<T>.CurrentActionIndex
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CurrentActionIndex
+  nameWithType.vb: PlanExecutor(Of T).CurrentActionIndex
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CurrentActionIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CurrentAction*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.CurrentAction
+  name: CurrentAction
+  nameWithType: PlanExecutor<T>.CurrentAction
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CurrentAction
+  nameWithType.vb: PlanExecutor(Of T).CurrentAction
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CurrentAction
+- uid: Tamato.GaifaGoap.IGameAction{{T}}
+  commentId: T:Tamato.GaifaGoap.IGameAction{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.IGameAction`1
+  name: IGameAction<T>
+  nameWithType: IGameAction<T>
+  fullName: Tamato.GaifaGoap.IGameAction<T>
+  nameWithType.vb: IGameAction(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T)
+  name.vb: IGameAction(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGameAction`1
+  commentId: T:Tamato.GaifaGoap.IGameAction`1
+  name: IGameAction<T>
+  nameWithType: IGameAction<T>
+  fullName: Tamato.GaifaGoap.IGameAction<T>
+  nameWithType.vb: IGameAction(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGameAction(Of T)
+  name.vb: IGameAction(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGameAction`1
+    name: IGameAction
+    nameWithType: IGameAction
+    fullName: Tamato.GaifaGoap.IGameAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.IsInterruptionRequest
+  name: IsInterruptionRequest
+  nameWithType: PlanExecutor<T>.IsInterruptionRequest
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.IsInterruptionRequest
+  nameWithType.vb: PlanExecutor(Of T).IsInterruptionRequest
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).IsInterruptionRequest
+- uid: Tamato.GaifaGoap.PlanExecutor`1.#ctor*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.#ctor
+  name: PlanExecutor
+  nameWithType: PlanExecutor<T>.PlanExecutor
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.PlanExecutor
+  nameWithType.vb: PlanExecutor(Of T).PlanExecutor
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).PlanExecutor
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+- uid: Tamato.GaifaGoap.PlanExecutor`1.Execute*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.Execute
+  name: Execute
+  nameWithType: PlanExecutor<T>.Execute
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.Execute
+  nameWithType.vb: PlanExecutor(Of T).Execute
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).Execute
+- uid: Tamato.GaifaGoap.Node{{T}}
+  commentId: T:Tamato.GaifaGoap.Node{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.Node`1
+  name: Node<T>
+  nameWithType: Node<T>
+  fullName: Tamato.GaifaGoap.Node<T>
+  nameWithType.vb: Node(Of T)
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  name.vb: Node(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGoal{{T}}
+  commentId: T:Tamato.GaifaGoap.IGoal{`0}
+  parent: Tamato.GaifaGoap
+  definition: Tamato.GaifaGoap.IGoal`1
+  name: IGoal<T>
+  nameWithType: IGoal<T>
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  nameWithType.vb: IGoal(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  name.vb: IGoal(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks.UniTask{System.Boolean}
+  commentId: T:Cysharp.Threading.Tasks.UniTask{System.Boolean}
+  parent: Cysharp.Threading.Tasks
+  definition: Cysharp.Threading.Tasks.UniTask`1
+  name: UniTask<Boolean>
+  nameWithType: UniTask<Boolean>
+  fullName: Cysharp.Threading.Tasks.UniTask<System.Boolean>
+  nameWithType.vb: UniTask(Of Boolean)
+  fullName.vb: Cysharp.Threading.Tasks.UniTask(Of System.Boolean)
+  name.vb: UniTask(Of Boolean)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.Node`1
+  commentId: T:Tamato.GaifaGoap.Node`1
+  name: Node<T>
+  nameWithType: Node<T>
+  fullName: Tamato.GaifaGoap.Node<T>
+  nameWithType.vb: Node(Of T)
+  fullName.vb: Tamato.GaifaGoap.Node(Of T)
+  name.vb: Node(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.Node`1
+    name: Node
+    nameWithType: Node
+    fullName: Tamato.GaifaGoap.Node
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Tamato.GaifaGoap.IGoal`1
+  commentId: T:Tamato.GaifaGoap.IGoal`1
+  name: IGoal<T>
+  nameWithType: IGoal<T>
+  fullName: Tamato.GaifaGoap.IGoal<T>
+  nameWithType.vb: IGoal(Of T)
+  fullName.vb: Tamato.GaifaGoap.IGoal(Of T)
+  name.vb: IGoal(Of T)
+  spec.csharp:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Tamato.GaifaGoap.IGoal`1
+    name: IGoal
+    nameWithType: IGoal
+    fullName: Tamato.GaifaGoap.IGoal
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks.UniTask`1
+  commentId: T:Cysharp.Threading.Tasks.UniTask`1
+  isExternal: true
+  name: UniTask<T>
+  nameWithType: UniTask<T>
+  fullName: Cysharp.Threading.Tasks.UniTask<T>
+  nameWithType.vb: UniTask(Of T)
+  fullName.vb: Cysharp.Threading.Tasks.UniTask(Of T)
+  name.vb: UniTask(Of T)
+  spec.csharp:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Cysharp.Threading.Tasks.UniTask`1
+    name: UniTask
+    nameWithType: UniTask
+    fullName: Cysharp.Threading.Tasks.UniTask
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Cysharp.Threading.Tasks
+  commentId: N:Cysharp.Threading.Tasks
+  isExternal: true
+  name: Cysharp.Threading.Tasks
+  nameWithType: Cysharp.Threading.Tasks
+  fullName: Cysharp.Threading.Tasks
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+- uid: Cysharp.Threading.Tasks.ChannelClosedException
+  commentId: T:Cysharp.Threading.Tasks.ChannelClosedException
+  isExternal: true
+- uid: Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.InterruptPlan
+  name: InterruptPlan
+  nameWithType: PlanExecutor<T>.InterruptPlan
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.InterruptPlan
+  nameWithType.vb: PlanExecutor(Of T).InterruptPlan
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).InterruptPlan
+- uid: Cysharp.Threading.Tasks.UniTask
+  commentId: T:Cysharp.Threading.Tasks.UniTask
+  parent: Cysharp.Threading.Tasks
+  isExternal: true
+  name: UniTask
+  nameWithType: UniTask
+  fullName: Cysharp.Threading.Tasks.UniTask
+- uid: Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.RequestForInterruption
+  name: RequestForInterruption
+  nameWithType: PlanExecutor<T>.RequestForInterruption
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.RequestForInterruption
+  nameWithType.vb: PlanExecutor(Of T).RequestForInterruption
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).RequestForInterruption
+- uid: Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.CompleteInterruptChannel
+  name: CompleteInterruptChannel
+  nameWithType: PlanExecutor<T>.CompleteInterruptChannel
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.CompleteInterruptChannel
+  nameWithType.vb: PlanExecutor(Of T).CompleteInterruptChannel
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).CompleteInterruptChannel
+- uid: Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel*
+  commentId: Overload:Tamato.GaifaGoap.PlanExecutor`1.TryCompleteInterruptChannel
+  name: TryCompleteInterruptChannel
+  nameWithType: PlanExecutor<T>.TryCompleteInterruptChannel
+  fullName: Tamato.GaifaGoap.PlanExecutor<T>.TryCompleteInterruptChannel
+  nameWithType.vb: PlanExecutor(Of T).TryCompleteInterruptChannel
+  fullName.vb: Tamato.GaifaGoap.PlanExecutor(Of T).TryCompleteInterruptChannel

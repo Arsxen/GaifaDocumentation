@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tamato.GaifaGoap.TimeUnit
+  commentId: T:Tamato.GaifaGoap.TimeUnit
+  id: TimeUnit
+  parent: Tamato.GaifaGoap
+  children:
+  - Tamato.GaifaGoap.TimeUnit.Days
+  - Tamato.GaifaGoap.TimeUnit.Hours
+  - Tamato.GaifaGoap.TimeUnit.Milliseconds
+  - Tamato.GaifaGoap.TimeUnit.Minutes
+  - Tamato.GaifaGoap.TimeUnit.Seconds
+  langs:
+  - csharp
+  - vb
+  name: TimeUnit
+  nameWithType: TimeUnit
+  fullName: Tamato.GaifaGoap.TimeUnit
+  type: Enum
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: TimeUnit
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 74
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: public enum TimeUnit
+    content.vb: Public Enum TimeUnit
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Tamato.GaifaGoap.TimeUnit.Days
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Days
+  id: Days
+  parent: Tamato.GaifaGoap.TimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Days
+  nameWithType: TimeUnit.Days
+  fullName: Tamato.GaifaGoap.TimeUnit.Days
+  type: Field
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Days
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 76
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: Days = 0
+    return:
+      type: Tamato.GaifaGoap.TimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.TimeUnit.Hours
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Hours
+  id: Hours
+  parent: Tamato.GaifaGoap.TimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Hours
+  nameWithType: TimeUnit.Hours
+  fullName: Tamato.GaifaGoap.TimeUnit.Hours
+  type: Field
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Hours
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 77
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: Hours = 1
+    return:
+      type: Tamato.GaifaGoap.TimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.TimeUnit.Minutes
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Minutes
+  id: Minutes
+  parent: Tamato.GaifaGoap.TimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Minutes
+  nameWithType: TimeUnit.Minutes
+  fullName: Tamato.GaifaGoap.TimeUnit.Minutes
+  type: Field
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Minutes
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 78
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: Minutes = 2
+    return:
+      type: Tamato.GaifaGoap.TimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.TimeUnit.Seconds
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Seconds
+  id: Seconds
+  parent: Tamato.GaifaGoap.TimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Seconds
+  nameWithType: TimeUnit.Seconds
+  fullName: Tamato.GaifaGoap.TimeUnit.Seconds
+  type: Field
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Seconds
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 79
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: Seconds = 3
+    return:
+      type: Tamato.GaifaGoap.TimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Tamato.GaifaGoap.TimeUnit.Milliseconds
+  commentId: F:Tamato.GaifaGoap.TimeUnit.Milliseconds
+  id: Milliseconds
+  parent: Tamato.GaifaGoap.TimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Milliseconds
+  nameWithType: TimeUnit.Milliseconds
+  fullName: Tamato.GaifaGoap.TimeUnit.Milliseconds
+  type: Field
+  source:
+    remote:
+      path: Runtime/SerializableTimespan.cs
+      branch: main
+      repo: https://github.com/Arsxen/GaifaGoap.git
+    id: Milliseconds
+    path: ../Assets/GaifaGoap/Runtime/SerializableTimespan.cs
+    startLine: 80
+  assemblies:
+  - Tamato.GaifaGoap
+  namespace: Tamato.GaifaGoap
+  syntax:
+    content: Milliseconds = 4
+    return:
+      type: Tamato.GaifaGoap.TimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Tamato.GaifaGoap
+  commentId: N:Tamato.GaifaGoap
+  name: Tamato.GaifaGoap
+  nameWithType: Tamato.GaifaGoap
+  fullName: Tamato.GaifaGoap
+- uid: Tamato.GaifaGoap.TimeUnit
+  commentId: T:Tamato.GaifaGoap.TimeUnit
+  parent: Tamato.GaifaGoap
+  name: TimeUnit
+  nameWithType: TimeUnit
+  fullName: Tamato.GaifaGoap.TimeUnit
