@@ -58,7 +58,7 @@
         "xrefService": [
             "https://xref.docs.microsoft.com/query?uid={uid}"
         ],
-        "dest": "_site",
+        "dest": "docs",
         "template": ["default", "templates/default"]
     }
 }
