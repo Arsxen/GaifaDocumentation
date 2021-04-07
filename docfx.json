@@ -45,6 +45,7 @@
             }
         ],
         "sitemap": {
+            "baseUrl": "https://arsxen.github.io/GaifaDocumentation",
             "changefreq": "weekly",
             "fileOptions": {
                 "api/*": {
